@@ -19,23 +19,17 @@
   - 例句: Which one do you recommend?
 
 ## 语法复盘
-1. 错误: How should I do next?
-   正确: What should I do next?
+1. 正确: What should I do next?
    说明: do 需要宾语，what 可以充当“做什么”的宾语；how 只能表示方式，需要搭配宾语才能用。
-2. 错误: Which one do you recommend it?
-   正确: Which one do you recommend?
+2. 正确: Which one do you recommend?
    说明: which one 已经是宾语，后面再加 it 会重复。
-3. 错误: Please tell me why caused it?
-   正确: Please tell me what caused it.
+3. 正确: Please tell me what caused it.
    说明: why 不能作主语；what caused it 才是“是什么导致了它”的结构。
-4. 错误: Now the workflow is working. But the Google sites haven’t change.
-   正确: Now the workflow is working, but my Google Sheet hasn’t changed.
+4. 正确: Now the workflow is working, but my Google Sheet hasn’t changed.
    说明: Google Sheets 才是正确名称；单数用 hasn’t changed。
-5. 错误: If it works and change it to success.
-   正确: If it works, set the status to “Success”.
+5. 正确: If it works, set the status to “Success”.
    说明: 条件句用 if + 主句；change 需要明确宾语。
-6. 错误: Where the problem is.
-   正确: Where is the problem?
+6. 正确: Where is the problem?
    说明: 单独提问要用倒装疑问句；where the problem is 只能做从句。
 
 ## 精选短语
