@@ -12,6 +12,10 @@
 | **add ... to ...** | /æd ... tuː/ | 把……加到……里 | Please **add** this to the file. |
 | **all of this** | /ɔːl əv ðɪs/ | 所有这些（更通用） | I need **all of this** info. |
 | **all of these** | /ɔːl əv ðiːz/ | 所有这些（更偏可数具体事物） | I need **all of these** files. |
+| **still needed** | /stɪl ˈniːdɪd/ | 还需要；仍然需要 | Are these files **still needed**? |
+| **no longer needed** | /noʊ ˈlɔːŋɡər ˈniːdɪd/ | 不再需要 | These files are **no longer needed**. |
+| **delete** | /dɪˈliːt/ | 删除 | If not, let’s **delete** them. |
+| **If so / If not** | /ɪf soʊ/ ; /ɪf nɑːt/ | 如果是这样/如果不是 | **If so**, we can delete them. |
 
 ### 技术沟通：布线 / 子工作流 / 归档 (Wiring, Sub-workflows & Archiving)
 
@@ -64,6 +68,15 @@
 | **coffee stopper** | /ˈkɔːfi ˈstɑːpər/ | 咖啡杯盖饮口塞/防漏塞 | What are these coffee **stoppers** for? |
 | **spill** | /spɪl/ | 洒出来 | The stopper helps prevent spills. |
 | **take out / remove** | /teɪk aʊt/ ; /rɪˈmuːv/ | 取出；移除 | I’m gonna **take out** the coffee stopper. |
+
+### 技术沟通：工作流 / 测试 (Workflow & Testing)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **What should I do next?** | /wʌt ʃʊd aɪ duː nekst/ | 我接下来该做什么？ | **What should I do next?** |
+| **test the workflow** | /test ðə ˈwɝːkfloʊ/ | 测试工作流 | I’ll **test the workflow**. |
+| **doesn’t exist** | /ˈdʌznt ɪɡˈzɪst/ | 不存在 | This workflow **doesn’t exist**. |
+| **doesn’t exist yet** | /ˈdʌznt ɪɡˈzɪst jet/ | 还不存在（暗含“还没创建”） | This workflow doesn’t exist **yet**. |
 
 ---
 
@@ -145,6 +158,12 @@
 - ✅ Before ordering, there are two kinds of coffee you can choose from.
 - ✅ You can choose from two kinds of coffee: caffeinated or decaf.
 
+### 15) “没用了就删”更自然：still needed / no longer needed + If not, let’s...
+- ❌ Are these files useless anymore?（别扭/不地道）
+- ✅ Are these files **still needed**? If not, let’s **delete** them.
+- ✅ Are these files **no longer needed**? If so, we can delete them.
+- 💡 小提醒：files 是复数，后续指代用 **them**；口语里 **If so / If not** 是最万能的“如果是这样/如果不是”。
+
 ---
 
 ## 🗣️ 精选短语 (Useful Phrases)
@@ -162,6 +181,9 @@
 11. **Do you know what these coffee stoppers are for?**
 12. **I’ll trace where my coffee comes from.**
 13. **This label is on the back of the package.**
+14. **Are these files still needed? If not, let’s delete them.**
+15. **What should I do next? Test the workflow.**
+16. **This workflow doesn’t exist yet.**
 
 ---
 
