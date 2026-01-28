@@ -3,7 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
-- [2026-01-28 复习计划](Review_Plan_2026-01-28.md): 涵盖了“把内容更新进文件”的地道表达（update the file with / put into / add to）、all of this vs all of these、wiring is a mess 的吐槽与追因、sub-workflow/show up/archived、owe vs own 与 do miss 的强调用法。
+- [2026-01-28 复习计划](Review_Plan_2026-01-28.md): 涵盖了“把内容更新进文件”的地道表达（update the file with / put into / add to）、all of this vs all of these、wiring is a mess 的吐槽与追因、sub-workflow/show up/archived、owe vs own 与 do miss 的强调用法，以及 Starbucks 咖啡讲解口语（logo/worldwide/coffee bean/roast/caffeine/decaf/stopper/package/label/trace origin）。
 - [2026-01-27 复习计划](Review_Plan_2026-01-27.md): 涵盖了工作流/Google Sheets 排错表达、status/update/sync 高频纠错、表单与文档沟通、点餐词汇与金额读法。
 - [2026-01-26 复习计划](Review_Plan_2026-01-26.md): 涵盖了 API key 创建表达、错误排查、工作流与表格状态更新等场景。
 - [2026-01-25 复习计划](Review_Plan_2026-01-25.md): 涵盖了探索表达、水果词汇、情绪表达、日常场景等。
