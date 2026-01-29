@@ -42,6 +42,17 @@
 | **bite / bit / bitten** | /baɪt/ ; /bɪt/ ; /ˈbɪtən/ | 咬 / 咬了 / 被咬（过去分词） | A dog **bit** me. I was **bitten** by a dog. |
 | **go to the hospital** | /ɡoʊ tuː ðə ˈhɑːspɪtəl/ | 去医院 | I **went to the hospital** right away. |
 
+### 乡下 / 不友好的狗（安全表达） (Unfriendly Dogs & Safety)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **stick** | /stɪk/ | 棍子 | This **stick** is very long. |
+| **unfriendly** | /ʌnˈfrɛndli/ | 不友好的；不友善的 | Some dogs can be **unfriendly**. |
+| **in the countryside** | /ɪn ðə ˈkʌntrisaɪd/ | 在乡下 | I saw many dogs **in the countryside**. |
+| **keep ... away** | /kiːp ... əˈweɪ/ | 让……离远点 | I used a stick to **keep the dog away**. |
+| **scare ... away** | /skeər ... əˈweɪ/ | 把……吓走 | I tried to **scare it away**. |
+| **back away slowly** | /bæk əˈweɪ ˈsloʊli/ | 慢慢后退 | **Back away slowly** and stay calm. |
+
 ---
 
 ## 🔎 语法复盘 (Grammar Review)
@@ -91,6 +102,12 @@
 - ✅ I can’t handle it.
 - ✅ I’m not suited for it.
 
+### 9) 棍子相关：stick + use ... to ...
+- ❌ I use the stick to kill some vegetables.（vegetables=蔬菜；kill 不搭配）
+- ✅ I use this stick to dig a hole.
+- ✅ I used a stick to keep the dog away.
+- ✅ I tried to scare the dog away.
+
 ---
 
 ## 🗣️ 精选短语 (Useful Phrases)
@@ -110,6 +127,9 @@
 13. Suddenly, it started to rain.
 14. I watched it for about an hour.
 15. I took pictures with my phone.
+16. I used a stick to keep the dog away.
+17. Some dogs can be unfriendly in the countryside.
+18. Back away slowly and stay calm.
 
 ---
 

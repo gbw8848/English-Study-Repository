@@ -3,7 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
-- [2026-01-29 复习计划](Review_Plan_2026-01-29.md): 涵盖了日常寒暄与追问（What about you today? / What did you do today?）、问含义（What does it mean?）、导盲犬与训练表达（guide dog / in action / build trust）、猫咪与阳光（stretch out / soak up the warmth）、过去时纠错（started/went/watched/took），以及狗咬与医疗表达（bitten by a dog / in case of rabies / treatment）。
+- [2026-01-29 复习计划](Review_Plan_2026-01-29.md): 涵盖了日常寒暄与追问（What about you today? / What did you do today?）、问含义（What does it mean?）、导盲犬与训练表达（guide dog / in action / build trust）、猫咪与阳光（stretch out / soak up the warmth）、过去时纠错（started/went/watched/took），以及狗咬与医疗表达（bitten by a dog / in case of rabies / treatment）和安全应对不友好狗的表达（stick / keep ... away / back away slowly）。
 - [2026-01-28 复习计划](Review_Plan_2026-01-28.md): 涵盖了“把内容更新进文件”的地道表达（update the file with / put into / add to）、all of this vs all of these、wiring is a mess 的吐槽与追因、sub-workflow/show up/archived、owe vs own 与 do miss 的强调用法，以及 Starbucks 咖啡讲解口语（logo/worldwide/coffee bean/roast/caffeine/decaf/stopper/package/label/trace origin）。
 - [2026-01-27 复习计划](Review_Plan_2026-01-27.md): 涵盖了工作流/Google Sheets 排错表达、status/update/sync 高频纠错、表单与文档沟通、点餐词汇与金额读法。
 - [2026-01-26 复习计划](Review_Plan_2026-01-26.md): 涵盖了 API key 创建表达、错误排查、工作流与表格状态更新等场景。
