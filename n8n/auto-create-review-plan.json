@@ -1,0 +1,86 @@
+{
+  "name": "English Study - Auto Create Review Plan",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a3b2a6c8-5dfb-4b71-a84b-8ec27f0dbe5c",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "date",
+              "value": "={{$now.toISODate()}}"
+            },
+            {
+              "name": "summary",
+              "value": ""
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "4ef2b0b0-3c10-4d04-9f52-1a3a5d9f1be5",
+      "name": "Set",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        500,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "command": "={{ 'powershell -NoProfile -ExecutionPolicy Bypass -File \"D:\\\\02_Cursor\\\\11_英语学习\\\\scripts\\\\new-review-plan.ps1\" -Date \"' + $json.date + '\" -Summary \"' + $json.summary + '\"' }}"
+      },
+      "id": "f8d0b1b7-6f7d-49b6-b7ce-0b6790a2c7e4",
+      "name": "Execute Command",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        760,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Set",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set": {
+      "main": [
+        [
+          {
+            "node": "Execute Command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "versionId": "00000000-0000-0000-0000-000000000000",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "tags": []
+}
+
