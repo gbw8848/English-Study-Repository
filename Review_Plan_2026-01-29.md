@@ -12,6 +12,48 @@
 | **Do you like reading ...?** | /duː juː laɪk ˈriːdɪŋ/ | 你喜欢读……吗？ | **Do you like reading** English materials? |
 | **Can you recommend ...?** | /kən juː ˌrɛkəˈmɛnd/ | 你能推荐……吗？ | **Can you recommend** some topics to read? |
 
+### 职场岗位 / 销售 (Sales & Work)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **Sales** | /seɪlz/ | 销售（岗位） | I’m in **Sales**. |
+| **salesperson** | /ˈseɪlzˌpɜːrsən/ | 销售员 | She’s a **salesperson**. |
+| **sales rep** | /ˈseɪlz rep/ | 销售代表 | I work as a **sales rep**. |
+| **I’m in sales.** | /aɪm ɪn seɪlz/ | 我做销售。 | **I’m in sales.** |
+| **handle it** | /ˈhændl ɪt/ | 处理这件事 | I can **handle it**. |
+| **look into** | /lʊk ˈɪntu/ | 调查/处理 | We’ll **look into** it. |
+| **run into issues** | /rʌn ˈɪntu ˈɪʃuz/ | 遇到问题 | If customers **run into issues**... |
+
+### 手机 / 日常表达 (Phone & Daily)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **install** | /ɪnˈstɔːl/ | 安装 | Have you **installed** it? |
+| **on your phone** | /ɑːn jʊr foʊn/ | 在你手机上 | Install it **on your phone**. |
+| **lock screen** | /lɑːk skriːn/ | 锁屏 | I just saw the **lock screen**. |
+| **just saw** | /dʒʌst sɔː/ | 刚刚看到 | I **just saw** the outdoor view. |
+| **outdoor scenery / views** | /ˌaʊtˈdɔːr ˈsiːnəri/ | 户外景色 | The outdoor **scenery** is amazing. |
+
+### 交通 / 高铁场景 (Train & Travel)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **get off** | /ɡet ɔːf/ | 下车 | You can **get off** the train to smoke. |
+| **get back on** | /ɡet bæk ɑːn/ | 回到车上 | Don’t forget to **get back on** quickly. |
+| **stop for 3 minutes** | /stɑːp fɔːr θriː ˈmɪnɪts/ | 停留 3 分钟 | They only **stop for 3 minutes**. |
+| **right away** | /raɪt əˈweɪ/ | 立刻（过去时常用） | I went to the hospital **right away**. |
+| **right now** | /raɪt naʊ/ | 现在立刻 | I need to go **right now**. |
+
+### 礼貌请求 / 询问 (Polite Requests)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **Excuse me, could I get through?** | /ɪkˈskjuːz mi kʊd aɪ ɡet θruː/ | 不好意思借过一下 | **Excuse me, could I get through?** |
+| **Give me a sec.** | /ɡɪv mi ə sek/ | 等我一下 | **Give me a sec.** |
+| **Can you spare me a minute?** | /spɛr mi ə ˈmɪnɪt/ | 能抽我一分钟吗 | **Can you spare me a minute?** |
+| **Which one would you like?** | /wɪtʃ wʌn wʊd ju laɪk/ | 你想选哪一个？ | **Which one would you like?** |
+| **Are you getting off at this station?** | /ɑːr ju ˈɡetɪŋ ɔːf æt ðɪs ˈsteɪʃn/ | 你在这站下车吗？ | **Are you getting off at this station?** |
+
 ### 导盲犬 / 训练表达 (Guide Dogs & Training)
 
 | 单词/短语 | 音标 | 中文释义 | 口语例句 |
@@ -108,6 +150,48 @@
 - ✅ I used a stick to keep the dog away.
 - ✅ I tried to scare the dog away.
 
+### 10) 职位表达：in sales
+- ❌ I’m sales.
+- ✅ I’m **in sales**.
+- ✅ I work **in sales**.
+
+### 11) like 后接动名词 / 直接问吸烟
+- ❌ Do you like to smoking?
+- ✅ Do you smoke?
+- ✅ Do you like smoking?
+
+### 12) “Most of Chinese” → “Most Chinese”
+- ❌ Most **of** Chinese can't speak English fluently.
+- ✅ Most Chinese can't speak English fluently.
+- ✅ Most people in China can speak some English.
+
+### 13) “foreigner people” 冗余
+- ❌ It’s hard to find a foreigner people.
+- ✅ It’s hard to find foreigners.
+- ✅ It’s hard to find a foreigner who speaks English.
+
+### 14) right away vs right now
+- ✅ I went to the hospital **right away**.（过去立刻）
+- ✅ I need to go to the hospital **right now**.（现在立刻）
+
+### 15) 现在完成时：Have you installed...?
+- ❌ Do you have installed it on your phone?
+- ✅ Have you installed it on your phone?
+- ✅ Did you install it on your phone?（问过去）
+
+### 16) 车站介词：at this station
+- ❌ Are you getting off **in** this station?
+- ✅ Are you getting off **at** this station?
+
+### 17) just + 过去式
+- ❌ I just see the lock screen.
+- ✅ I just **saw** the lock screen.
+
+### 18) home 的固定搭配
+- ✅ at home（在家）
+- ✅ go home（回家，不加 to）
+- ✅ go to my home（名词性 home）
+
 ---
 
 ## 🗣️ 精选短语 (Useful Phrases)
@@ -130,6 +214,13 @@
 16. I used a stick to keep the dog away.
 17. Some dogs can be unfriendly in the countryside.
 18. Back away slowly and stay calm.
+19. I’m in sales.
+20. Have you installed it on your phone?
+21. I just saw the lock screen.
+22. You can get off the train, but get back on quickly.
+23. They only stop for 3 minutes.
+24. Excuse me, could I get through?
+25. Which one would you like?
 
 ---
 
@@ -142,3 +233,9 @@
 - **treatment** /ˈtriːtmənt/：注意中间 /tm/。
 - **bitten** /ˈbɪtən/：/t/ 清晰，结尾是 /-ən/。
 - **stretch out** /strɛtʃ aʊt/：别说成 switching；是 stretch。
+- **sales** /seɪlz/：结尾 /lz/ 连读。
+- **salesperson** /ˈseɪlzˌpɜːrsən/：重音在第一节。
+- **sales rep** /ˈseɪlz rep/：rep 读 /rep/。
+- **right away** /raɪt əˈweɪ/：弱读连起来更自然。
+- **get off** /ɡet ɔːf/：连读 /ɡetɔːf/。
+- **get through** /ɡet θruː/：/θ/ 要咬舌。
