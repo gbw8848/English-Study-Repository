@@ -3,6 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-01-30 复习计划](Review_Plan_2026-01-30.md): 涵盖了销售岗位表达（sales / salesperson / sales rep / I’m in sales）、车站与高铁提醒（get off / get back on / stop for 3 minutes / at this station）、口语时态与时间表达（right away vs right now / just + 过去式 / 现在完成时）、礼貌请求（get through / give me a sec / spare a minute）、点餐与夸赞表达（latte / roasted lamb / insanely beautiful），以及指路用法（turn left at + 距离）与发音易错点（hypocrites / cruel / gigawatt）。
 - [2026-01-29 复习计划](Review_Plan_2026-01-29.md): 涵盖了日常寒暄与追问（What about you today? / What did you do today?）、销售岗位与发音（sales / salesperson / sales rep / I’m in sales）、手机与日常表达（install / lock screen / just saw）、高铁/车站表达（get off / get back on / stop for 3 minutes / at this station）、礼貌请求（get through / spare a minute / which one would you like）、问含义（What does it mean?）、导盲犬与训练表达（guide dog / in action / build trust）、猫咪与阳光（stretch out / soak up the warmth）、过去时纠错（started/went/watched/took），以及狗咬与医疗表达（bitten by a dog / in case of rabies / treatment）和安全应对不友好狗的表达（stick / keep ... away / back away slowly）。
 - [2026-01-28 复习计划](Review_Plan_2026-01-28.md): 涵盖了“把内容更新进文件”的地道表达（update the file with / put into / add to）、all of this vs all of these、wiring is a mess 的吐槽与追因、sub-workflow/show up/archived、owe vs own 与 do miss 的强调用法，以及 Starbucks 咖啡讲解口语（logo/worldwide/coffee bean/roast/caffeine/decaf/stopper/package/label/trace origin）。
 - [2026-01-27 复习计划](Review_Plan_2026-01-27.md): 涵盖了工作流/Google Sheets 排错表达、status/update/sync 高频纠错、表单与文档沟通、点餐词汇与金额读法。
