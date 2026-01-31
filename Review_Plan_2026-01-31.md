@@ -43,6 +43,12 @@
 | **truncate** | /trʌŋˈkeɪt/ | 截断；缩短 | We need to **truncate** the content. |
 | **within 500 words** | /wɪˈðɪn faɪv ˈhʌndrəd wɝːdz/ | 500 字以内 | Keep it **within 500 words**. |
 | **make sure** | /meɪk ʃʊr/ | 确保 | **Make sure** it’s accurate. |
+| **integrate Instagram** | /ˈɪntɪɡreɪt ˈɪnstəɡræm/ | 接入/整合 Instagram | We want to **integrate Instagram**. |
+| **have any plan** | /hæv ˈeni plæn/ | 有计划/方案吗 | Do you **have any plan**? |
+| **request parameters** | /rɪˈkwest pəˈræmɪtərz/ | 请求参数 | What are the **request parameters**? |
+| **folder paths** | /ˈfoʊldər pæθs/ | 文件夹路径 | Some **folder paths** are in Chinese. |
+| **keep ... in Chinese** | /kiːp ... ɪn tʃaɪˈniːz/ | 保持为中文 | Let’s **keep the main paths in Chinese**. |
+| **use English for everything else** | /juːz ˈɪŋɡlɪʃ fɔːr ˈevriθɪŋ els/ | 其余部分用英文 | **Use English for everything else**. |
 
 ---
 
@@ -99,6 +105,9 @@
 6. I would like to choose the title, add hashtags, and make sure the content is truncated to within 500 words.
 7. I’d like to choose the title, add the hashtags, and keep it under 500 words.
 8. Please trim it to under 500 words.
+9. And now I want to integrate Instagram. Do you have any plan?
+10. What's your plan for the request parameters?
+11. Wait a minute. Some of the folder paths here are in Chinese, so we should keep the main paths in Chinese, and use English for everything else.
 
 ---
 
