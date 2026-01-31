@@ -34,6 +34,16 @@
 | **check the footage** | /tʃek ðə ˈfʊtɪdʒ/ | 看一下录像 | I’ll **check the footage**. |
 | **go over the footage** | /ɡoʊ ˈoʊvər ðə ˈfʊtɪdʒ/ | 过一遍录像 | We should **go over the footage** again. |
 
+### 内容编辑与发布 (Content Editing & Posting)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| **choose the title** | /tʃuːz ðə ˈtaɪt(ə)l/ | 选择标题 | I’ll **choose the title** first. |
+| **add hashtags** | /æd ˈhæʃtæɡz/ | 加上话题标签 | Then I’ll **add the hashtags**. |
+| **truncate** | /trʌŋˈkeɪt/ | 截断；缩短 | We need to **truncate** the content. |
+| **within 500 words** | /wɪˈðɪn faɪv ˈhʌndrəd wɝːdz/ | 500 字以内 | Keep it **within 500 words**. |
+| **make sure** | /meɪk ʃʊr/ | 确保 | **Make sure** it’s accurate. |
+
 ---
 
 ## 🔎 语法复盘 (Grammar Review)
@@ -60,6 +70,23 @@
 - ✅ proprietary = 专有/专利/定制（非通用款）
 - ✅ custom / tailored = 口语替换，语气更日常
 
+### 6) would like to + 动词原形（更礼貌）
+- ✅ I’d like to **choose** the title, **add** the hashtags, and **keep** it under 500 words.
+- 说明：并列动词用同一形式，听起来更自然。
+
+### 7) truncate 的口语替换
+- ✅ truncate the content（书面）
+- ✅ trim / cut down the content（口语更常见）
+
+### 8) within vs under
+- ✅ within 500 words（书面/标准说法）
+- ✅ under 500 words（更口语）
+
+### 9) plug in 的语感
+- ✅ add hashtags / add the hashtags（更自然；是否加 the 取决于是否特指）
+- ✅ include hashtags（也常见）
+- ⚠️ plug in the hashtags（能理解，但偏“技术/操作”语气）
+
 ---
 
 ## 🗣️ 精选短语 (Useful Phrases)
@@ -69,6 +96,9 @@
 3. These are proprietary residential panels, not standard ones.
 4. We use proprietary residential wall panels for this project.
 5. They installed proprietary residential solar panels.
+6. I would like to choose the title, add hashtags, and make sure the content is truncated to within 500 words.
+7. I’d like to choose the title, add the hashtags, and keep it under 500 words.
+8. Please trim it to under 500 words.
 
 ---
 
@@ -81,6 +111,9 @@
 - **reveal** /rɪˈviːl/：重音在第二音节。
 - **shocking** /ˈʃɑːkɪŋ/：/ʃɑː/ 清晰。
 - **truth** /truːθ/：/θ/ 发音要出舌尖。
+- **hashtags** /ˈhæʃtæɡz/：结尾 /-gz/ 不要省略。
+- **truncate** /trʌŋˈkeɪt/：重音在第二音节。
+- **within** /wɪˈðɪn/：/ð/ 轻咬舌尖。
 
 ---
 
@@ -88,3 +121,4 @@
 - 建筑建材/光伏领域术语：proprietary residential panels / wall panels / solar panels
 - 监控录像与真相揭露：reviewing the camera footage / reveal & uncover the truth
 - 句式练习：动名词短语作主语（Reviewing ... revealed ...）
+- 内容编辑发布：choose the title / add hashtags / keep it under 500 words
