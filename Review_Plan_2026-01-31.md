@@ -1,17 +1,17 @@
 ﻿# 📔 English Review Plan - 2026-01-31
 
-## 🏷️ 核心词汇 (Core Vocabulary)1
+## 🏷️ 核心词汇 (Core Vocabulary)
 
 ### 建筑建材 / 光伏术语 (Construction & Solar)
 
 
 | 单词/短语                          | 音标                                                | 中文释义                          | 口语例句                                      |
 | :--------------------------------- | :-------------------------------------------------- | :-------------------------------- | :-------------------------------------------- |
-| **proprietary**                    | /prəˈpraɪəˌteri/                               | 专有的；专利/定制的（非通用）     | These parts are**proprietary**.               |
-| **residential**                    | /ˌrezɪˈdenʃəl/                                 | 住宅的                            | It’s a**residential** area.                  |
-| **panel**                          | /ˈpænəl/                                         | 面板；板材                        | This**panel** is easy to install.             |
-| **proprietary residential panels** | /prəˈpraɪəˌteri rəˈzɪˈdenʃəl ˈpænəlz/ | 专有住宅用面板 / 定制住宅专用板材 | We use**proprietary residential panels**.     |
-| **residential wall panels**        | /rəˈzɪˈdenʃəl wɔːl ˈpænəlz/              | 住宅专用定制墙板                  | They supply**residential wall panels**.       |
+| **proprietary**                    | /prəˈpraɪəˌteri/                               | 专有的；专利/定制的（非通用）     | These parts are **proprietary**.               |
+| **residential**                    | /ˌrezɪˈdenʃəl/                                 | 住宅的                            | It’s a **residential** area.                  |
+| **panel**                          | /ˈpænəl/                                         | 面板；板材                        | This **panel** is easy to install.             |
+| **proprietary residential panels** | /prəˈpraɪəˌteri rəˈzɪˈdenʃəl ˈpænəlz/ | 专有住宅用面板 / 定制住宅专用板材 | We use **proprietary residential panels**.     |
+| **residential wall panels**        | /rəˈzɪˈdenʃəl wɔːl ˈpænəlz/              | 住宅专用定制墙板                  | They supply **residential wall panels**.       |
 | **residential solar panels**       | /rəˈzɪˈdenʃəl ˈsoʊlər ˈpænəlz/          | 住宅专用太阳能板                  | **Residential solar panels** are popular now. |
 
 ### 监控与叙事表达 (Security Footage & Revelation)
@@ -19,39 +19,39 @@
 
 | 单词/短语             | 音标                        | 中文释义              | 口语例句                             |
 | :-------------------- | :-------------------------- | :-------------------- | :----------------------------------- |
-| **review**            | /rɪˈvjuː/                | 查看；复查            | Let’s**review** the footage.        |
+| **review**            | /rɪˈvjuː/                | 查看；复查            | Let’s **review** the footage.        |
 | **reviewing**         | /rɪˈvjuːɪŋ/            | 查看中（动名词/分词） | **Reviewing** the footage took time. |
-| **camera footage**    | /ˈkæmərə ˈfʊtɪdʒ/   | 监控录像 / 画面       | The**camera footage** was clear.     |
-| **reveal**            | /rɪˈviːl/                | 揭露；显示            | The report**revealed** the truth.    |
-| **shocking**          | /ˈʃɑːkɪŋ/             | 令人震惊的            | The result was**shocking**.          |
-| **shocking truth**    | /ˈʃɑːkɪŋ truːθ/     | 令人震惊的真相        | He told the**shocking truth**.       |
-| **uncover the truth** | /ʌnˈkʌvər ðə truːθ/ | 揭开真相              | They**uncovered the truth**.         |
+| **camera footage**    | /ˈkæmərə ˈfʊtɪdʒ/   | 监控录像 / 画面       | The **camera footage** was clear.     |
+| **reveal**            | /rɪˈviːl/                | 揭露；显示            | The report **revealed** the truth.    |
+| **shocking**          | /ˈʃɑːkɪŋ/             | 令人震惊的            | The result was **shocking**.          |
+| **shocking truth**    | /ˈʃɑːkɪŋ truːθ/     | 令人震惊的真相        | He told the **shocking truth**.       |
+| **uncover the truth** | /ʌnˈkʌvər ðə truːθ/ | 揭开真相              | They **uncovered the truth**.         |
 
 ### 口语替换 (Natural Alternatives)
 
 
 | 单词/短语               | 音标                               | 中文释义   | 口语例句                                |
 | :---------------------- | :--------------------------------- | :--------- | :-------------------------------------- |
-| **custom**              | /ˈkʌstəm/                       | 定制的     | We need**custom** panels.               |
-| **tailored**            | /ˈteɪlərd/                      | 量身定制的 | It’s a**tailored** solution.           |
-| **check the footage**   | /tʃek ðə ˈfʊtɪdʒ/           | 看一下录像 | I’ll**check the footage**.             |
-| **go over the footage** | /ɡoʊ ˈoʊvər ðə ˈfʊtɪdʒ/ | 过一遍录像 | We should**go over the footage** again. |
+| **custom**              | /ˈkʌstəm/                       | 定制的     | We need **custom** panels.               |
+| **tailored**            | /ˈteɪlərd/                      | 量身定制的 | It’s a **tailored** solution.           |
+| **check the footage**   | /tʃek ðə ˈfʊtɪdʒ/           | 看一下录像 | I’ll **check the footage**.             |
+| **go over the footage** | /ɡoʊ ˈoʊvər ðə ˈfʊtɪdʒ/ | 过一遍录像 | We should **go over the footage** again. |
 
 ### 内容编辑与发布 (Content Editing & Posting)
 
 
 | 单词/短语                           | 音标                                          | 中文释义            | 口语例句                                  |
 | :---------------------------------- | :-------------------------------------------- | :------------------ | :---------------------------------------- |
-| **choose the title**                | /tʃuːz ðə ˈtaɪt(ə)l/                   | 选择标题            | I’ll**choose the title** first.          |
-| **add hashtags**                    | /æd ˈhæʃtæɡz/                           | 加上话题标签        | Then I’ll**add the hashtags**.           |
-| **truncate**                        | /trʌŋˈkeɪt/                               | 截断；缩短          | We need to**truncate** the content.       |
-| **within 500 words**                | /wɪˈðɪn faɪv ˈhʌndrəd wɝːdz/        | 500 字以内          | Keep it**within 500 words**.              |
+| **choose the title**                | /tʃuːz ðə ˈtaɪt(ə)l/                   | 选择标题            | I’ll **choose the title** first.          |
+| **add hashtags**                    | /æd ˈhæʃtæɡz/                           | 加上话题标签        | Then I’ll **add the hashtags**.           |
+| **truncate**                        | /trʌŋˈkeɪt/                               | 截断；缩短          | We need to **truncate** the content.       |
+| **within 500 words**                | /wɪˈðɪn faɪv ˈhʌndrəd wɝːdz/        | 500 字以内          | Keep it **within 500 words**.              |
 | **make sure**                       | /meɪk ʃʊr/                                 | 确保                | **Make sure** it’s accurate.             |
-| **integrate Instagram**             | /ˈɪntɪɡreɪt ˈɪnstəɡræm/             | 接入/整合 Instagram | We want to**integrate Instagram**.        |
-| **have any plan**                   | /hæv ˈeni plæn/                            | 有计划/方案吗       | Do you**have any plan**?                  |
-| **request parameters**              | /rɪˈkwest pəˈræmɪtərz/                 | 请求参数            | What are the**request parameters**?       |
-| **folder paths**                    | /ˈfoʊldər pæθs/                          | 文件夹路径          | Some**folder paths** are in Chinese.      |
-| **keep ... in Chinese**             | /kiːp ... ɪn tʃaɪˈniːz/                 | 保持为中文          | Let’s**keep the main paths in Chinese**. |
+| **integrate Instagram**             | /ˈɪntɪɡreɪt ˈɪnstəɡræm/             | 接入/整合 Instagram | We want to **integrate Instagram**.        |
+| **have any plan**                   | /hæv ˈeni plæn/                            | 有计划/方案吗       | Do you **have any plan**?                  |
+| **request parameters**              | /rɪˈkwest pəˈræmɪtərz/                 | 请求参数            | What are the **request parameters**?       |
+| **folder paths**                    | /ˈfoʊldər pæθs/                          | 文件夹路径          | Some **folder paths** are in Chinese.      |
+| **keep ... in Chinese**             | /kiːp ... ɪn tʃaɪˈniːz/                 | 保持为中文          | Let’s **keep the main paths in Chinese**. |
 | **use English for everything else** | /juːz ˈɪŋɡlɪʃ fɔːr ˈevriθɪŋ els/ | 其余部分用英文      | **Use English for everything else**.      |
 
 ---
