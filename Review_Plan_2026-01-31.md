@@ -1,5 +1,7 @@
 ﻿# 📔 English Review Plan - 2026-01-31
 
+This Markdown file has some mistakes. Please correct it.
+
 ## 🏷️ 核心词汇 (Core Vocabulary)
 
 ### 建筑建材 / 光伏术语 (Construction & Solar)
