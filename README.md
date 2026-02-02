@@ -1,8 +1,9 @@
-# English Study Repository
+﻿# English Study Repository
 
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-02-02 复习计划](Review_Plan_2026-02-02.md): 覆盖困倦表达（sleepy/beat/ready to crash）、口语对话造句、职场汇报与会议表达、商业竞争与定价（competitor/colleague/influence/one cent lower），以及结算状态表达（settlement/status/schedule），并复盘gonna/to+动词原形等语法与发音。
 - [2026-02-01 复习计划](Review_Plan_2026-02-01.md): 涵盖了薄煎饼与配料词汇（pancakes / buttermilk pancakes / whipped cream / fresh berries）、职场沟通句（request parameters / provide additional information / wrap it up）、易混词辨析（propriety vs proprietary / swan vs duck）、调味与食材（green onion/scallion / coriander/cilantro），以及语法纠错（will go bad / nice and chunky / both vs neither）。
 - [2026-01-31 复习计划](Review_Plan_2026-01-31.md): 涵盖了专有住宅面板表达（proprietary residential panels / residential wall panels / residential solar panels）、监控录像与真相揭露（reviewing the camera footage / reveal & uncover the truth / shocking truth）、动名词作主语与 footage 不可数用法，以及发音要点（proprietary / residential / footage）。
 - [2026-01-30 复习计划](Review_Plan_2026-01-30.md): 涵盖了销售岗位表达（sales / salesperson / sales rep / I’m in sales）、车站与高铁提醒（get off / get back on / stop for 3 minutes / at this station）、口语时态与时间表达（right away vs right now / just + 过去式 / 现在完成时）、礼貌请求（get through / give me a sec / spare a minute）、点餐与夸赞表达（latte / roasted lamb / insanely beautiful），以及指路用法（turn left at + 距离）与发音易错点（hypocrites / cruel / gigawatt）。
@@ -33,3 +34,4 @@
 1. 在 n8n 里导入工作流：`n8n/auto-create-review-plan.json`
 2. 运行（Manual Trigger）即可生成当天的 `Review_Plan_YYYY-MM-DD.md` 并更新 README 目录
 3. 如果你的仓库路径不同，修改工作流里 `Execute Command` 节点的脚本路径即可
+
