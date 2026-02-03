@@ -3,6 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-02-03 复习计划](Review_Plan_2026-02-03.md): 聚焦 be familiar with 结构、report/reporter 区分、过去式 did/wrote、wait for、deadline/to-do list 等职场表达，并补充 UK 景点词汇（Big Ben/British Museum）。
 - [2026-02-02 复习计划](Review_Plan_2026-02-02.md): 覆盖困倦表达（sleepy/beat/ready to crash）、口语对话造句、职场汇报与会议表达、商业竞争与定价（competitor/colleague/influence/one cent lower），以及结算状态表达（settlement/status/schedule），并复盘gonna/to+动词原形等语法与发音。
 - [2026-02-01 复习计划](Review_Plan_2026-02-01.md): 涵盖了薄煎饼与配料词汇（pancakes / buttermilk pancakes / whipped cream / fresh berries）、职场沟通句（request parameters / provide additional information / wrap it up）、易混词辨析（propriety vs proprietary / swan vs duck）、调味与食材（green onion/scallion / coriander/cilantro），以及语法纠错（will go bad / nice and chunky / both vs neither）。
 - [2026-01-31 复习计划](Review_Plan_2026-01-31.md): 涵盖了专有住宅面板表达（proprietary residential panels / residential wall panels / residential solar panels）、监控录像与真相揭露（reviewing the camera footage / reveal & uncover the truth / shocking truth）、动名词作主语与 footage 不可数用法，以及发音要点（proprietary / residential / footage）。
