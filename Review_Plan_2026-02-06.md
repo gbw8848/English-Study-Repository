@@ -224,6 +224,110 @@
 | travel with + 人 | /ˈtrævəl wɪð/ | 和…一起旅行 | I traveled with my parents. |
 | leave for + 地点 | /liːv fɔːr/ | 动身去 | We leave for Beijing tomorrow morning. |
 
+### 场景 13：动词 + 介词高频搭配（可直接套用）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| look at + 人/物 | /lʊk æt/ | 看 | Look at this picture. |
+| look for + 人/物 | /lʊk fɔːr/ | 寻找 | I'm looking for my keys. |
+| look after + 人/物 | /lʊk ˈæftər/ | 照顾 | I look after my grandma. |
+| ask for + 事物 | /æsk fɔːr/ | 请求 | Can I ask for help? |
+| ask about + 信息 | /æsk əˈbaʊt/ | 询问 | I asked about the price. |
+| wait for + 人/物 | /weɪt fɔːr/ | 等待 | I'm waiting for the bus. |
+| depend on + 条件/人 | /dɪˈpend ɑːn/ | 取决于；依赖 | It depends on the weather. |
+| agree with + 人/观点 | /əˈɡriː wɪð/ | 同意 | I agree with you. |
+| agree on + 事项 | /əˈɡriː ɑːn/ | 就…达成一致 | We agreed on the date. |
+| belong to + 人/组织 | /bɪˈlɔːŋ tuː/ | 属于 | This bag belongs to me. |
+| deal with + 问题 | /diːl wɪð/ | 处理 | I'll deal with this issue. |
+| focus on + 重点 | /ˈfoʊkəs ɑːn/ | 专注于 | Let's focus on the key points. |
+| apply for + 职位/项目 | /əˈplaɪ fɔːr/ | 申请 | She applied for the job. |
+| apologize for + 事情 | /əˈpɑːlədʒaɪz fɔːr/ | 为…道歉 | I apologize for being late. |
+| suffer from + 病症/问题 | /ˈsʌfər frʌm/ | 遭受 | He suffers from back pain. |
+| complain about + 问题 | /kəmˈpleɪn əˈbaʊt/ | 抱怨 | They complained about the noise. |
+| prepare for + 事件 | /prɪˈper fɔːr/ | 为…准备 | We prepared for the exam. |
+| hear from + 人 | /hɪr frʌm/ | 收到…来信/消息 | I heard from him yesterday. |
+| talk to + 人 | /tɔːk tuː/ | 和…说话 | I need to talk to the manager. |
+| think of + 想法/印象 | /θɪŋk əv/ | 想到；认为 | What do you think of this plan? |
+
+### 场景 14：形容词 + 介词高频搭配（可直接套用）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| interested in + 事物 | /ˈɪntrəstɪd ɪn/ | 对…感兴趣 | I'm interested in AI. |
+| good at + 技能 | /ɡʊd æt/ | 擅长 | She's good at math. |
+| bad at + 技能 | /bæd æt/ | 不擅长 | I'm bad at cooking. |
+| afraid of + 事物 | /əˈfreɪd əv/ | 害怕 | He's afraid of dogs. |
+| proud of + 人/事 | /praʊd əv/ | 为…骄傲 | We're proud of you. |
+| famous for + 特点 | /ˈfeɪməs fɔːr/ | 因…出名 | The city is famous for seafood. |
+| responsible for + 事项 | /rɪˈspɑːnsəbəl fɔːr/ | 对…负责 | I'm responsible for this task. |
+| ready for + 事物 | /ˈredi fɔːr/ | 准备好… | Are you ready for the test? |
+| worried about + 事情 | /ˈwɝːid əˈbaʊt/ | 担心 | I'm worried about my exam. |
+| excited about + 事情 | /ɪkˈsaɪtɪd əˈbaʊt/ | 对…兴奋 | We're excited about the trip. |
+| tired of + 事物 | /ˈtaɪərd əv/ | 厌倦 | I'm tired of waiting. |
+| full of + 事物 | /fʊl əv/ | 充满 | The room is full of people. |
+| similar to + 对象 | /ˈsɪmələr tuː/ | 与…相似 | This phone is similar to mine. |
+| different from + 对象 | /ˈdɪfrənt frʌm/ | 与…不同 | My plan is different from yours. |
+| friendly to + 人/群体 | /ˈfrendli tuː/ | 对…友好 | She's very friendly to kids. |
+| patient with + 人 | /ˈpeɪʃnt wɪð/ | 对…有耐心 | Please be patient with me. |
+| strict with + 人 | /strɪkt wɪð/ | 对某人严格 | He's strict with his students. |
+| strict about + 事项 | /strɪkt əˈbaʊt/ | 对某事严格 | She's strict about deadlines. |
+| married to + 人 | /ˈmærid tuː/ | 与…结婚 | He's married to a doctor. |
+| capable of + 能力 | /ˈkeɪpəbl əv/ | 有能力做… | She's capable of leading the team. |
+
+### 场景 15：名词 + 介词高频搭配（可直接套用）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| reason for + 事情 | /ˈriːzn fɔːr/ | …的原因 | What's the reason for the delay? |
+| solution to + 问题 | /səˈluːʃn tuː/ | …的解决方案 | We found a solution to the problem. |
+| answer to + 问题 | /ˈænsər tuː/ | …的答案 | I know the answer to this question. |
+| invitation to + 活动 | /ˌɪnvɪˈteɪʃn tuː/ | …的邀请 | I got an invitation to the party. |
+| need for + 事物 | /niːd fɔːr/ | 对…的需要 | There's no need for panic. |
+| demand for + 事物 | /dɪˈmænd fɔːr/ | 对…的需求 | Demand for EVs is rising. |
+| increase in + 数量 | /ˈɪnkriːs ɪn/ | …的增长 | We saw an increase in sales. |
+| decrease in + 数量 | /ˈdiːkriːs ɪn/ | …的下降 | There's a decrease in traffic. |
+| effect on + 对象 | /ɪˈfekt ɑːn/ | 对…的影响 | Sleep has a big effect on health. |
+| impact on + 对象 | /ˈɪmpækt ɑːn/ | 对…的影响 | The policy has an impact on prices. |
+| influence on + 对象 | /ˈɪnfluəns ɑːn/ | 对…的影响 | Parents have influence on children. |
+| problem with + 对象 | /ˈprɑːbləm wɪð/ | …方面的问题 | I have a problem with my laptop. |
+| relationship with + 人 | /rɪˈleɪʃnʃɪp wɪð/ | 与…的关系 | I have a good relationship with my boss. |
+| access to + 资源 | /ˈækses tuː/ | 使用…的机会/权限 | Students need access to the library. |
+| interest in + 事物 | /ˈɪntrəst ɪn/ | 对…的兴趣 | He has a strong interest in music. |
+| respect for + 人/规则 | /rɪˈspekt fɔːr/ | 对…的尊重 | We should show respect for others. |
+| connection with + 人/事 | /kəˈnekʃn wɪð/ | 与…的联系 | I have no connection with that case. |
+| request for + 事物 | /rɪˈkwest fɔːr/ | 对…的请求 | We received a request for support. |
+| advantage of + 事物 | /ədˈvæntɪdʒ əv/ | …的优势 | One advantage of this app is speed. |
+| cost of + 事物 | /kɔːst əv/ | …的成本 | The cost of living is high here. |
+
+### 场景 16：高频介词短语（可直接套用）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| in front of | /ɪn frʌnt əv/ | 在…前面 | Stand in front of the door. |
+| next to | /nekst tuː/ | 紧挨着 | Sit next to me. |
+| across from | /əˈkrɔːs frʌm/ | 在…对面 | The bank is across from the cafe. |
+| between ... and ... | /bɪˈtwiːn/ | 在…之间 | It's between the station and the mall. |
+| at least | /æt liːst/ | 至少 | We need at least two hours. |
+| at first | /æt fɝːst/ | 起初 | At first, I didn't understand it. |
+| in fact | /ɪn fækt/ | 事实上 | In fact, it's easier than you think. |
+| on purpose | /ɑːn ˈpɝːpəs/ | 故意地 | I didn't do it on purpose. |
+| by accident | /baɪ ˈæksɪdənt/ | 偶然地 | I found it by accident. |
+| by mistake | /baɪ mɪˈsteɪk/ | 错误地 | I sent it by mistake. |
+| in time | /ɪn taɪm/ | 及时 | We got there in time. |
+| on time | /ɑːn taɪm/ | 准时 | Please arrive on time. |
+| for now | /fɔːr naʊ/ | 暂时 | That's all for now. |
+| for sure | /fɔːr ʃʊr/ | 当然；肯定 | I'll join for sure. |
+| from time to time | /frʌm taɪm tu taɪm/ | 不时 | I read English articles from time to time. |
+| out of date | /aʊt əv deɪt/ | 过时 | This information is out of date. |
+| out of stock | /aʊt əv stɑːk/ | 缺货 | The product is out of stock. |
+| because of | /bɪˈkʌz əv/ | 因为 | We canceled it because of rain. |
+| instead of | /ɪnˈsted əv/ | 代替 | I took tea instead of coffee. |
+| according to | /əˈkɔːrdɪŋ tuː/ | 根据 | According to the report, sales increased. |
+| thanks to | /θæŋks tuː/ | 多亏了 | Thanks to you, we finished early. |
+| as for | /æz fɔːr/ | 至于 | As for me, I'm ready. |
+| in charge of | /ɪn tʃɑːrdʒ əv/ | 负责 | She's in charge of marketing. |
+| in need of | /ɪn niːd əv/ | 需要 | The team is in need of support. |
+
 ## 正确表达速记 (Correct Patterns)
 
 ### 1) go 后接地点：go to + 地点
@@ -349,6 +453,42 @@
 ### 31) meet up with / hang out with
 正确表达: I'm meeting up with Jenny later. / I hang out with my friends.
 说明: 两个短语后都常接 with + 人。
+
+### 32) look for / look after
+正确表达: I'm looking for my wallet. / She looks after her little brother.
+说明: look for = 寻找；look after = 照顾。
+
+### 33) agree with / agree on
+正确表达: I agree with you. / We agreed on the plan.
+说明: agree with 常接人或观点；agree on 常接事项。
+
+### 34) belong to / apply for
+正确表达: This seat belongs to me. / I applied for the position.
+说明: belong to 表所属；apply for 表申请。
+
+### 35) afraid of / proud of
+正确表达: He's afraid of heights. / I'm proud of your progress.
+说明: 两个都是形容词 + of 高频搭配。
+
+### 36) similar to / different from
+正确表达: This model is similar to mine. / It's different from the old one.
+说明: similar 搭配 to；different 搭配 from。
+
+### 37) solution to / access to
+正确表达: We need a solution to this issue. / Students have access to free Wi-Fi.
+说明: 这两个名词后常接 to。
+
+### 38) effect on / impact on
+正确表达: Sleep has an effect on mood. / This change has an impact on users.
+说明: 表“对…的影响”常用 on。
+
+### 39) because of / instead of
+正确表达: We stayed home because of the rain. / I chose tea instead of coffee.
+说明: 两个都是口语超高频介词短语。
+
+### 40) in charge of / in need of
+正确表达: She's in charge of the team. / We're in need of more time.
+说明: 这两组在工作和日常都很常用。
 
 ## 精选短语 (Useful Phrases)
 
@@ -477,7 +617,7 @@
 - 每个搭配当天至少口头说 5 次，形成肌肉记忆。
 - 错了就立刻改成标准句，反复替换，优先保证脱口正确率。
 
-## 场景覆盖总览（12大场景）
+## 场景覆盖总览（16大场景）
 
 - 出行通勤（地铁/公交/电梯/到达）
 - 餐厅就餐（订位/点餐/洗手间/过敏表达）
@@ -491,3 +631,7 @@
 - 健康就医（症状/就诊/吃药/恢复）
 - 运动休闲（健身/跑步/周末活动）
 - 家庭社交（邀请/接送/聚会/出发）
+- 动词+介词（look for / agree with / apply for 等）
+- 形容词+介词（afraid of / similar to / responsible for 等）
+- 名词+介词（solution to / effect on / access to 等）
+- 介词短语（because of / instead of / in charge of 等）
