@@ -156,117 +156,91 @@
 | turn at | /tɝːn æt/ | 在…转弯 | Turn right at the first crossing. |
 | go through | /ɡoʊ θruː/ | 穿过（内部） | Go through the gate and turn left. |
 
-## 语法复盘 (Grammar Review)
+## 正确表达速记 (Correct Patterns)
 
-### 1) go 后接地点：通常要加 to
-错误: Do you want to go washroom?
-正确: Do you want to go to the washroom?
-说明: go 是不及物动词，后接地点常用 go to + 地点。
+### 1) go 后接地点：go to + 地点
+正确表达: Do you want to go to the washroom?
+说明: go 是不及物动词，地点前常用 to。
 
-### 2) go + 动词原形，不用 go + doing（这个语境）
-错误: Do you want to go watching Rome?
-正确: Do you want to go watch Rome?
-说明: 这里是“去做某动作”，更自然是 go + 动词原形。
+### 2) go + 动词原形
+正确表达: Do you want to go watch Rome?
+说明: 在这个语境里用 go + 动词原形更自然。
 
 ### 3) It's time for + 名词
-错误: It's time to dinner.
-正确: It's time for dinner.
-说明: dinner 是名词，前面用 for。
+正确表达: It's time for dinner.
+说明: dinner/lunch/breakfast 都是名词，用 for。
 
 ### 4) It's time to + 动词原形
-错误: It's time for driver.（想表达“该开车了”）
-正确: It's time to drive.
+正确表达: It's time to drive.
 说明: 表示动作时，用 to + 动词原形。
 
-### 5) home/there/here 前通常不加 to
-错误: It's time to home.
-正确: It's time to go home.
-说明: home 在“回家”表达里按地点副词用，常说 go home。
+### 5) go home / go there / go here
+正确表达: It's time to go home.
+说明: home/there/here 这类地点词前通常不再加 to。
 
-### 6) get off vs get it off
-错误: Do you want to get it off?（想表达“下车”）
-正确: Do you want to get off?
-说明: get off 是“下车/下来”；get it off 是“把它弄下来/脱掉它”。
+### 6) get off（下车/下来）
+正确表达: Do you want to get off?
+说明: 出行场景里 get off 是高频固定搭配。
 
-### 7) for/to 的核心区分
-错误: It's time for drive.
-正确: It's time to drive.
-说明: for + 名词；to + 动词原形。
+### 7) driver 作名词时要有限定词
+正确表达: It's time for the driver.
+说明: 单数可数名词常搭配 the/a。
 
-### 8) 可数名词单数前要有限定词
-错误: It's time for driver.
-正确: It's time for the driver.（如果你真要指“那位司机”）
-说明: driver 是可数名词单数，通常要有 the/a。
+### 8) 固定搭配优先
+正确表达: go there
+说明: 介词搭配以固定用法为主，直接按场景记忆最稳。
 
-### 9) 固定搭配优先于“硬套规则”
-错误: 按中文直译去选介词（如 *go to there*）
-正确: 直接记英语固定表达（go there）
-说明: 介词搭配常是约定俗成，要按“场景+短语”记忆。
+### 9) 洗手间表达分语域
+正确表达: Do you need to use the restroom?
+说明: restroom/washroom 更正式，bathroom 更日常。
 
-### 10) 厕所词汇的场景区分
-错误: 在正式场合只会用 toilet
-正确: 正式场景优先 restroom / washroom，日常常用 bathroom
-说明: 同义词可互通，但语域不同。
+### 10) arrive at / arrive in
+正确表达: We arrived at the station. / We arrived in Shanghai.
+说明: 小地点用 at；城市/国家用 in。
 
-### 11) arrive at / arrive in
-错误: We arrived to the station.
-正确: We arrived at the station.
-说明: 小地点用 at；城市/国家用 in（arrive in Shanghai）。
+### 11) on the bus / in the car
+正确表达: I'm on the bus. / I'm in the car.
+说明: 公交地铁常用 on；小汽车常用 in。
 
-### 12) on the bus vs in the car
-错误: I am in the bus.（想表达“乘公交中”）
-正确: I am on the bus.
-说明: 公交/地铁/火车常用 on；小汽车常用 in。
+### 12) in the morning / at night
+正确表达: I study in the morning. / I don't drink coffee at night.
+说明: morning/afternoon/evening 前常用 in；night 常用 at。
 
-### 13) in the morning / at night
-错误: at the morning
-正确: in the morning
-说明: morning/afternoon/evening 前常用 in；night 常用 at night。
+### 13) on + 星期/日期
+正确表达: We have class on Monday.
+说明: 星期和具体日期前用 on。
 
-### 14) on + 星期/具体日期
-错误: in Monday
-正确: on Monday
-说明: 星期和具体某天用 on。
-
-### 15) at + 具体时刻
-错误: in 7:00
-正确: at 7:00
+### 14) at + 具体时刻
+正确表达: Let's meet at 7:00.
 说明: 具体钟点前用 at。
 
-### 16) listen to 固定搭配
-错误: Listen me.
-正确: Listen to me.
-说明: listen 后面接对象要加 to。
+### 15) listen to
+正确表达: Listen to me.
+说明: listen 后接对象通常要加 to。
 
-### 17) pay for / pay by / pay with
-错误: I paid this by cash.（想表达“为这个买单”）
-正确: I paid for this in cash. / I paid by card.
-说明: 付“某个东西”用 pay for；支付方式用 by/with。
+### 16) pay for / pay by / pay with
+正确表达: I paid for this in cash. / I paid by card. / I paid with my phone.
+说明: 付“某物”用 pay for；方式用 by/with。
 
-### 18) interested in 固定搭配
-错误: I'm interested on this topic.
-正确: I'm interested in this topic.
-说明: interested 后固定跟 in。
+### 17) interested in
+正确表达: I'm interested in this topic.
+说明: interested 固定接 in。
 
-### 19) good at 固定搭配
-错误: I'm good in English.
-正确: I'm good at English.
+### 18) good at
+正确表达: I'm good at English.
 说明: 表示擅长用 good at。
 
-### 20) different from（常见标准用法）
-错误: This one is different with that one.
-正确: This one is different from that one.
-说明: 日常和考试里，different from 最稳妥。
+### 19) different from
+正确表达: This one is different from that one.
+说明: 标准高频用法是 different from。
 
-### 21) wait for 固定搭配
-错误: Wait me here.
-正确: Wait for me here.
-说明: wait 后接人/物通常要 for。
+### 20) wait for
+正确表达: Wait for me here.
+说明: wait 后接人/物常用 for。
 
-### 22) ask for vs ask about
-错误: I asked about a glass of water.（想表达“要一杯水”）
-正确: I asked for a glass of water.
-说明: ask for = 索要；ask about = 询问相关信息。
+### 21) ask for / ask about
+正确表达: I asked for a glass of water. / I asked about the price.
+说明: ask for = 索要；ask about = 询问信息。
 
 ## 精选短语 (Useful Phrases)
 
