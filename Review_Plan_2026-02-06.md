@@ -395,6 +395,40 @@
 | learn from + feedback | /lɝːn frʌm/ | 从反馈中学习 | We learn from audience feedback quickly. |
 | improve with + iteration | /ɪmˈpruːv wɪð/ | 通过迭代改进 | Content quality improves with iteration. |
 
+### 场景 19：金融行业（in / on / at / to / from / with / for / into）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| invest in + 资产 | /ɪnˈvest ɪn/ | 投资于 | We invest in government bonds. |
+| trade in + 市场 | /treɪd ɪn/ | 在…市场交易 | They trade in the futures market. |
+| trade on + 交易所 | /treɪd ɑːn/ | 在…交易所交易 | The stock trades on NASDAQ. |
+| list on + 交易所 | /lɪst ɑːn/ | 在…上市 | The company plans to list on HKEX. |
+| open at + 价格 | /ˈoʊpən æt/ | 以…开盘 | The stock opened at $12. |
+| close at + 价格 | /kloʊz æt/ | 以…收盘 | It closed at $13.5. |
+| rise to + 水平 | /raɪz tuː/ | 上涨到 | Inflation rose to 3%. |
+| fall to + 水平 | /fɔːl tuː/ | 下跌到 | Oil prices fell to $70. |
+| increase from A to B | /ɪnˈkriːs frʌm ... tuː/ | 从A增至B | Revenue increased from 10M to 15M. |
+| decline from A to B | /dɪˈklaɪn frʌm ... tuː/ | 从A降至B | Profit declined from 8% to 5%. |
+| allocate to + 资产 | /ˈæləkeɪt tuː/ | 配置到 | We allocated more capital to bonds. |
+| diversify into + 领域/资产 | /daɪˈvɝːsɪfaɪ ˈɪntuː/ | 多元化进入 | The fund diversified into commodities. |
+| hedge against + 风险 | /hedʒ əˈɡenst/ | 对冲…风险 | We hedge against currency risk. |
+| borrow from + 机构 | /ˈbɑːroʊ frʌm/ | 向…借款 | They borrowed from a commercial bank. |
+| lend to + 客户 | /lend tuː/ | 向…放贷 | The bank lends to small businesses. |
+| pay for + 费用/资产 | /peɪ fɔːr/ | 支付 | The firm paid for the acquisition. |
+| account for + 占比/解释 | /əˈkaʊnt fɔːr/ | 占比；解释 | Exports account for 40% of revenue. |
+| expose to + 风险 | /ɪkˈspoʊz tuː/ | 使暴露于 | This position exposes us to rate risk. |
+| protected from + 风险 | /prəˈtektɪd frʌm/ | 免受…影响 | The portfolio is protected from inflation. |
+| based on + 指标/模型 | /beɪst ɑːn/ | 基于 | The forecast is based on macro data. |
+| priced at + 价格 | /praɪst æt/ | 定价为 | The bond is priced at par. |
+| quoted in + 货币 | /ˈkwoʊtɪd ɪn/ | 以…计价 | Gold is quoted in U.S. dollars. |
+| convert into + 货币/资产 | /kənˈvɝːt ˈɪntuː/ | 转换成 | We converted cash into short-term notes. |
+| settle in + 货币 | /ˈsetl ɪn/ | 以…结算 | This contract settles in RMB. |
+| repay with + 现金流 | /riːˈpeɪ wɪð/ | 用…偿还 | We'll repay with operating cash flow. |
+| comply with + 监管规则 | /kəmˈplaɪ wɪð/ | 遵守 | We comply with local regulations. |
+| approved by + 机构 | /əˈpruːvd baɪ/ | 被…批准 | The product was approved by the regulator. |
+| report to + 监管机构 | /rɪˈpɔːrt tuː/ | 向…报告 | Banks report to the central bank. |
+| monitor for + 风险信号 | /ˈmɑːnɪtər fɔːr/ | 监测 | We monitor for liquidity risk daily. |
+
 ## 正确表达速记 (Correct Patterns)
 
 ### 1) go 后接地点：go to + 地点
@@ -609,6 +643,30 @@
 正确表达: We convert views into leads and drive traffic to our store page.
 说明: 转化结构用 into；导流目标用 to。
 
+### 54) invest in / trade on
+正确表达: We invest in ETFs, and the stock trades on NASDAQ.
+说明: invest 常接 in；交易所前常用 on。
+
+### 55) rise to / fall to / increase from ... to ...
+正确表达: CPI rose to 3%, and revenue increased from 10M to 15M.
+说明: 变化到某水平常用 to；区间变化常用 from ... to ...。
+
+### 56) hedge against / protect from
+正确表达: We hedge against FX risk, and the portfolio is protected from inflation.
+说明: 对冲风险常用 against；免受影响常用 from。
+
+### 57) allocate to / diversify into
+正确表达: We allocate capital to bonds and diversify into commodities.
+说明: 资产配置常用 to；扩展进入新领域常用 into。
+
+### 58) priced at / quoted in / settle in
+正确表达: The bond is priced at par, quoted in USD, and settled in RMB.
+说明: 价格点位用 at；计价/结算货币常用 in。
+
+### 59) comply with / approved by / report to
+正确表达: We comply with regulations, get approved by the regulator, and report to the central bank.
+说明: 合规用 with；被批准用 by；报告对象用 to。
+
 ## 精选短语 (Useful Phrases)
 
 1. Do you need to use the restroom?
@@ -632,8 +690,11 @@
 19. We post short clips on Xiaohongshu every day.
 20. We engage with followers and reply to comments at night.
 21. This video drives traffic to our store.
+22. We invest in ETFs and hedge against inflation risk.
+23. The stock rose to $25 and closed at $24.6.
+24. This fund is priced at NAV and settles in USD.
 
-## 场景口语模板（14场景 × 5句 = 70句）
+## 场景口语模板（15场景 × 5句 = 75句）
 
 ### 场景 1：出行与移动
 1. I'm on the subway now.
@@ -733,6 +794,13 @@
 4. This post drives traffic to our shop page.
 5. We track watch time in analytics.
 
+### 场景 15：金融行业
+1. We invest in index funds every month.
+2. This stock trades on NASDAQ.
+3. Inflation rose to 3.1% this quarter.
+4. We hedge against currency risk.
+5. The contract settles in USD.
+
 ## 发音强化 (Pronunciation Tips)
 
 - to /tə/、for /fər/ 在口语里常弱读，连读后更快。
@@ -752,6 +820,10 @@
 - algorithm /ˈælɡəˌrɪðəm/: 末尾是 /-ðəm/，不是 /-riðm/。
 - analytics /ˌænəˈlɪtɪks/: 重音在 /lɪ/。
 - audience /ˈɔːdiəns/: 中间是 /di/，不是 /dʒəns/。
+- finance /ˈfaɪnæns/: 美式常读 /faɪ-/ 开头。
+- portfolio /pɔːrtˈfoʊlioʊ/: 重音在 /foʊ/。
+- liquidity /lɪˈkwɪdəti/: 重音在 /kwɪ/。
+- regulation /ˌreɡjuˈleɪʃn/: 重音在 /leɪ/。
 
 ## 今日结论（介词学习策略）
 
@@ -760,7 +832,7 @@
 - 每个搭配当天至少口头说 5 次，形成肌肉记忆。
 - 错了就立刻改成标准句，反复替换，优先保证脱口正确率。
 
-## 场景覆盖总览（18大场景）
+## 场景覆盖总览（19大场景）
 
 - 出行通勤（地铁/公交/电梯/到达）
 - 餐厅就餐（订位/点餐/洗手间/过敏表达）
@@ -780,3 +852,4 @@
 - 介词短语（because of / instead of / in charge of 等）
 - 计算机编程（deploy to / listen on / pull from / write to 等）
 - 自媒体行业（post on / upload to / engage with / drive traffic to 等）
+- 金融行业（invest in / hedge against / priced at / settle in 等）
