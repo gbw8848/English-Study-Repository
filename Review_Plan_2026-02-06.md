@@ -362,6 +362,39 @@
 | fail with + 错误 | /feɪl wɪð/ | 以…错误失败 | The job failed with a timeout error. |
 | recover from + 故障 | /rɪˈkʌvər frʌm/ | 从…恢复 | The node recovered from the outage. |
 
+### 场景 18：自媒体行业（on / in / to / for / with / from / into）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| post on + 平台 | /poʊst ɑːn/ | 发在…平台上 | I posted this clip on TikTok. |
+| upload to + 平台 | /ʌpˈloʊd tuː/ | 上传到 | We uploaded the video to YouTube. |
+| publish on + 频道/主页 | /ˈpʌblɪʃ ɑːn/ | 发布在 | The episode will be published on our channel. |
+| go live on + 平台 | /ɡoʊ laɪv ɑːn/ | 在…开播 | We go live on Douyin every night. |
+| stream on + 平台 | /striːm ɑːn/ | 在…直播 | She streams on Twitch on weekends. |
+| share on + 社媒 | /ʃer ɑːn/ | 分享在 | Please share this post on Weibo. |
+| reply to + comments | /rɪˈplaɪ tuː/ | 回复评论 | I reply to comments every morning. |
+| respond to + messages | /rɪˈspɑːnd tuː/ | 回复私信 | We respond to messages within one day. |
+| engage with + audience | /ɪnˈɡeɪdʒ wɪð/ | 与受众互动 | You need to engage with your audience. |
+| connect with + followers | /kəˈnekt wɪð/ | 与粉丝建立连接 | She connects with followers through stories. |
+| collaborate with + brand/creator | /kəˈlæbəreɪt wɪð/ | 与…合作 | We collaborated with a skincare brand. |
+| partner with + 品牌 | /ˈpɑːrtnər wɪð/ | 与…合作 | The channel partnered with a local cafe. |
+| create content for + 受众/平台 | /kriˈeɪt ˈkɑːntent fɔːr/ | 为…创作内容 | We create content for young professionals. |
+| focus on + niche | /ˈfoʊkəs ɑːn/ | 聚焦细分领域 | Our account focuses on productivity tips. |
+| optimize for + algorithm | /ˈɑːptɪmaɪz fɔːr/ | 为算法优化 | We optimize titles for the algorithm. |
+| rank for + keyword | /ræŋk fɔːr/ | 在关键词上有排名 | This video ranks for "study routine". |
+| add subtitles to + video | /æd ˈsʌbtaɪtlz tuː/ | 给视频加字幕 | Add subtitles to improve watch time. |
+| edit in + 软件 | /ˈedɪt ɪn/ | 在…中剪辑 | I edit in CapCut and Premiere Pro. |
+| shoot with + 设备 | /ʃuːt wɪð/ | 用…拍摄 | Most creators shoot with a phone now. |
+| schedule for + 时间 | /ˈskedʒuːl fɔːr/ | 计划在…发布时间 | The post is scheduled for 8 PM. |
+| track in + analytics | /træk ɪn/ | 在数据后台跟踪 | We track retention in analytics. |
+| analyze data from + source | /ˈænəlaɪz ˈdeɪtə frʌm/ | 从…分析数据 | We analyze data from the dashboard. |
+| convert A into B | /kənˈvɝːt ... ˈɪntuː/ | 把A转化为B | We convert views into followers. |
+| drive traffic to + 页面/店铺 | /draɪv ˈtræfɪk tuː/ | 导流到 | This reel drives traffic to our store. |
+| link to + 页面/商品 | /lɪŋk tuː/ | 链接到 | Add a link to the product page. |
+| build on + trend | /bɪld ɑːn/ | 借势 | We built on a trending topic. |
+| learn from + feedback | /lɝːn frʌm/ | 从反馈中学习 | We learn from audience feedback quickly. |
+| improve with + iteration | /ɪmˈpruːv wɪð/ | 通过迭代改进 | Content quality improves with iteration. |
+
 ## 正确表达速记 (Correct Patterns)
 
 ### 1) go 后接地点：go to + 地点
@@ -556,6 +589,26 @@
 正确表达: Users authenticate with OAuth and are authorized for specific actions.
 说明: 认证方式常用 with；授权范围常用 for。
 
+### 49) post on / publish on / upload to
+正确表达: We post on Xiaohongshu, publish on our channel, and upload to YouTube.
+说明: 平台/频道常用 on；上传目标常用 to。
+
+### 50) engage with / connect with
+正确表达: We engage with our audience and connect with followers every day.
+说明: 与人群互动和连接常用 with。
+
+### 51) create content for / optimize for
+正确表达: We create content for beginners and optimize titles for the algorithm.
+说明: 服务对象和优化目标常用 for。
+
+### 52) track in / analyze from
+正确表达: We track retention in analytics and analyze data from the dashboard.
+说明: 数据位置常用 in；数据来源常用 from。
+
+### 53) convert ... into ... / drive traffic to
+正确表达: We convert views into leads and drive traffic to our store page.
+说明: 转化结构用 into；导流目标用 to。
+
 ## 精选短语 (Useful Phrases)
 
 1. Do you need to use the restroom?
@@ -576,8 +629,11 @@
 16. I'm meeting up with Sam at a cafe this evening.
 17. I'll pick up my son from school at 5.
 18. We leave for Beijing tomorrow morning.
+19. We post short clips on Xiaohongshu every day.
+20. We engage with followers and reply to comments at night.
+21. This video drives traffic to our store.
 
-## 场景口语模板（13场景 × 5句 = 65句）
+## 场景口语模板（14场景 × 5句 = 70句）
 
 ### 场景 1：出行与移动
 1. I'm on the subway now.
@@ -670,6 +726,13 @@
 4. We deployed to production this morning.
 5. Read from the config file and write to the log.
 
+### 场景 14：自媒体行业
+1. We post videos on Xiaohongshu every day.
+2. I'll upload this clip to YouTube tonight.
+3. We engage with our audience in the comments.
+4. This post drives traffic to our shop page.
+5. We track watch time in analytics.
+
 ## 发音强化 (Pronunciation Tips)
 
 - to /tə/、for /fər/ 在口语里常弱读，连读后更快。
@@ -686,6 +749,9 @@
 - query /ˈkwɪri/: 常读两音节（KWI-ree）。
 - cache /kæʃ/: 不读作 /keɪʃ/。
 - queue /kjuː/: 只有一个音节，发音像字母 Q。
+- algorithm /ˈælɡəˌrɪðəm/: 末尾是 /-ðəm/，不是 /-riðm/。
+- analytics /ˌænəˈlɪtɪks/: 重音在 /lɪ/。
+- audience /ˈɔːdiəns/: 中间是 /di/，不是 /dʒəns/。
 
 ## 今日结论（介词学习策略）
 
@@ -694,7 +760,7 @@
 - 每个搭配当天至少口头说 5 次，形成肌肉记忆。
 - 错了就立刻改成标准句，反复替换，优先保证脱口正确率。
 
-## 场景覆盖总览（17大场景）
+## 场景覆盖总览（18大场景）
 
 - 出行通勤（地铁/公交/电梯/到达）
 - 餐厅就餐（订位/点餐/洗手间/过敏表达）
@@ -713,3 +779,4 @@
 - 名词+介词（solution to / effect on / access to 等）
 - 介词短语（because of / instead of / in charge of 等）
 - 计算机编程（deploy to / listen on / pull from / write to 等）
+- 自媒体行业（post on / upload to / engage with / drive traffic to 等）
