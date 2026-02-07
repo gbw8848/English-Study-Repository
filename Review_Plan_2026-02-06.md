@@ -156,6 +156,74 @@
 | turn at | /tɝːn æt/ | 在…转弯 | Turn right at the first crossing. |
 | go through | /ɡoʊ θruː/ | 穿过（内部） | Go through the gate and turn left. |
 
+### 场景 9：手机与线上沟通（on / in / to / for / with / from）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| on the phone | /ɑːn ðə foʊn/ | 在打电话 | Sorry, I'm on the phone right now. |
+| on WeChat | /ɑːn ˈwiːtʃæt/ | 在微信上 | I'll text you on WeChat. |
+| in the app | /ɪn ði æp/ | 在应用里 | You can change it in the app. |
+| in the group chat | /ɪn ðə ɡruːp tʃæt/ | 在群聊里 | I posted it in the group chat. |
+| log in to + 账号/平台 | /lɔːɡ ɪn tuː/ | 登录 | I can't log in to my account. |
+| sign up for + 服务 | /saɪn ʌp fɔːr/ | 注册 | I signed up for the course. |
+| send A to B | /send ... tuː/ | 把A发给B | I'll send the file to you. |
+| reply to + 消息/人 | /rɪˈplaɪ tuː/ | 回复 | Please reply to my message. |
+| post on + 平台 | /poʊst ɑːn/ | 发在…上 | She posted it on Instagram. |
+| download from + 来源 | /ˌdaʊnˈloʊd frʌm/ | 从…下载 | I downloaded it from the website. |
+| upload to + 平台 | /ʌpˈloʊd tuː/ | 上传到 | He uploaded the video to YouTube. |
+| share with + 人 | /ʃer wɪð/ | 与…分享 | Can you share it with me? |
+
+### 场景 10：健康与就医（with / in / for / from / at / to）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| be sick with + 病症 | /bi sɪk wɪð/ | 患有 | I'm sick with the flu. |
+| have pain in + 身体部位 | /hæv peɪn ɪn/ | …疼 | I have pain in my back. |
+| have a fever | /hæv ə ˈfiːvər/ | 发烧 | I think I have a fever. |
+| go to the doctor | /ɡoʊ tuː ðə ˈdɑːktər/ | 去看医生 | I need to go to the doctor. |
+| at the hospital | /æt ðə ˈhɑːspɪtl/ | 在医院 | She's at the hospital now. |
+| take medicine for + 症状 | /teɪk ˈmedɪsɪn fɔːr/ | 吃药治… | I took medicine for my cough. |
+| recover from + 疾病 | /rɪˈkʌvər frʌm/ | 从…恢复 | He recovered from the flu quickly. |
+| be allergic to + 食物 | /bi əˈlɝːdʒɪk tuː/ | 对…过敏 | I'm allergic to shrimp. |
+| good for + 身体/目标 | /ɡʊd fɔːr/ | 对…有好处 | Walking is good for your heart. |
+| bad for + 身体/目标 | /bæd fɔːr/ | 对…不好 | Too much sugar is bad for you. |
+| stay away from + 事物 | /steɪ əˈweɪ frʌm/ | 远离 | Stay away from cold drinks today. |
+| cut down on + 食物/习惯 | /kʌt daʊn ɑːn/ | 减少 | I'm cutting down on coffee. |
+
+### 场景 11：运动与休闲（at / in / on / for / with / to）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| at the gym | /æt ðə dʒɪm/ | 在健身房 | I'm at the gym now. |
+| in the park | /ɪn ðə pɑːrk/ | 在公园里 | We jog in the park every morning. |
+| on weekends | /ɑːn ˈwiːkˌendz/ | 在周末 | I usually rest on weekends. |
+| go for a run | /ɡoʊ fɔːr ə rʌn/ | 去跑步 | Let's go for a run tonight. |
+| go for a walk | /ɡoʊ fɔːr ə wɔːk/ | 去散步 | We went for a walk after dinner. |
+| train for + 比赛 | /treɪn fɔːr/ | 为…训练 | She's training for a marathon. |
+| play with + 人 | /pleɪ wɪð/ | 和…一起玩 | He plays basketball with his friends. |
+| be into + 爱好 | /bi ˈɪntuː/ | 很喜欢 | I'm really into cycling now. |
+| listen to + 音乐 | /ˈlɪsən tuː/ | 听 | I listen to music while running. |
+| watch ... on TV | /wɑːtʃ ... ɑːn ˌtiːˈviː/ | 在电视上看 | We watched the game on TV. |
+| at the cinema | /æt ðə ˈsɪnəmə/ | 在电影院 | We met at the cinema. |
+| hang out with + 人 | /hæŋ aʊt wɪð/ | 和…出去玩 | I hang out with my friends on weekends. |
+
+### 场景 12：家庭社交与日常安排（at / to / for / with / from）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| at a party | /æt ə ˈpɑːrti/ | 在派对上 | We met at a party last night. |
+| invite sb to + 地点/活动 | /ɪnˈvaɪt ... tuː/ | 邀请某人去 | I invited her to my birthday dinner. |
+| come over for + 名词 | /kʌm ˈoʊvər fɔːr/ | 过来吃/做… | Come over for dinner tonight. |
+| celebrate with + 人 | /ˈseləbreɪt wɪð/ | 和…庆祝 | I celebrated with my family. |
+| talk to + 邻居/朋友 | /tɔːk tuː/ | 和…聊天 | I talked to my neighbor this morning. |
+| meet up with + 人 | /miːt ʌp wɪð/ | 约见 | I'm meeting up with Jenny later. |
+| drop by for + 名词 | /drɑːp baɪ fɔːr/ | 顺路来… | He dropped by for coffee. |
+| pick up + 人/物 from + 地点 | /pɪk ʌp ... frʌm/ | 从…接/取 | I'll pick up my son from school. |
+| take + 人/物 to + 地点 | /teɪk ... tuː/ | 带…去 | I'll take him to piano class. |
+| stay with + 人 | /steɪ wɪð/ | 与…同住/住在…家 | We stayed with my aunt last weekend. |
+| travel with + 人 | /ˈtrævəl wɪð/ | 和…一起旅行 | I traveled with my parents. |
+| leave for + 地点 | /liːv fɔːr/ | 动身去 | We leave for Beijing tomorrow morning. |
+
 ## 正确表达速记 (Correct Patterns)
 
 ### 1) go 后接地点：go to + 地点
@@ -242,6 +310,46 @@
 正确表达: I asked for a glass of water. / I asked about the price.
 说明: ask for = 索要；ask about = 询问信息。
 
+### 22) log in to / sign up for
+正确表达: I can't log in to my account. / I signed up for the class.
+说明: 登录常用 log in to；注册常用 sign up for。
+
+### 23) in the app / on WeChat
+正确表达: You can change it in the app. / I'll text you on WeChat.
+说明: 应用内部常说 in the app；平台渠道常说 on + 平台。
+
+### 24) send to / reply to / share with
+正确表达: I'll send the file to you. / Please reply to this message. / Share it with me.
+说明: send/reply 后常接 to；share 后常接 with。
+
+### 25) be sick with / have pain in
+正确表达: I'm sick with the flu. / I have pain in my back.
+说明: 疾病状态常用 with；身体部位常用 in。
+
+### 26) take medicine for / recover from
+正确表达: I took medicine for my cough. / He recovered from the flu.
+说明: 治疗目标常用 for；恢复来源常用 from。
+
+### 27) good for / bad for
+正确表达: Walking is good for your heart. / Too much sugar is bad for you.
+说明: 对身体或目标的影响常用 for。
+
+### 28) at the gym / in the park / on weekends
+正确表达: I'm at the gym. / We jog in the park. / I rest on weekends.
+说明: 小地点常用 at/in；周末用 on weekends。
+
+### 29) invite ... to / come over for
+正确表达: I invited her to dinner. / Come over for dinner tonight.
+说明: invite 后接 to + 地点/活动；come over 常接 for + 名词。
+
+### 30) pick up ... from / take ... to
+正确表达: I'll pick up my son from school. / I'll take him to class.
+说明: pick up 来源地用 from；take 目的地用 to。
+
+### 31) meet up with / hang out with
+正确表达: I'm meeting up with Jenny later. / I hang out with my friends.
+说明: 两个短语后都常接 with + 人。
+
 ## 精选短语 (Useful Phrases)
 
 1. Do you need to use the restroom?
@@ -254,6 +362,14 @@
 8. I'm in the office, but she's in a meeting.
 9. Can I pay by card, or should I pay in cash?
 10. The bank is next to the hotel, right across from the mall.
+11. I can't log in to my account in the app.
+12. Please reply to my message on WeChat.
+13. I'm sick with the flu, so I'll stay at home.
+14. I took medicine for my cough and recovered from it.
+15. Let's go for a walk in the park after dinner.
+16. I'm meeting up with Sam at a cafe this evening.
+17. I'll pick up my son from school at 5.
+18. We leave for Beijing tomorrow morning.
 
 ## 发音强化 (Pronunciation Tips)
 
@@ -263,15 +379,19 @@
 - dinner /ˈdɪnər/ 不要读成 /ˈdaɪnər/。
 - honest /ˈɑːnɪst/: h 不发音。
 - interested in /ˈɪntrəstɪd ɪn/: 末尾 -ted 常弱化，整体连读。
+- app /æp/: 短元音 /æ/ 要干脆。
+- WeChat /ˈwiːtʃæt/: 前半段重读，后半段 /tʃæt/ 清晰。
+- medicine /ˈmedɪsɪn/: 常读三音节，末尾不是 /-saɪn/。
+- recover from /rɪˈkʌvər frʌm/: 重音在 /kʌ/，注意 from 弱读。
 
 ## 今日结论（介词学习策略）
 
-- 先抓 30-50 个高频固定搭配，不追求一次学全。
+- 先抓 50-80 个高频固定搭配，不追求一次学全。
 - 以“场景句”背，而不是“介词单词”背。
 - 每个搭配当天至少口头说 5 次，形成肌肉记忆。
 - 错了就立刻改成标准句，反复替换，优先保证脱口正确率。
 
-## 场景覆盖总览（8大场景）
+## 场景覆盖总览（12大场景）
 
 - 出行通勤（地铁/公交/电梯/到达）
 - 餐厅就餐（订位/点餐/洗手间/过敏表达）
@@ -281,3 +401,7 @@
 - 购物支付（试穿/比较/付款/退换）
 - 时间安排（时刻/星期/月份/截止时间）
 - 方位导航（左右/前后/拐角/沿路）
+- 手机社交（登录/回复/发帖/群聊）
+- 健康就医（症状/就诊/吃药/恢复）
+- 运动休闲（健身/跑步/周末活动）
+- 家庭社交（邀请/接送/聚会/出发）
