@@ -328,6 +328,40 @@
 | in charge of | /ɪn tʃɑːrdʒ əv/ | 负责 | She's in charge of marketing. |
 | in need of | /ɪn niːd əv/ | 需要 | The team is in need of support. |
 
+### 场景 17：计算机编程与排错（to / in / on / from / into / with / for）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| run on + 系统/平台 | /rʌn ɑːn/ | 运行在 | This service runs on Linux. |
+| run in + 环境/容器 | /rʌn ɪn/ | 运行在…环境中 | The app runs in Docker. |
+| connect to + 服务/数据库 | /kəˈnekt tuː/ | 连接到 | The API connects to PostgreSQL. |
+| listen on + 端口 | /ˈlɪsən ɑːn/ | 监听端口 | The server listens on port 8080. |
+| deploy to + 环境 | /dɪˈplɔɪ tuː/ | 部署到 | We deploy to production on Fridays. |
+| push to + 分支/远端 | /pʊʃ tuː/ | 推送到 | I pushed the changes to `main`. |
+| pull from + 远端 | /pʊl frʌm/ | 拉取自 | Please pull from `origin/main`. |
+| merge into + 分支 | /mɝːdʒ ˈɪntuː/ | 合并到 | We merged the feature into `develop`. |
+| commit to + 分支 | /kəˈmɪt tuː/ | 提交到 | I committed this fix to the hotfix branch. |
+| revert to + 版本 | /rɪˈvɝːt tuː/ | 回滚到 | We reverted to the previous release. |
+| read from + 文件/表 | /riːd frʌm/ | 从…读取 | The script reads from a CSV file. |
+| write to + 文件/日志 | /raɪt tuː/ | 写入到 | It writes to the log file. |
+| store in + 存储 | /stɔːr ɪn/ | 存在…里 | We store sessions in Redis. |
+| query from + 表 | /ˈkwɪri frʌm/ | 从…查询 | We query data from this table. |
+| import from + 模块 | /ɪmˈpɔːrt frʌm/ | 从…导入 | Import `useState` from React. |
+| export to + 文件/格式 | /ɪkˈspɔːrt tuː/ | 导出到 | Export the report to JSON. |
+| pass to + 函数 | /pæs tuː/ | 传给 | Pass this object to the function. |
+| map to + 结构 | /mæp tuː/ | 映射到 | We map the payload to a DTO. |
+| convert from A to B | /kənˈvɝːt frʌm ... tuː/ | 从A转成B | Convert from string to number. |
+| iterate over + 集合 | /ˈɪtəreɪt ˈoʊvər/ | 遍历 | Iterate over the array once. |
+| depend on + 包/服务 | /dɪˈpend ɑːn/ | 依赖 | This module depends on OpenSSL. |
+| based on + 输入/规则 | /beɪst ɑːn/ | 基于 | The result is based on user input. |
+| compatible with + 版本 | /kəmˈpætəbl wɪð/ | 与…兼容 | This SDK is compatible with Node 20. |
+| authenticate with + 凭证 | /ɔːˈθentɪkeɪt wɪð/ | 用…认证 | Clients authenticate with a token. |
+| authorize for + 操作 | /ˈɔːθəraɪz fɔːr/ | 授权做… | This role is authorized for deployment. |
+| subscribe to + topic | /səbˈskraɪb tuː/ | 订阅 | The worker subscribes to this topic. |
+| publish to + topic | /ˈpʌblɪʃ tuː/ | 发布到 | The producer publishes to Kafka topics. |
+| fail with + 错误 | /feɪl wɪð/ | 以…错误失败 | The job failed with a timeout error. |
+| recover from + 故障 | /rɪˈkʌvər frʌm/ | 从…恢复 | The node recovered from the outage. |
+
 ## 正确表达速记 (Correct Patterns)
 
 ### 1) go 后接地点：go to + 地点
@@ -490,6 +524,38 @@
 正确表达: She's in charge of the team. / We're in need of more time.
 说明: 这两组在工作和日常都很常用。
 
+### 41) run on / run in
+正确表达: This service runs on Linux. / The app runs in Docker.
+说明: 系统平台常用 on；环境容器常用 in。
+
+### 42) connect to / listen on
+正确表达: The API connects to PostgreSQL. / The server listens on port 8080.
+说明: 连接目标常用 to；端口常用 on。
+
+### 43) deploy to / merge into
+正确表达: We deploy to staging first. / We merged the patch into `main`.
+说明: 部署目标常用 to；合并目标分支常用 into。
+
+### 44) pull from / push to
+正确表达: Pull from `origin/main` first, then push to your branch.
+说明: 拉取来源用 from；推送目标用 to。
+
+### 45) read from / write to / store in
+正确表达: Read from the config file, write to logs, and store data in Redis.
+说明: 读取来源 from；写入目标 to；存储位置 in。
+
+### 46) import from / convert from ... to ...
+正确表达: Import `useEffect` from React. / Convert from JSON to YAML.
+说明: 导入来源 from；格式转换 from ... to ...。
+
+### 47) depend on / based on / compatible with
+正确表达: The service depends on Redis and is based on event-driven design.
+说明: depend on 表依赖；based on 表依据；compatible with 表兼容。
+
+### 48) authenticate with / authorize for
+正确表达: Users authenticate with OAuth and are authorized for specific actions.
+说明: 认证方式常用 with；授权范围常用 for。
+
 ## 精选短语 (Useful Phrases)
 
 1. Do you need to use the restroom?
@@ -511,7 +577,7 @@
 17. I'll pick up my son from school at 5.
 18. We leave for Beijing tomorrow morning.
 
-## 场景口语模板（12场景 × 5句 = 60句）
+## 场景口语模板（13场景 × 5句 = 65句）
 
 ### 场景 1：出行与移动
 1. I'm on the subway now.
@@ -597,6 +663,13 @@
 4. I'll pick up my son from school.
 5. We leave for Beijing tomorrow.
 
+### 场景 13：计算机编程与排错
+1. The API runs on port 8080.
+2. Please connect to the staging database.
+3. Pull from `origin/main` before you push.
+4. We deployed to production this morning.
+5. Read from the config file and write to the log.
+
 ## 发音强化 (Pronunciation Tips)
 
 - to /tə/、for /fər/ 在口语里常弱读，连读后更快。
@@ -609,6 +682,10 @@
 - WeChat /ˈwiːtʃæt/: 前半段重读，后半段 /tʃæt/ 清晰。
 - medicine /ˈmedɪsɪn/: 常读三音节，末尾不是 /-saɪn/。
 - recover from /rɪˈkʌvər frʌm/: 重音在 /kʌ/，注意 from 弱读。
+- deploy /dɪˈplɔɪ/: 重音在第二音节。
+- query /ˈkwɪri/: 常读两音节（KWI-ree）。
+- cache /kæʃ/: 不读作 /keɪʃ/。
+- queue /kjuː/: 只有一个音节，发音像字母 Q。
 
 ## 今日结论（介词学习策略）
 
@@ -617,7 +694,7 @@
 - 每个搭配当天至少口头说 5 次，形成肌肉记忆。
 - 错了就立刻改成标准句，反复替换，优先保证脱口正确率。
 
-## 场景覆盖总览（16大场景）
+## 场景覆盖总览（17大场景）
 
 - 出行通勤（地铁/公交/电梯/到达）
 - 餐厅就餐（订位/点餐/洗手间/过敏表达）
@@ -635,3 +712,4 @@
 - 形容词+介词（afraid of / similar to / responsible for 等）
 - 名词+介词（solution to / effect on / access to 等）
 - 介词短语（because of / instead of / in charge of 等）
+- 计算机编程（deploy to / listen on / pull from / write to 等）
