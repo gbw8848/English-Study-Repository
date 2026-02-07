@@ -371,6 +371,92 @@
 17. I'll pick up my son from school at 5.
 18. We leave for Beijing tomorrow morning.
 
+## 场景口语模板（12场景 × 5句 = 60句）
+
+### 场景 1：出行与移动
+1. I'm on the subway now.
+2. I'll get off at the next station.
+3. Let's get into the car.
+4. We arrived at the hotel at 8.
+5. We arrived in Beijing last night.
+
+### 场景 2：餐饮与日常
+1. It's time for dinner.
+2. We're at the table now.
+3. Can I ask for a glass of water?
+4. I need to go to the restroom.
+5. We're waiting in line for a table.
+
+### 场景 3：沟通与状态
+1. Let's talk about your plan.
+2. I'm interested in this idea.
+3. I'm busy with work today.
+4. I'm waiting for your reply.
+5. Please be honest with me.
+
+### 场景 4：居家生活
+1. I'm at home right now.
+2. The keys are in the drawer.
+3. Your bag is on the sofa.
+4. There's a photo on the wall.
+5. The cat is under the bed.
+
+### 场景 5：办公学习
+1. I'm in the office today.
+2. She's in a meeting now.
+3. I'm on a call right now.
+4. We're working on this task.
+5. I'll reply to your email soon.
+
+### 场景 6：购物支付
+1. I bought this from Amazon.
+2. Can I pay by card?
+3. I paid for it with my phone.
+4. I'm looking for size M.
+5. This item is out of stock.
+
+### 场景 7：时间安排
+1. Let's meet at 7:30.
+2. We have class on Monday.
+3. I'll travel in May.
+4. We'll leave after work.
+5. Please finish it by Friday.
+
+### 场景 8：方位导航
+1. The bank is in front of the mall.
+2. The cafe is next to the station.
+3. It's across from the hotel.
+4. Turn right at the first crossing.
+5. Walk along this street.
+
+### 场景 9：手机与线上沟通
+1. I'll text you on WeChat.
+2. I can't log in to my account.
+3. I posted it in the group chat.
+4. Please reply to my message.
+5. Can you share it with me?
+
+### 场景 10：健康与就医
+1. I'm sick with the flu.
+2. I have pain in my back.
+3. I need to go to the doctor.
+4. I took medicine for my cough.
+5. I'm recovering from a cold.
+
+### 场景 11：运动与休闲
+1. I'm at the gym now.
+2. We run in the park every morning.
+3. I rest on weekends.
+4. Let's go for a walk tonight.
+5. I'm training for a marathon.
+
+### 场景 12：家庭社交与日常安排
+1. We met at a party.
+2. I invited him to dinner.
+3. Come over for coffee.
+4. I'll pick up my son from school.
+5. We leave for Beijing tomorrow.
+
 ## 发音强化 (Pronunciation Tips)
 
 - to /tə/、for /fər/ 在口语里常弱读，连读后更快。

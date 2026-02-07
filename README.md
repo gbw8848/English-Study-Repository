@@ -4,7 +4,7 @@
 
 ## 目录
 - [2026-02-07 复习计划](Review_Plan_2026-02-07.md): 聚焦技术与职场高频表达（bleeding edge / disclaimer / anomaly alerts / server-side logging）、餐厅全流程口语（reservation/host/menu/点餐与续水），以及主谓一致、介词搭配、时态与固定短语纠错。
-- [2026-02-06 复习计划](Review_Plan_2026-02-06.md): 介词专项加强版，覆盖出行、餐饮、沟通、居家、办公、购物、时间、方位、手机社交、健康就医、运动休闲、家庭社交 12 大场景高频搭配与正确表达速记（for/to、arrive at/in、pay for/by/with、log in to、recover from 等）。
+- [2026-02-06 复习计划](Review_Plan_2026-02-06.md): 介词专项加强版，覆盖出行、餐饮、沟通、居家、办公、购物、时间、方位、手机社交、健康就医、运动休闲、家庭社交 12 大场景高频搭配与正确表达速记，并新增 60 句场景口语模板（for/to、arrive at/in、pay for/by/with、log in to、recover from 等）。
 - [2026-02-05 复习计划](Review_Plan_2026-02-05.md): 聚焦成就表达、楼层/电梯/扶梯与指路、过去式与序数词纠错、be interested in 结构、拍照与城市风景描述、餐饮饮品词汇及发音。
 - [2026-02-04 复习计划](Review_Plan_2026-02-04.md): 聚焦小程序发布与里程碑表达、地铁换乘表达、私募/对冲/套利基金与潜在回报沟通，以及 get up/brush my teeth 等日常表达与发音纠错。
 - [2026-02-03 复习计划](Review_Plan_2026-02-03.md): 聚焦 be familiar with 结构、report/reporter 区分、过去式 did/wrote、wait for、deadline/to-do list 等职场表达，并补充 UK 景点词汇（Big Ben/British Museum）。
