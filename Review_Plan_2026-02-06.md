@@ -429,6 +429,52 @@
 | report to + 监管机构 | /rɪˈpɔːrt tuː/ | 向…报告 | Banks report to the central bank. |
 | monitor for + 风险信号 | /ˈmɑːnɪtər fɔːr/ | 监测 | We monitor for liquidity risk daily. |
 
+### 场景 20：交通出行（by / to / at / from / on / in / for / through）
+
+| 词汇/短语 | 音标 | 中文 | 口语例句 |
+|:---|:---|:---|:---|
+| commute by + 交通方式 | /kəˈmjuːt baɪ/ | 通过…通勤 | I commute by subway on weekdays. |
+| get around by + 交通方式 | /ɡet əˈraʊnd baɪ/ | 靠…出行 | We usually get around by bus in this city. |
+| take the bus/subway to + 地点 | /teɪk ... tuː/ | 乘公交/地铁去 | We can take the subway to the museum. |
+| transfer to + 线路 | /trænsˈfɝː tuː/ | 换乘到 | Transfer to Line 2 at the next station. |
+| get off at + 站点 | /ɡet ɔːf æt/ | 在…下车 | Get off at Central Station. |
+| catch the train/bus | /kætʃ ðə treɪn bʌs/ | 赶上火车/公交 | We need to leave now to catch the train. |
+| miss the train/bus | /mɪs ðə treɪn bʌs/ | 错过火车/公交 | I missed the last bus home. |
+| wait for + bus/train | /weɪt fɔːr/ | 等公交/火车 | We waited for the bus for 20 minutes. |
+| wait at + platform/gate | /weɪt æt/ | 在站台/登机口等候 | Please wait at Gate A8. |
+| be delayed by + 时间 | /bi dɪˈleɪd baɪ/ | 延误了… | The flight was delayed by two hours. |
+| delay of + 时间 | /dɪˈleɪ əv/ | …的延误 | There is a delay of 30 minutes. |
+| line up for boarding | /laɪn ʌp fɔːr ˈbɔːrdɪŋ/ | 排队登机/上车 | Passengers lined up for boarding. |
+| board the train/flight | /bɔːrd ðə/ | 登上（火车/航班） | Passengers are boarding the flight now. |
+| depart from + 车站/机场 | /dɪˈpɑːrt frʌm/ | 从…出发 | The train departs from Platform 6. |
+| arrive at + 车站/航站楼 | /əˈraɪv æt/ | 到达 | We arrived at Terminal 3 at noon. |
+| leave from + gate/platform | /liːv frʌm/ | 从…离开 | Our flight leaves from Gate A12. |
+| book a ticket to + 城市 | /bʊk ə ˈtɪkɪt tuː/ | 订一张去…的票 | I booked a ticket to Shanghai. |
+| reserve a seat on + 车次/航班 | /rɪˈzɝːv ə siːt ɑːn/ | 在…预留座位 | I reserved a seat on the early train. |
+| buy a one-way ticket | /baɪ ə wʌn-weɪ ˈtɪkɪt/ | 买单程票 | I'd like to buy a one-way ticket. |
+| buy a round-trip ticket | /baɪ ə raʊnd-trɪp ˈtɪkɪt/ | 买往返票 | She bought a round-trip ticket online. |
+| check in at + counter | /tʃek ɪn æt/ | 在…值机 | Please check in at Counter B. |
+| check a bag at + counter | /tʃek ə bæɡ æt/ | 在…托运行李 | I checked a bag at the counter. |
+| carry on + bag | /ˈkæri ɑːn/ | 随身携带 | You can carry on one small bag. |
+| go through security | /ɡoʊ θruː sɪˈkjʊrəti/ | 通过安检 | We need to go through security first. |
+| go through customs | /ɡoʊ θruː ˈkʌstəmz/ | 通过海关 | I went through customs in 20 minutes. |
+| call a taxi to + 地点 | /kɔːl ə ˈtæksi tuː/ | 打车去… | Let's call a taxi to the airport. |
+| take a ride-share to + 地点 | /teɪk ə raɪd ʃer tuː/ | 乘网约车去… | We took a ride-share to the hotel. |
+| share a ride with + 人 | /ʃer ə raɪd wɪð/ | 与…拼车 | I shared a ride with my coworker. |
+| drop off + 人 at + 地点 | /drɑːp ɔːf ... æt/ | 在…送下 | I'll drop you off at the station. |
+| pick up + 人 from + 地点 | /pɪk ʌp ... frʌm/ | 从…接上 | Can you pick me up from the airport? |
+| stuck in traffic | /stʌk ɪn ˈtræfɪk/ | 堵在路上 | Sorry, I'm stuck in traffic. |
+| traffic is heavy on + 道路 | /ˈtræfɪk ɪz ˈhevi ɑːn/ | …路段车流很大 | Traffic is heavy on the ring road. |
+| avoid + 路段/时段 | /əˈvɔɪd/ | 避开 | Try to avoid this road at rush hour. |
+| map out a route to + 地点 | /mæp aʊt ə ruːt tuː/ | 规划去…的路线 | I mapped out a route to the venue. |
+| follow signs to + 地点 | /ˈfɑːloʊ saɪnz tuː/ | 按指示牌去… | Follow signs to the transfer hall. |
+| take exit + 编号 | /teɪk ˈeɡzɪt/ | 走…号出口 | Take Exit 4 and turn left. |
+| walk to + 站点 | /wɔːk tuː/ | 步行去…站点 | We can walk to the bus stop. |
+| park in + 停车场 | /pɑːrk ɪn/ | 停在…停车场 | We parked in the underground lot. |
+| charge at + 充电站 | /tʃɑːrdʒ æt/ | 在…充电 | EVs can charge at this station. |
+| rent a car from + 平台/门店 | /rent ə kɑːr frʌm/ | 从…租车 | We rented a car from the airport desk. |
+| return the car to + 地点 | /rɪˈtɝːn ðə kɑːr tuː/ | 把车还到… | Return the car to Terminal 2 parking. |
+
 ## 正确表达速记 (Correct Patterns)
 
 ### 1) go 后接地点：go to + 地点
@@ -667,6 +713,42 @@
 正确表达: We comply with regulations, get approved by the regulator, and report to the central bank.
 说明: 合规用 with；被批准用 by；报告对象用 to。
 
+### 60) take ... to / transfer to / get off at
+正确表达: Take Line 1 to City Hall, transfer to Line 3, and get off at East Station.
+说明: 交通链路可按“乘坐 to → 换乘 to → 下车 at”顺序表达。
+
+### 61) catch / miss / board
+正确表达: We missed the last bus, so we boarded the night train instead.
+说明: catch 表“赶上”；miss 表“错过”；board 表“登上交通工具”。
+
+### 62) check in at / go through security / go through customs
+正确表达: We checked in at Counter C, went through security, and then went through customs.
+说明: 机场流程里 check in 常接 at；security/customs 常接 go through。
+
+### 63) depart from / leave from / arrive at
+正确表达: The train departs from Platform 8 and arrives at Nanjing Station at 6 PM.
+说明: 出发点常用 from；到达点常用 at。
+
+### 64) drop off ... at / pick up ... from
+正确表达: I'll drop you off at Gate 5 and pick you up from the same gate tonight.
+说明: 送到某地用 drop off ... at；从某地接人用 pick up ... from。
+
+### 65) stuck in traffic / avoid ... at rush hour
+正确表达: We were stuck in traffic, so next time we'll avoid this route at rush hour.
+说明: 堵车常用 stuck in traffic；避开时段常用 avoid ... at ...
+
+### 66) wait for / wait at
+正确表达: We waited for the train at Platform 3 for 15 minutes.
+说明: 等“车/人/物”常用 wait for；等候地点常用 wait at。
+
+### 67) be delayed by / delay of
+正确表达: The flight was delayed by one hour, with a delay of 60 minutes.
+说明: 被动描述“延误了多久”常用 be delayed by；名词结构常用 delay of。
+
+### 68) line up for boarding
+正确表达: Please line up for boarding at Gate A8.
+说明: 排队登机/上车可用 line up for boarding。
+
 ## 精选短语 (Useful Phrases)
 
 1. Do you need to use the restroom?
@@ -693,8 +775,19 @@
 22. We invest in ETFs and hedge against inflation risk.
 23. The stock rose to $25 and closed at $24.6.
 24. This fund is priced at NAV and settles in USD.
+25. Can I book a round-trip ticket to Shanghai for tomorrow?
+26. Transfer to Line 10 at People's Square and get off at Nanjing East Road.
+27. We should check in at least two hours before departure.
+28. I'm stuck in traffic, so I'll arrive at the station in 15 minutes.
+29. I'll drop you off at Terminal 2 and pick you up from the same gate tonight.
+30. If we miss this train, we'll have to take a ride-share to the airport.
+31. We had to wait for the bus for nearly 25 minutes.
+32. Please wait at Gate A8 until boarding starts.
+33. Our flight is delayed by 90 minutes because of weather.
+34. There is a delay of about 30 minutes on this line.
+35. Let's line up for boarding now.
 
-## 场景口语模板（15场景 × 5句 = 75句）
+## 场景口语模板（16场景 × 5句 = 80句）
 
 ### 场景 1：出行与移动
 1. I'm on the subway now.
@@ -801,6 +894,13 @@
 4. We hedge against currency risk.
 5. The contract settles in USD.
 
+### 场景 16：交通出行
+1. I usually commute by subway, but today I'll take a taxi.
+2. Transfer to Line 4 at Central Station and get off at Park Road.
+3. We need to check in at Counter D and then wait at Gate B9.
+4. Our flight is delayed by an hour, so let's line up for boarding later.
+5. I'll drop you off at Gate B9 and pick you up from the same gate tonight.
+
 ## 发音强化 (Pronunciation Tips)
 
 - to /tə/、for /fər/ 在口语里常弱读，连读后更快。
@@ -832,7 +932,7 @@
 - 每个搭配当天至少口头说 5 次，形成肌肉记忆。
 - 错了就立刻改成标准句，反复替换，优先保证脱口正确率。
 
-## 场景覆盖总览（19大场景）
+## 场景覆盖总览（20大场景）
 
 - 出行通勤（地铁/公交/电梯/到达）
 - 餐厅就餐（订位/点餐/洗手间/过敏表达）
@@ -853,3 +953,4 @@
 - 计算机编程（deploy to / listen on / pull from / write to 等）
 - 自媒体行业（post on / upload to / engage with / drive traffic to 等）
 - 金融行业（invest in / hedge against / priced at / settle in 等）
+- 交通出行（订票/换乘/值机安检/打车接送/堵车绕行）
