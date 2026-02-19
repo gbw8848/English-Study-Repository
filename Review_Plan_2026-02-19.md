@@ -118,3 +118,91 @@
 - Is this document out of date?
 - Please delete it if it is out of date.
 - After lunch, I lie on a chair and enjoy the sun.
+
+---
+
+## 🆕 会话补充复盘（电梯 / 教程 / 发音）
+
+### 🏷️ 核心词汇 (Core Vocabulary - Added)
+
+| 单词/短语 | 音标 | 中文释义 | 口语例句 |
+|:---|:---|:---|:---|
+| earthquake | /ˈɜːrθkweɪk/ | 地震 | There was an earthquake last night. |
+| walk through (those front doors) | /wɔːk θruː/ | 穿过（那些前门） | Walking through those front doors felt exciting. |
+| power card | /ˈpaʊər kɑːrd/ | 充值卡（常见于游戏/平台） | This is a power card for topping up my game account. |
+| tutorial | /tuːˈtɔːriəl/ | 教程 | I want to make a tutorial. |
+| floor | /flɔːr/ | 楼层 | Oh, it's my floor. |
+| for real | /fɔːr ˈriːəl/ | 说真的；我是认真的 | I'm for real. |
+| literally | /ˈlɪtərəli/ | 真的；确实（口语强调） | I'm literally practicing this pronunciation. |
+| literature | /ˈlɪtərətʃər/ | 文学 | I like modern Chinese literature. |
+| lamp | /læmp/ | 灯（台灯/落地灯等） | I bought a new lamp for my desk. |
+
+---
+
+### 🔎 语法复盘 (Grammar Review - Added)
+
+### 1) wish 句型：`could` 后直接接动词原形
+
+- ❌ I wish could to be a child again.
+- ❌ I wish I could to be a child again.
+- ✅ I wish I could be a child again.
+- 📝 `could` 是情态动词，后面不能加 `to`，直接接 `be`。
+
+### 2) `Do you want to make a job?` 不地道，按意图改写
+
+- ❌ Do you want to make a job?
+- ✅ Do you want to get a job?（你想找份工作吗）
+- ✅ Do you want to do this as a job?（你想把这个当工作做吗）
+- 📝 `make a job` 不是常见表达；优先用 `get a job` 或 `do ... as a job`。
+
+### 3) 场景判断：`Oh, it's my floor.`
+
+- ✅ 在电梯里说 `Oh, it's my floor.` = “哦，到我这层了。”
+- 📝 这句不是认错（my fault），而是“到站提示式”的自然口语。
+
+### 4) 词义纠偏：`literature` vs `literally`
+
+- `literature` = 文学（名词）
+- `literally` = 真的、确实（副词）
+- 📝 两词拼写相近，但词性和意义不同，不能互换。
+
+---
+
+### 🗣️ 精选短语 (Useful Phrases - Added)
+
+1. Oh, it's my floor.
+2. I want to make a tutorial.
+3. A video tutorial.
+4. I'm for real.
+5. I'm literally practicing the pronunciation of this word.
+
+---
+
+### 🎧 发音强化 (Pronunciation Tips - Added)
+
+- `tutorial` /tuːˈtɔːriəl/：重音在 `TO`，不是 `Toriel` 的读法。
+- `floor` /flɔːr/ vs `fault` /fɔːlt/：`fault` 末尾有清晰 `t`，`floor` 没有。
+- `flaw` /flɔː/ vs `floor` /flɔːr/：`floor` 结尾有 `r` 音，`flaw` 没有。
+- `literally` /ˈlɪtərəli/ vs `literature` /ˈlɪtərətʃər/：后半段音节差异明显，分开记。
+- `earthquake` /ˈɜːrθkweɪk/：`earth` 与 `quake` 连读，注意 `th + kw` 的衔接。
+
+---
+
+### ✅ 用户已掌握表达（新增，优先复用）
+
+- Earthquake.
+- Walking through those front doors.
+- I want to make a tutorial.
+- Oh, it's my floor.
+- A video tutorial.
+- I wish I could be a child again.
+- I'm for real.
+- I'm literally practicing the pronunciation of this word.
+
+---
+
+### 📅 明日 15 分钟训练清单
+
+1. 跟读 5 轮：`tutorial / literature / literally / floor / fault / flaw`（先慢后快）。
+2. 纠错 5 句：把错句改成对句，重点是 `I wish I could be...` 和 `get a job`。
+3. 情景口语 5 句：电梯场景至少说 3 句（如 `Oh, it's my floor.` / `Which floor?` / `I'm getting off here.`）。
