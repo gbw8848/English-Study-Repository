@@ -3,6 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-02-21 复习计划](Review_Plan_2026-02-21.md): 聚焦口语纠错：时态与冠词、固定搭配（break-up / pack of coyotes / have been to）、指路表达（intersection/crosswalk）、高频发音（OAuth / coyote / braces / daughter / tutorial）与可复用日常句。
 - [2026-02-19 复习计划](Review_Plan_2026-02-19.md): 聚焦过去时、可数名词单复数、固定搭配（out of date / soak up the sun）、滑雪术语（goofy/regular），并补充电梯场景表达（Oh, it's my floor）、教程相关词（tutorial / power card）及易混词辨析（literally / literature，floor / fault / flaw）。
 - [2026-02-07 复习计划](Review_Plan_2026-02-07.md): 聚焦技术与职场高频表达（bleeding edge / disclaimer / anomaly alerts / server-side logging）、餐厅全流程口语（reservation/host/menu/点餐与续水），以及主谓一致、介词搭配、时态与固定短语纠错。
 - [2026-02-06 复习计划](Review_Plan_2026-02-06.md): 介词专项加强版，覆盖 19 大场景：在生活与通用搭配基础上新增计算机编程、自媒体、金融行业场景（deploy to / post on / invest in / hedge against / settle in 等），并保留正确表达速记与 75 句场景口语模板。
