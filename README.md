@@ -3,6 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-02-24 复习计划](Review_Plan_2026-02-24.md): 聚焦 free sea salt / a pair of scissors / crush 表达、场景句纠错（arrive in Shanghai / waiting vs walking / nausea），并强化 corn/coin、fun/fine、nausea 发音辨析。
 - [2026-02-23 复习计划](Review_Plan_2026-02-23.md): 聚焦超市量词结构（a head/loaf/jar/carton/gallon/pint/stick/slice/chunk of ...）、冠词与礼貌问句纠错，以及 chilly/Charlie 等听辨发音辨析。
 - [2026-02-22 复习计划](Review_Plan_2026-02-22.md): 聚焦发音辨析（sign/sun、thirteen/thirty、kerosene/Carlos）、交通与户外词汇、时间表达与口语句型纠错
 - [2026-02-21 复习计划](Review_Plan_2026-02-21.md): 聚焦口语纠错：时态与冠词、固定搭配（break-up / pack of coyotes / have been to）、指路表达（intersection/crosswalk）、高频发音（OAuth / coyote / braces / daughter / tutorial）与可复用日常句。
