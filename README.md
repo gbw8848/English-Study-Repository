@@ -3,6 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-02-28 复习计划](Review_Plan_2026-02-28.md): 聚焦发音听辨（sign/sun、charcoal/chuckle、skinny/shiny）、高频纠错（Don't be afraid / Tomorrow it will rain / workflow）与快餐点餐表达（registers/menu/smoothies/sweet treats）。
 - [2026-02-27 复习计划](Review_Plan_2026-02-27.md): 聚焦 should/gonna/时态与介词纠错、徒步场景词汇（trail/blister/kerosene stove）以及 Trigger warning 等高频口语表达。
 - [2026-02-24 复习计划](Review_Plan_2026-02-24.md): 聚焦 free sea salt / a pair of scissors / crush 表达、场景句纠错（arrive in Shanghai / waiting vs walking / nausea），并强化 corn/coin、fun/fine、nausea 发音辨析。
 - [2026-02-23 复习计划](Review_Plan_2026-02-23.md): 聚焦超市量词结构（a head/loaf/jar/carton/gallon/pint/stick/slice/chunk of ...）、冠词与礼貌问句纠错，以及 chilly/Charlie 等听辨发音辨析。
