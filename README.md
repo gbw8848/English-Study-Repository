@@ -3,6 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-03-01 复习计划](Review_Plan_2026-03-01.md): 聚焦金额口语读法（thirty-two twenty-five）、高频易混词（condo/candle、date/data）、表达纠错（I got obsessed with it / Look how beautiful this arrangement is）与发音强化（peanut butter / flashlight / Secaucus）。
 - [2026-02-28 复习计划](Review_Plan_2026-02-28.md): 聚焦发音听辨（sign/sun、charcoal/chuckle、skinny/shiny）、高频纠错（Don't be afraid / Tomorrow it will rain / workflow）与快餐点餐表达（registers/menu/smoothies/sweet treats）。
 - [2026-02-27 复习计划](Review_Plan_2026-02-27.md): 聚焦 should/gonna/时态与介词纠错、徒步场景词汇（trail/blister/kerosene stove）以及 Trigger warning 等高频口语表达。
 - [2026-02-24 复习计划](Review_Plan_2026-02-24.md): 聚焦 free sea salt / a pair of scissors / crush 表达、场景句纠错（arrive in Shanghai / waiting vs walking / nausea），并强化 corn/coin、fun/fine、nausea 发音辨析。
