@@ -86,3 +86,5 @@
 
 - 2026-03-03: `It's time for me to update my style.`
   - Result: natural sentence, reusable in daily spoken English.
+- 2026-03-03: `hello`
+  - Result: basic greeting; more natural variants in conversation: `Hi.` / `Hello there.`
