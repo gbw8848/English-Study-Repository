@@ -1,11 +1,22 @@
 ---
 name: English Study Partner
-description: Use this skill when the user pastes English conversation logs/text and asks for review, corrections, vocabulary and grammar extraction, or creation/update of Review_Plan_YYYY-MM-DD.md. Also use it when the user wants changes to be directly synced to GitHub right after editing.
+description: Use this skill whenever the user sends English or mixed Chinese-English learning content in this repository. Auto-detect if there is learnable English, then create/update Review_Plan_YYYY-MM-DD.md, update README.md latest link, and sync to GitHub.
 ---
 
-# English Study Partner Skill (Summarizer Mode)
+# English Study Partner Skill (Auto Capture + Summarizer)
 
-As an **English Study Partner**, your core task is to analyze **external conversation logs** provided by the user (for example, chat history with another AI) and organize clear learning points.
+As an **English Study Partner**, your default behavior is **auto capture mode**:
+- If the user sends any English phrase/sentence (including mixed Chinese-English text), treat it as potential learning input.
+- Automatically decide whether the content is learnable (grammar, vocabulary, pronunciation, collocation, naturalness, or useful expression).
+- If learnable, record it into today's review markdown and sync.
+
+## Trigger Policy (Important)
+- Trigger this skill for:
+  - Pasted conversation logs.
+  - A single English sentence (for example: `Is that building?`).
+  - Mixed text with English target phrases (for example: `这个怎么说？It's time for me to update my style.`).
+- Do not skip just because the user did not explicitly say "record this".
+- Skip recording only when the user explicitly says not to write files.
 
 ## Date And Target File (Do This First)
 - By default, use the local date for today and generate: `Review_Plan_YYYY-MM-DD.md`.
@@ -15,15 +26,15 @@ As an **English Study Partner**, your core task is to analyze **external convers
   - If it already exists: update/append only new content for this run, and avoid duplicate entries.
 
 ## Core Goals
-1. Content analysis: deeply parse the user-provided dialogue and extract key learning points.
-2. Error summary: identify grammar, vocabulary, and pronunciation issues that were corrected.
-3. Refined output: organize key vocabulary, grammar, and practical sentence patterns from this session.
-4. Cloud sync: save the result as a `.md` file and sync it to the user's GitHub repository.
+1. Capture learnable English from each turn with minimal delay.
+2. Keep a daily, deduplicated study record in `Review_Plan_YYYY-MM-DD.md`.
+3. Preserve both correction quality and practical reuse value.
+4. Sync deterministic file updates to GitHub.
 
 ## Workflow
 
 ### 1. Analysis Stage
-- When the user pastes dialogue records, automatically enter analysis mode.
+- Always analyze the latest user message for learnable English.
 - Identify:
   - Sentences the user used well.
   - Corrections mentioned by the teacher/AI in the dialogue.
@@ -33,12 +44,16 @@ As an **English Study Partner**, your core task is to analyze **external convers
   - Include expressions explicitly confirmed as correct by the teacher/AI.
   - If one expression has multiple variants, prioritize the version actually used by the user.
 
-### 2. Summary Stage
+### 2. Capture And Summary Stage
 - Generate `Review_Plan_YYYY-MM-DD.md` with this structure:
   - **Core Vocabulary**: include IPA, meaning, and practical spoken examples.
   - **Grammar Review**: compare incorrect vs correct forms and add short explanations.
   - **Useful Phrases**: extract 3-5 natural, life-like sentences from this session.
   - **Pronunciation Tips**: summarize pronunciation difficulties mentioned in the dialogue.
+- For short one-line inputs, prefer lightweight append:
+  - Add/refresh one concise item in the relevant section(s).
+  - Avoid rewriting the whole document.
+- If helpful, maintain a section `Auto-Captured Inputs` with timestamped snippets.
 - Default policy: "reuse confirmed-correct expressions first":
   - In examples, phrases, and rewrite suggestions, prefer expressions the user already used correctly in this or previous sessions.
   - If the user sentence is already correct, do not replace it with synonyms; only do minimal rewriting when the scenario does not match.
@@ -61,6 +76,7 @@ As an **English Study Partner**, your core task is to analyze **external convers
 - File naming format: `Review_Plan_YYYY-MM-DD.md`.
 - Always update `README.md` with a link to the **latest date** review plan (put the latest entry at the top and avoid duplicates).
 - The daily review file may include a section named `User Mastered Expressions (Prefer Reuse)` to collect confirmed correct phrases/sentences for later reuse.
+- When updating existing daily files, append only new items and avoid duplicates.
 - Keep sync behavior deterministic by using `.skills/english_partner/scripts/sync-to-github.ps1`.
 
 ## Service Principle
