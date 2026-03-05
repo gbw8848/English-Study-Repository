@@ -3,7 +3,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
-- [2026-03-05 复习计划](Review_Plan_2026-03-05.md): 聚焦 shower 报修场景时态与被动语态（stopped working / be removed）、in front of 固定搭配、连读弱读（apartment / license）、高频口语（You got it / Here we go, your burger / If I remember correctly）与易混发音（Austria vs Australia）。
+- [2026-03-05 复习计划](Review_Plan_2026-03-05.md): 聚焦 shower 报修场景时态与被动语态（stopped working / be removed）、短语用法（catch up on / check up on）、服饰词汇（hoodie / sandals / necklace / one-piece outfit）、高频纠错（Let's go back to the video / I've had a crush on someone / buttons down the front）与发音辨析（correctly / dragon / ankle vs uncle / Austria vs Australia）。
 - [2026-03-03 复习计划](Review_Plan_2026-03-03.md): 聚焦 Digital Ocean / Iran / Satan 发音辨析、指路场景口语、冠词与可数名词（Is that the building? / You are a monster）以及金额读法与高频纠错。
 - [2026-03-01 复习计划](Review_Plan_2026-03-01.md): 聚焦金额口语读法（thirty-two twenty-five）、高频易混词（condo/candle、date/data）、表达纠错（I got obsessed with it / Look how beautiful this arrangement is）与发音强化（peanut butter / flashlight / Secaucus）。
 - [2026-02-28 复习计划](Review_Plan_2026-02-28.md): 聚焦发音听辨（sign/sun、charcoal/chuckle、skinny/shiny）、高频纠错（Don't be afraid / Tomorrow it will rain / workflow）与快餐点餐表达（registers/menu/smoothies/sweet treats）。
@@ -49,3 +49,4 @@
 1. 在 n8n 里导入工作流：`n8n/auto-create-review-plan.json`
 2. 运行（Manual Trigger）即可生成当天的 `Review_Plan_YYYY-MM-DD.md` 并更新 README 目录
 3. 如果你的仓库路径不同，修改工作流里 `Execute Command` 节点的脚本路径即可
+

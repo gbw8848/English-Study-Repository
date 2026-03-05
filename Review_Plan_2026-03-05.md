@@ -99,3 +99,89 @@
 
 - 2026-03-05: Long mixed Chinese-English practice log captured.
   - Focus: apartment shower repair scenario, service counter phrases, pronunciation confusion (license/lines, Austria/Australia), and reusable daily sentences.
+
+---
+
+## Incremental Capture (Session 2)
+
+### Core Vocabulary (New)
+
+| Word / Phrase | IPA | 中文 | Spoken Example |
+|:---|:---|:---|:---|
+| catch up (with/on) | /kætʃ ʌp/ | 赶上；补上；叙旧 | Let's catch up sometime. |
+| check up on | /tʃek ʌp ɒn/ | 查看；检查 | I need to check up on him. |
+| crush on (someone) | /krʌʃ ɒn/ | 暗恋；迷上某人 | I've recently had a crush on someone. |
+| schedule | /ˈskedʒuːl/ | 日程安排 | Could you put me in your schedule too? |
+| influencer | /ˈɪnfluənsər/ | 网红；社媒影响者 | She is an influencer on social media. |
+| reels | /riːlz/ | 短视频（Reels） | I watched your reels yesterday. |
+| hoodie | /ˈhʊdi/ | 连帽衫 | It's called a hoodie. |
+| sandals | /ˈsændəlz/ | 凉鞋 | Sandals are great in hot weather. |
+| ankle | /ˈæŋkəl/ | 脚踝 | These shoes cover your ankle. |
+| necklace | /ˈnekləs/ | 项链 | Do you like this necklace? |
+| one-piece outfit | /ˌwʌn piːs ˈaʊtfɪt/ | 连体装 | A jumpsuit is a one-piece outfit. |
+| violation | /ˌvaɪəˈleɪʃən/ | 违规；违反 | Speeding is a traffic violation. |
+
+### Grammar Review (New)
+
+### 7) `catch up` cannot take a direct object
+
+- Wrong: `Let's catch up something.`
+- Correct: `Let's catch up.` / `Let's catch up on something.`
+- Note: `catch up` 后接“事情”时要加介词 `on`。
+
+### 8) `crush on` tense and collocation
+
+- Wrong: `Actually, recently I crush on someone.`
+- Correct: `Actually, I've recently had a crush on someone.` / `I've recently crushed on someone.`
+- Note: 日常最常用的是 `have a crush on + 人`。
+
+### 9) Missing verb before `back`
+
+- Wrong: `Let's back to the video.`
+- Correct: `Let's go back to the video.`
+- Note: `back` 不是动词，这里要用 `go back`。
+
+### 10) Shirt description structure
+
+- Wrong: `A shirt has bottom is done the front...`
+- Correct: `A shirt has buttons down the front, and sometimes it has a collar.`
+- Note: 描述衬衫结构常用 `buttons down the front`。
+
+### 11) Parallel contrast with `zip` / `unzip`
+
+- Less clear: `So I can I zip it or I can zip it up.`
+- Better: `I can unzip it, or I can zip it up.`
+- Note: 对比动作放在同一结构里，更自然也更清楚。
+
+### Useful Phrases (New)
+
+1. Let's catch up sometime.
+2. Could you put me in your schedule too?
+3. I'm looking for some tops.
+4. Let's go back to the video.
+5. It's called a hoodie.
+6. Do you like this necklace?
+7. It's a big ring.
+
+### Pronunciation Tips (New)
+
+- `dragon`: /ˈdræɡən/，重音在开头；`correctly`: /kəˈrektli/，重音在中间。
+- `ankle` /ˈæŋkəl/ vs `uncle` /ˈʌŋkəl/：首元音不同。
+- `sandals`: /ˈsændəlz/，中间是 `-dəl-`，不要读成 `slidles`。
+- `necklace`: /ˈnekləs/，尾部是轻读 `-ləs`。
+
+### User Mastered Expressions (New)
+
+- I don't have too many competitors.
+- Could you put me in your schedule too?
+- I'm looking for some tops.
+- This is called a T-shirt.
+- Let's go back to the video.
+- It's called a hoodie.
+- Do you like this necklace?
+- It's a big ring.
+
+### Auto-Captured Inputs (Session 2)
+
+- 2026-03-05 (Session 2): Pronunciation and correction-intensive practice captured.
+  - Focus: clothing/accessory vocabulary (hoodie/sandals/necklace), `catch up` vs `check up`, and grammar fixes (`go back`, `have a crush on`, `buttons down the front`).
