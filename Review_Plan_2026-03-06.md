@@ -96,3 +96,81 @@
 
 - 2026-03-06: Long mixed Chinese-English conversation log captured.
   - Focus: daily description sentences, clothing-question grammar, pronunciation drills (`grocery / browser / lap / Fiona`), and reusable expressions for shopping and casual conversation.
+
+---
+
+## Incremental Capture (Session 2)
+
+### Core Vocabulary (New)
+
+| Word / Phrase | IPA | 中文 | Spoken Example |
+|:---|:---|:---|:---|
+| tip | /tɪp/ | 小费 | I just got a big tip. |
+| check | /tʃek/ | 账单 | It was only a ten-dollar check. |
+| waiter | /ˈweɪtər/ | 男服务员 | He works as a waiter. |
+| waitress | /ˈweɪtrəs/ | 女服务员 | She may be the greatest waitress ever. |
+| smile | /smaɪl/ | 微笑 | I think it's my smile. |
+| ever | /ˈevər/ | 有史以来；曾经 | That was the best meal ever. |
+
+### Grammar Review (New)
+
+### 7) Amount before a noun
+
+- Natural: `I just got a $20 tip.`
+- Also correct: `I just got a 20-dollar tip.`
+- Note: 口语里最自然的是 `$20 tip`；如果把数字和名词放在前面作定语，常写成 `20-dollar tip`。
+
+### 8) `on a $10 check` 表示“在一张 10 美元账单上”
+
+- Sentence: `I just got a $20 tip on a $10 check.`
+- Meaning: 10 美元账单却收到了 20 美元小费，说明小费给得非常高。
+- Note: 这里的 `check` 指餐馆账单，不是“支票”。
+
+### 9) Superlative needs `the`
+
+- Wrong: `a greatest waitress ever`
+- Correct: `the greatest waitress ever`
+- Note: 最高级前面通常要加 `the`。
+
+### 10) Complete sentence with `it is`
+
+- Wrong: `Is another big tip.`
+- Correct: `It's another big tip.`
+- Note: 这里需要主语和系动词，完整形式是 `It is`。
+
+### 11) Two short sentences are clearer
+
+- Natural: `I think it's my smile. I got another tip.`
+- Note: 这类口语表达拆成两个短句，更自然也更容易说清楚。
+
+### Useful Phrases (New)
+
+1. I just got a $20 tip on a $10 check.
+2. I may be the greatest waiter ever.
+3. I may be the greatest waitress ever.
+4. I think it's my smile.
+5. I got another tip.
+6. It's another big tip.
+
+### Pronunciation Tips (New)
+
+- `waiter`: /ˈweɪtər/，重音在前，尾部是轻读的 `-ter`。
+- `waitress`: /ˈweɪtrəs/，结尾是 `-trəs`，不要读成 `-tres`。
+- `tip`: /tɪp/ 是短音，别拖成 `teep`。
+- `check`: /tʃek/，开头是 `ch` 音，不是 `k`。
+- `ever`: /ˈevər/，在 `the greatest ... ever` 里表示“有史以来”。
+
+### User Mastered Expressions (New)
+
+- I just got a $20 tip.
+- I just got a $20 tip on a $10 check.
+- I may be the greatest waiter ever.
+- I may be the greatest waitress ever.
+- I think it's my smile.
+- I got another tip.
+- It's another big tip.
+
+### Auto-Captured Inputs (Session 2)
+
+- 2026-03-06 (Session 2): Service and tipping conversation captured.
+  - Focus: restaurant vocabulary (`tip / check / waiter / waitress`), superlatives with `the greatest`, and short confident spoken lines.
