@@ -1,8 +1,9 @@
-﻿# English Study Repository
+# English Study Repository
 
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
+- [2026-03-10 复习计划](Review_Plan_2026-03-10.md): 聚焦高频纠错（Where is she? / I got stuck in traffic / Get a dog / exchange some money）、实用词汇（misplaced fear of radiation / altitude / domestic matters / luggage / cashier）、更自然表达（standard of living / livestream），以及发音辨析（radiation / altitude / cashier / live vs leave）。
 - [2026-03-07 复习计划](Review_Plan_2026-03-07.md): 聚焦可数名词与冠词（watch some movies / get out of jail）、时间副词辨析（sometime vs sometimes）、请求表达（bring/hand ... to me vs take ... for me）、核心口语句（I can speak it fluently / I have an idea / I'm going to the hospital）与发音提醒（pineapple / Africa / Cyrillic，以及不要把舌位规则绝对化）。
 - [2026-03-06 复习计划](Review_Plan_2026-03-06.md): 聚焦日常描述与口语纠错（This floor is filthy / I'm so weird / Going to work might be a stretch）、固定搭配（grocery shopping / fall into my lap）、拼写辨析（browser vs brother）以及发音强化（grocery / lap / Fiona）。
 - [2026-03-05 复习计划](Review_Plan_2026-03-05.md): 聚焦 shower 报修场景时态与被动语态（stopped working / be removed）、短语用法（catch up on / check up on）、服饰词汇（hoodie / sandals / necklace / one-piece outfit）、高频纠错（Let's go back to the video / I've had a crush on someone / buttons down the front）与发音辨析（correctly / dragon / ankle vs uncle / Austria vs Australia）。
