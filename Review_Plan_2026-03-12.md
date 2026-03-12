@@ -16,6 +16,9 @@
 | cable car | /ˈkeɪbəl kɑːr/ | 缆车 | Does a metro card work for a cable car? |
 | metro card | /ˈmetroʊ kɑːrd/ | 地铁卡 | I purchased this metro card when I first arrived. |
 | first arrived | /fɜːrst əˈraɪvd/ | 刚到的时候 | I purchased this metro card when I first arrived. |
+| crowded | /ˈkraʊdɪd/ | 拥挤的 | The cable car is so crowded today. |
+| full of people | /fʊl əv ˈpiːpəl/ | 挤满了人 | The cable car is crowded and full of people. |
+| packed in like sardines | /pækt ɪn laɪk sɑːrˈdiːnz/ | 挤得像沙丁鱼罐头一样 | We were packed in like sardines on the cable car. |
 
 ---
 
@@ -89,6 +92,18 @@
 - Better: `Come with me inside.` / `Come inside with me.`
 - Note: `come on` usually adds encouragement or impatience, so it is not the best fit here.
 
+### 12) `crowded` is the right adjective here
+
+- Wrong: `The cable car is craved.` / `The cable car was crafted.`
+- Correct: `The cable car is crowded.` / `The cable car was crowded.`
+- Note: `crowded` describes too many people in a small space.
+
+### 13) Use `full of people`, not `for people`
+
+- Wrong: `The cable car is crowded and for people.`
+- Correct: `The cable car is crowded and full of people.`
+- Note: `full of + noun` is the natural pattern here.
+
 ---
 
 ## Useful Phrases
@@ -100,6 +115,9 @@
 5. I can only use it for one week.
 6. Does a metro card work for a cable car?
 7. Come with me inside.
+8. The cable car is crowded.
+9. The cable car is crowded and full of people.
+10. We are packed in like sardines.
 
 ---
 
@@ -113,6 +131,8 @@
 - `ferry`: /ˈferi/ - the first syllable sounds like `feh`, not `fair`.
 - `metro`: /ˈmetroʊ/ - stress the first syllable: MET-ro.
 - `cable`: /ˈkeɪbəl/ - the first syllable sounds like `kay`.
+- `crowded`: /ˈkraʊdɪd/ - start with the same sound as `crowd`.
+- `sardines`: /sɑːrˈdiːnz/ - stress the second syllable: sar-DEENS.
 
 ---
 
@@ -130,6 +150,10 @@
 - I can only use it for one week.
 - Does a metro card work for a cable car?
 - Come with me inside.
+- The cable car is crowded.
+- The cable car is crowded and full of people.
+- The cable car is so crowded.
+- We are packed in like sardines.
 
 ---
 
@@ -139,3 +163,5 @@
   - Focus: `there is + V-ing`, full-sentence verbs, `what I asked for`, `wait for`, time expressions (`It's been a long time` vs `in a long time`), GitHub phrasing, `Organic social`, and pronunciation practice (`Lucy`, `daughter`, `doctor`).
 - 2026-03-12: Transit-related follow-up captured.
   - Focus: `ferry station` vs `fairy`, `cable car`, `metro card`, `when I first arrived`, `for one week`, and the more natural movement phrase `Come with me inside`.
+- 2026-03-12: Crowded cable car follow-up captured.
+  - Focus: `crowded`, `full of people`, `packed in like sardines`, and the correction from `craved / crafted` to `crowded`.
