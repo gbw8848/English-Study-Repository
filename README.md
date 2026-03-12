@@ -1,5 +1,9 @@
 # English Study Repository
 
+## Latest Review
+
+- [2026-03-12 复习计划](Review_Plan_2026-03-12.md): Focus on `there is + V-ing`, `what I asked for`, `wait for`, `It's been a long time` vs `in a long time`, GitHub phrasing, `Organic social`, and pronunciation for `Lucy` / `daughter` / `doctor`.
+
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
