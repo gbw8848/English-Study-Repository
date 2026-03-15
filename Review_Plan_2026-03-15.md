@@ -70,6 +70,14 @@
 - Better if you mean proof about a competitor's repeated actions: `repeated evidence of competitor activity`
 - Note: with `evidence`, English often uses `of` to show what the evidence is about. The original phrase is understandable, but not natural business English.
 
+### 9) `ome pages are strongly backed by local keyword research` needs a typo fix and a smoother collocation
+
+- Typo: `ome pages` -> `some pages`
+- Understandable but less natural: `Some pages are strongly backed by local keyword research.`
+- More natural: `Some pages are based on local keyword research.`
+- Stronger SEO wording: `Some pages are built on solid local keyword research.`
+- Note: `backed by research` is possible, but `based on` or `built on` sounds smoother here.
+
 ---
 ## Useful Phrases
 
@@ -112,3 +120,6 @@
 
 - 2026-03-15: `repeated competitor evidence`
   - Focus: clearer business phrasing with `duplicate competitor evidence` and `repeated evidence of competitor activity`.
+
+- 2026-03-15: `ome pages are strongly backed by local keyword research`
+  - Focus: fixing the typo in `some` and choosing more natural SEO phrasing such as `based on local keyword research` or `built on solid local keyword research`.
