@@ -1,4 +1,4 @@
-﻿# English Review Plan - 2026-03-15
+# English Review Plan - 2026-03-15
 
 ## Core Vocabulary
 
@@ -63,8 +63,14 @@
 - `It's going to run.` = 它要开始跑了 / 运转了
 - Note: this is a listening and pronunciation difference, not just a spelling difference.
 
----
+### 8) `repeated competitor evidence` sounds too compressed
 
+- Unnatural: `repeated competitor evidence`
+- Better if the same item appears more than once: `duplicate competitor evidence`
+- Better if you mean proof about a competitor's repeated actions: `repeated evidence of competitor activity`
+- Note: with `evidence`, English often uses `of` to show what the evidence is about. The original phrase is understandable, but not natural business English.
+
+---
 ## Useful Phrases
 
 1. I'd like to take an Uber.
@@ -103,3 +109,6 @@
 
 - 2026-03-15: Mixed Chinese-English conversation log captured.
   - Focus: ride-sharing wording (`take an Uber`), outdoor and travel vocabulary (`cruise ship`, `bear spray`, `cutthroat trout`, `trout`, `bucks`), listening corrections (`rain` vs `run`, `ego` vs `eagle`), and how to turn short fragments into full natural sentences.
+
+- 2026-03-15: `repeated competitor evidence`
+  - Focus: clearer business phrasing with `duplicate competitor evidence` and `repeated evidence of competitor activity`.

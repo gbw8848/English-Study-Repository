@@ -1,8 +1,8 @@
-﻿# English Study Repository
+# English Study Repository
 
 ## Latest Review
 
-- [2026-03-15 复习计划](Review_Plan_2026-03-15.md): Focus on natural ride-sharing phrasing (`take an Uber`), travel and outdoor vocabulary (`cruise ship`, `bear spray`, `cutthroat trout`, `trout`, `bucks`), listening fixes like `rain` vs `run` and `ego` vs `eagle`, plus turning fragments such as `Almost every cruise ship` into full sentences.
+- [2026-03-15 复习计划](Review_Plan_2026-03-15.md): Focus on natural ride-sharing phrasing (`take an Uber`), travel and outdoor vocabulary (`cruise ship`, `bear spray`, `cutthroat trout`, `trout`, `bucks`), listening fixes like `rain` vs `run` and `ego` vs `eagle`, turning fragments such as `Almost every cruise ship` into full sentences, and clearer business phrasing for `repeated competitor evidence`.
 - [2026-03-14 复习计划](Review_Plan_2026-03-14.md): Focus on editing phrasing like `strategy-led` vs `keyword-led`, possessives and spelling (`father's`, `sunflower`), core corrections (`There's no difference`, `How much do I have to pay?`, `I purchased the metro card when I first came here`), and natural phrases such as `tons of bubbly` and `This used to be a thing apparently`.
 - [2026-03-13 复习计划](Review_Plan_2026-03-13.md): Focus on `walk around` vs `work around`, useful daily phrases like `I'm downstairs`, direct vs polite tone in `You did nothing` and `I'm sorry I didn't meet your expectations`, plus `parking garage` and `commercial center`.
 
