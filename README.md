@@ -2,7 +2,7 @@
 
 ## Latest Review
 
-- [2026-03-16 复习计划](Review_Plan_2026-03-16.md): Focus on a natural strategy sentence for SEO discussions, the structure `should not + base verb`, and reusable expressions such as `redesign` and `from scratch`.
+- [2026-03-16 复习计划](Review_Plan_2026-03-16.md): Focus on careful SEO wording (`reference pages`, `extra validation`) plus ship-safety practice around `captain`, `big waves`, `watertight door`, `life jacket`, and clearer patterns such as `I'm worried about ...` and `is built to handle ...`.
 - [2026-03-15 复习计划](Review_Plan_2026-03-15.md): Focus on natural ride-sharing phrasing (`take an Uber`), travel and outdoor vocabulary (`cruise ship`, `bear spray`, `cutthroat trout`, `trout`, `bucks`), listening fixes like `rain` vs `run` and `ego` vs `eagle`, turning fragments such as `Almost every cruise ship` into full sentences, and clearer business phrasing for `repeated competitor evidence`.
 - [2026-03-14 复习计划](Review_Plan_2026-03-14.md): Focus on editing phrasing like `strategy-led` vs `keyword-led`, possessives and spelling (`father's`, `sunflower`), core corrections (`There's no difference`, `How much do I have to pay?`, `I purchased the metro card when I first came here`), and natural phrases such as `tons of bubbly` and `This used to be a thing apparently`.
 - [2026-03-13 复习计划](Review_Plan_2026-03-13.md): Focus on `walk around` vs `work around`, useful daily phrases like `I'm downstairs`, direct vs polite tone in `You did nothing` and `I'm sorry I didn't meet your expectations`, plus `parking garage` and `commercial center`.
@@ -10,7 +10,7 @@
 这个项目用于存储和复习日常英语对话中的核心词汇、语法和实用句型。
 
 ## 目录
-- [2026-03-16 复习计划](Review_Plan_2026-03-16.md): 聚焦 SEO 讨论中的自然策略句、`should not + 动词原形` 结构，以及 `redesign`、`from scratch` 等可复用表达。
+- [2026-03-16 复习计划](Review_Plan_2026-03-16.md): 聚焦更谨慎的 SEO 表达（`reference pages`、`extra validation`），以及船只安全练习中的 `captain`、`big waves`、`watertight door`、`life jacket`、`be worried about`、`is built to handle` 等核心用法。
 - [2026-03-15 复习计划](Review_Plan_2026-03-15.md): 聚焦更自然的打车表达（`take an Uber`）、旅行与户外词汇（`cruise ship`、`bear spray`、`cutthroat trout`、`trout`、`bucks`）、听辨纠错（`rain` vs `run`、`ego` vs `eagle`），以及把 `Almost every cruise ship` 这类短语扩展成完整句子。
 - [2026-03-14 复习计划](Review_Plan_2026-03-14.md): 聚焦商务改写句（`strategy-led` vs `keyword-led`）、所有格与拼写（`father's`, `sunflower`）、高频纠错（`There's no difference` / `How much do I have to pay?` / `I purchased the metro card when I first came here`），以及 `tons of bubbly`、`take off your clothes`、`This used to be a thing apparently` 等实用口语。
 - [2026-03-13 复习计划](Review_Plan_2026-03-13.md): 聚焦 `walk around` / `work around` / `work out` 区分、`I'm downstairs` / `I was sweeping yesterday` 等日常句、`You did nothing` 的语气强度与礼貌表达 `I'm sorry I didn't meet your expectations`，以及 `parking garage`、`commercial center`、`tramway` 等场景词汇。
