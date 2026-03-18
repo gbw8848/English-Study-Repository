@@ -2,6 +2,7 @@
 
 ## Latest Review
 
+- [2026-03-18 Review Plan](Review_Plan_2026-03-18.md): Focus on pronunciation contrasts like `tip/tape`, `well/wheel/view`, `gold/god/good`, and `gloomy`, plus natural daily phrases such as `It's time for dinner`, `I've been wanting to try ...`, `I'm in charge of ...`, and `makeup` vs `make up`.
 - [2026-03-16 复习计划](Review_Plan_2026-03-16.md): Focus on careful SEO wording (`reference pages`, `extra validation`) plus ship-safety practice around `captain`, `big waves`, `watertight door`, `life jacket`, and clearer patterns such as `I'm worried about ...` and `is built to handle ...`.
 - [2026-03-15 复习计划](Review_Plan_2026-03-15.md): Focus on natural ride-sharing phrasing (`take an Uber`), travel and outdoor vocabulary (`cruise ship`, `bear spray`, `cutthroat trout`, `trout`, `bucks`), listening fixes like `rain` vs `run` and `ego` vs `eagle`, turning fragments such as `Almost every cruise ship` into full sentences, and clearer business phrasing for `repeated competitor evidence`.
 - [2026-03-14 复习计划](Review_Plan_2026-03-14.md): Focus on editing phrasing like `strategy-led` vs `keyword-led`, possessives and spelling (`father's`, `sunflower`), core corrections (`There's no difference`, `How much do I have to pay?`, `I purchased the metro card when I first came here`), and natural phrases such as `tons of bubbly` and `This used to be a thing apparently`.
