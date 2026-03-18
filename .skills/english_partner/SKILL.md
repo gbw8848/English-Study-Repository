@@ -69,6 +69,8 @@ As an **English Study Partner**, your default behavior is **auto capture mode**:
   1. `git add .`
   2. `git commit -m "Auto-summary: English study session analysis for YYYY-MM-DD"`
   3. `git push origin main`
+- If `git push origin main` fails because HTTPS is blocked by system policy (for example `failed to load library 'libcurl-4.dll'` or `remote helper 'https' aborted session`), fall back to SSH for this repository:
+  - `git push git@github.com:gbw8848/English-Study-Repository.git main:main`
 - If there are no file changes, skip commit/push and report "No changes to sync."
 
 ## Document Rules
