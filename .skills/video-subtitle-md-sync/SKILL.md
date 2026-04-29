@@ -1,82 +1,87 @@
 ---
 name: video-subtitle-md-sync
-description: Format pasted transcript text or local `.txt`, `.srt`, or `.vtt` content into a clean Markdown study document inside the current repository and sync it to GitHub. Use when the user gives Codex a transcript, subtitle text, or rough English study notes and wants them cleaned up, saved, and pushed.
+description: Turn pasted English transcript text into a study-ready Markdown review note and sync it to GitHub. Use when the user gives Codex a transcript, subtitle text, or rough English learning content and wants a clean review document rather than a raw dump.
 ---
 
-# Transcript Markdown Sync
+# Transcript Review Sync
 
-Take raw transcript text, normalize the formatting, save the original text when needed, generate a readable Markdown document, and sync the result to GitHub.
+The job is not to preserve a raw transcript dump. The job is to turn the user's transcript text into a Markdown note that is useful for English review, then save it in the current repository and sync it to GitHub.
 
-## Quick Start
+## Default Output Shape
 
-Use `scripts/format_transcript_markdown.py`.
+Unless the user asks for a different structure, write the note with these sections:
 
-For pasted transcript text, pipe the content through stdin:
+```markdown
+# Title
 
-```powershell
-@'
-Your transcript text here.
-'@ | py ".\.skills\video-subtitle-md-sync\scripts\format_transcript_markdown.py" `
-  --stdin `
-  --repo-root "." `
-  --title "Lesson Title" `
-  --sync
-```
+- Date: YYYY-MM-DD
+- Source: pasted transcript
 
-For an existing local text file:
+## Summary
 
-```powershell
-py ".\.skills\video-subtitle-md-sync\scripts\format_transcript_markdown.py" `
-  ".\notes\lesson-01.txt" `
-  --repo-root "." `
-  --title "Lesson Title" `
-  --sync
+Short Chinese summary of what the content is about.
+
+## Useful Vocabulary
+
+| Word / Phrase | Meaning | Note |
+| --- | --- | --- |
+
+## Useful Expressions
+
+- Expression
+- Expression
+
+## Review Notes
+
+- Natural phrasing
+- Grammar or collocation notes
+- Things worth imitating
+
+## Clean Transcript
+
+Cleaned transcript paragraphs.
 ```
 
 ## Workflow
 
-### 1. Choose the input
+### 1. Understand the text
 
-- If the user pasted text directly into chat, use `--stdin`.
-- If the user already has a local transcript file, pass the file path.
-- Accept `.txt`, `.srt`, and `.vtt`.
+- Read the pasted transcript or subtitle text.
+- Clean broken line wraps.
+- Keep simple markers such as `[music]` only if they help context.
 
-### 2. Generate the Markdown file
+### 2. Turn it into a review note
 
-The formatter writes Markdown into `transcripts/` by default.
+- Write a short Chinese summary.
+- Extract useful words, phrases, and sentence patterns worth reviewing.
+- Add concise learning notes instead of dumping everything mechanically.
+- Keep the full cleaned transcript at the bottom for reference.
 
-Important flags:
+### 3. Save and sync
 
-- `--stdin`: read transcript text from standard input.
-- `--repo-root`: target Git repository. Defaults to the current directory.
-- `--output-dir`: Markdown output directory. Defaults to `transcripts`.
-- `--source-dir`: raw text archive directory for stdin input. Defaults to `sources`.
-- `--title`: override the generated document title.
-- `--date`: override the filename date. Format: `YYYY-MM-DD`.
-- `--slug`: override the filename slug.
-- `--sync`: run Git add, commit, and push after writing files.
+Use `scripts/save_review_markdown.py` to write the final Markdown into the repo.
 
-Markdown output includes:
+Pipe the prepared Markdown through stdin:
 
-- Title
-- Export metadata
-- Cleaned transcript paragraphs
-- Plain text block for reuse
+```powershell
+@'
+# Example Title
 
-### 3. Sync to GitHub
+- Date: 2026-04-29
+- Source: pasted transcript
 
-If `--sync` is set, the formatter calls `scripts/sync_to_github.ps1`.
+## Summary
 
-That script:
+...
+'@ | py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
+  --stdin `
+  --repo-root "." `
+  --title "Example Title" `
+  --sync
+```
 
-- stages all repository changes
-- skips commit and push if nothing changed
-- commits with a transcript-specific message unless overridden
-- pushes to `origin` on the current branch by default
+The script writes into `reviews/` by default and then optionally calls `scripts/sync_to_github.ps1`.
 
-## Formatting Rules
+## Important Rule
 
-- Join hard-wrapped transcript lines into readable paragraphs.
-- Preserve simple stage markers such as `[music]`.
-- Keep the raw input text when stdin is used so the repository retains the original source.
-- Prefer readable paragraphs over one-line-per-wrap transcript output.
+Do not stop after producing a raw transcript-looking file. The final file should read like a review note someone can study from.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Transcript MD Sync"
-  short_description: "Format transcript text and sync Markdown to GitHub."
-  default_prompt: "Use $video-subtitle-md-sync to format this transcript into Markdown and push the result to GitHub."
+  short_description: "Save study review Markdown and sync it to GitHub."
+  default_prompt: "Use $video-subtitle-md-sync to turn this transcript into a study review note and push the result to GitHub."
