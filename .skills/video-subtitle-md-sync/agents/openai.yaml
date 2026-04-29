@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Subtitle Sync"
+  short_description: "Export subtitles to Markdown and sync to GitHub."
+  default_prompt: "Use $video-subtitle-md-sync to export this video's English subtitles into Markdown and push the result to GitHub."
