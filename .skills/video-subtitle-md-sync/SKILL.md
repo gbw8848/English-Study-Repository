@@ -13,6 +13,7 @@ Non-negotiable rules:
 - Put the full transcript at the top of the Markdown file.
 - Reformat hard-wrapped transcript lines into readable paragraphs while preserving all words.
 - Add a `Sentence Breakdown` section after `Full Transcript` so the user can study shorter chunks more easily.
+- Make `Sentence Breakdown` shadowing-friendly: prefer spoken pauses and thought groups over full grammar analysis.
 - If the user provides a video URL, include a clickable video link near the top of the file.
 - Put review notes after the transcript, not before it.
 
@@ -78,6 +79,8 @@ Short Chinese summary of what the content is about.
 - If the user wants help with pausing and reading, make the `Sentence Breakdown` section more fine-grained rather than more compressed.
 - Rebuild `Sentence Breakdown` from the latest `Full Transcript` when the note is regenerated.
 - Prefer English thought groups rather than fixed-length cuts: split at connectors, new clauses, restarts like `I...`, and short parenthetical phrases such as `as you guys know`.
+- Prefer chunks that someone can actually read aloud in one breath. Usually that means short spoken units, not long written-style sentences.
+- Do not split in places that make shadowing awkward, such as `I like it`, `if you...`, or other tightly connected mini-phrases.
 
 ### 3. Save and sync
 
@@ -107,3 +110,5 @@ The script writes into a month folder such as `2026-04/` by default and then opt
 ## Important Rule
 
 Do not omit parts of the transcript. The final file should start with the full transcript, include the video link when available, add a `Sentence Breakdown` section for learning, and then continue into review notes someone can study from.
+
+Treat `Sentence Breakdown` as a speaking aid, not just a formatting step. The result should look like natural pause points for imitation and shadowing.
