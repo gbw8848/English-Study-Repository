@@ -12,6 +12,7 @@ Non-negotiable rules:
 - Keep the full transcript content. Do not delete paragraphs just because they feel repetitive.
 - Put the full transcript at the top of the Markdown file.
 - Reformat hard-wrapped transcript lines into readable paragraphs while preserving all words.
+- Render the top `Full Transcript` in a GitHub-visible shadowing format, not as a single long wrapped paragraph.
 - Add a `Sentence Breakdown` section after `Full Transcript` so the user can study shorter chunks more easily.
 - Make `Sentence Breakdown` shadowing-friendly: prefer spoken pauses and thought groups over full grammar analysis.
 - If the user provides a video URL, include a clickable video link near the top of the file.
@@ -81,6 +82,7 @@ Short Chinese summary of what the content is about.
 - Prefer English thought groups rather than fixed-length cuts: split at connectors, new clauses, restarts like `I...`, and short parenthetical phrases such as `as you guys know`.
 - Prefer chunks that someone can actually read aloud in one breath. Usually that means short spoken units, not long written-style sentences.
 - Do not split in places that make shadowing awkward, such as `I like it`, `if you...`, or other tightly connected mini-phrases.
+- Remember that GitHub preview collapses ordinary line wraps. Use Markdown-visible line breaks for the top transcript so the user can actually see the chunking.
 
 ### 3. Save and sync
 

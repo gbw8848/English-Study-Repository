@@ -197,6 +197,22 @@ def extract_section_body(markdown: str, heading: str) -> str | None:
     return markdown[content_start:section_end].strip()
 
 
+def replace_section_body(markdown: str, heading: str, body: str) -> str:
+    bounds = find_section_bounds(markdown, heading)
+    if not bounds:
+        return markdown
+
+    section_start, section_end = bounds
+    heading_match = re.search(rf"(?ms)^## {re.escape(heading)}\s*\n", markdown[section_start:section_end])
+    if not heading_match:
+        return markdown
+
+    content_start = section_start + heading_match.end()
+    new_body = body.strip("\n")
+    replacement = markdown[section_start:content_start] + "\n" + new_body + "\n\n"
+    return markdown[:section_start] + replacement + markdown[section_end:].lstrip("\n")
+
+
 def strip_code_fence(text: str) -> str:
     stripped = text.strip()
     if not stripped.startswith("```"):
@@ -470,6 +486,39 @@ def build_sentence_breakdown(transcript: str) -> list[str]:
     return [item for item in breakdown if item]
 
 
+def render_shadowing_transcript(lines: list[str]) -> str:
+    rendered: list[str] = []
+
+    for line in lines:
+        if line.startswith("[") or line.startswith(">> ["):
+            if rendered and rendered[-1] != "":
+                rendered.append("")
+            rendered.append(line)
+            rendered.append("")
+            continue
+
+        rendered.append(f"{line}  ")
+
+    while rendered and rendered[-1] == "":
+        rendered.pop()
+
+    return "\n".join(rendered).rstrip() + "\n"
+
+
+def ensure_shadowing_full_transcript(markdown: str) -> str:
+    transcript_body = extract_section_body(markdown, "Full Transcript")
+    if not transcript_body:
+        return markdown
+
+    transcript_text = strip_code_fence(transcript_body)
+    lines = build_sentence_breakdown(transcript_text)
+    if not lines:
+        return markdown
+
+    rendered = render_shadowing_transcript(lines)
+    return replace_section_body(markdown, "Full Transcript", rendered)
+
+
 def ensure_sentence_breakdown(markdown: str) -> str:
     transcript_body = extract_section_body(markdown, "Full Transcript")
     if not transcript_body:
@@ -537,6 +586,7 @@ def main() -> int:
     date_token = resolve_date_token(args.date)
     final_markdown = ensure_title_header(markdown, title)
     final_markdown = ensure_metadata_block(final_markdown, date_token, args.source_label, args.video_url)
+    final_markdown = ensure_shadowing_full_transcript(final_markdown)
     final_markdown = ensure_sentence_breakdown(final_markdown)
     slug = args.slug or slugify(title)
     output_dir = resolve_output_dir(args.output_dir, date_token)
