@@ -1,7 +1,7 @@
 # Inside Kendall Jenner's Cozy Mountain Home | Open Door | Architectural Digest
 
 - Date: 2026-04-29
-- Video: [Watch on YouTube](https://www.youtube.com/watch?v=mmMG_56bEFQ&list=PLtJW7esCGZKT9pBcNZcGetXF6gid5kF7T&index=6)
+- Video: <https://www.youtube.com/watch?v=mmMG_56bEFQ&list=PLtJW7esCGZKT9pBcNZcGetXF6gid5kF7T&index=6>
 - Source: pasted transcript
 
 <!-- created-at: 2026-04-29T13:11:13+08:00 -->

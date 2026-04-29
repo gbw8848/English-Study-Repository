@@ -149,6 +149,21 @@ def ensure_metadata_block(markdown: str, date_token: str, source_label: str, vid
         metadata_lines.append(lines[insert_at])
         insert_at += 1
 
+    original_metadata_lines = list(metadata_lines)
+    desired_video_line = f"- Video: <{video_url}>" if video_url else None
+    if desired_video_line:
+        rebuilt_metadata: list[str] = []
+        replaced_video = False
+        for line in metadata_lines:
+            if line.startswith("- Video:"):
+                rebuilt_metadata.append(desired_video_line)
+                replaced_video = True
+            else:
+                rebuilt_metadata.append(line)
+        metadata_lines = rebuilt_metadata
+        if not replaced_video:
+            metadata_lines.append(desired_video_line)
+
     has_date = any(line.startswith("- Date:") for line in metadata_lines)
     has_video = any(line.startswith("- Video:") for line in metadata_lines)
     has_source = any(line.startswith("- Source:") for line in metadata_lines)
@@ -156,12 +171,11 @@ def ensure_metadata_block(markdown: str, date_token: str, source_label: str, vid
     missing: list[str] = []
     if not has_date:
         missing.append(f"- Date: {date_token}")
-    if video_url and not has_video:
-        missing.append(f"- Video: [Watch on YouTube]({video_url})")
     if not has_source:
         missing.append(f"- Source: {source_label}")
 
-    if not missing:
+    metadata_changed = metadata_lines != original_metadata_lines
+    if not missing and not metadata_changed:
         return markdown
 
     rebuilt: list[str] = []

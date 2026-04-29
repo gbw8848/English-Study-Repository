@@ -26,7 +26,7 @@ Unless the user asks for a different structure, write the note with these sectio
 # Title
 
 - Date: YYYY-MM-DD
-- Video: [Watch on YouTube](https://...)
+- Video: <https://...>
 - Source: pasted transcript
 
 ## Sentence Breakdown
@@ -107,6 +107,6 @@ Within each month folder, the script also reorders filenames so the newest note 
 
 ## Important Rule
 
-Do not omit parts of the transcript. The final file should start with `Sentence Breakdown`, include the video link when available, and then continue into review notes someone can study from.
+Do not omit parts of the transcript. The final file should start with `Sentence Breakdown`, include the video URL in visible copyable form when available, and then continue into review notes someone can study from.
 
 Treat `Sentence Breakdown` as a speaking aid, not just a formatting step. The result should look like natural pause points for imitation and shadowing.

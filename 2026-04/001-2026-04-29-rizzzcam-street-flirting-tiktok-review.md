@@ -1,7 +1,7 @@
 # Rizzzcam Street Flirting TikTok Review
 
 - Date: 2026-04-29
-- Video: [Watch on TikTok](https://www.tiktok.com/@rizzzcam/video/7616532796252654862?is_from_webapp=1&sender_device=pc)
+- Video: <https://www.tiktok.com/@rizzzcam/video/7616532796252654862?is_from_webapp=1&sender_device=pc>
 - Source: pasted transcript
 
 <!-- created-at: 2026-04-29T15:44:49+08:00 -->
