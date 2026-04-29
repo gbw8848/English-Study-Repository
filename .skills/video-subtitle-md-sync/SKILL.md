@@ -11,6 +11,7 @@ Non-negotiable rules:
 
 - Keep the full transcript content. Do not delete paragraphs just because they feel repetitive.
 - Put the full transcript at the top of the Markdown file.
+- Reformat hard-wrapped transcript lines into readable paragraphs while preserving all words.
 - If the user provides a video URL, include a clickable video link near the top of the file.
 - Put review notes after the transcript, not before it.
 
