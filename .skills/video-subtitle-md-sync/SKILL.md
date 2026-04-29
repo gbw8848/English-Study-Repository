@@ -80,7 +80,7 @@ Pipe the prepared Markdown through stdin:
   --sync
 ```
 
-The script writes into `reviews/` by default and then optionally calls `scripts/sync_to_github.ps1`.
+The script writes into a month folder such as `2026-04/` by default and then optionally calls `scripts/sync_to_github.ps1`.
 
 ## Important Rule
 

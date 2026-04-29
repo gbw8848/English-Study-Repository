@@ -34,8 +34,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output-dir",
-        default="reviews",
-        help="Relative output directory inside the repository. Defaults to reviews.",
+        default="",
+        help="Optional relative output directory. Defaults to a YYYY-MM month folder in the repository root.",
     )
     parser.add_argument("--title", help="Document title. Used for filename and header fallback.")
     parser.add_argument("--date", help="Override filename date in YYYY-MM-DD format.")
@@ -67,6 +67,12 @@ def resolve_date_token(raw_date: str | None) -> str:
     if not raw_date:
         return datetime.now().strftime("%Y-%m-%d")
     return datetime.strptime(raw_date, "%Y-%m-%d").strftime("%Y-%m-%d")
+
+
+def resolve_output_dir(raw_output_dir: str, date_token: str) -> Path:
+    if raw_output_dir.strip():
+        return Path(raw_output_dir)
+    return Path(date_token[:7])
 
 
 def ensure_git_repo(repo_root: Path) -> None:
@@ -160,8 +166,9 @@ def main() -> int:
     final_markdown = ensure_title_header(markdown, title)
     date_token = resolve_date_token(args.date)
     slug = args.slug or slugify(title)
+    output_dir = resolve_output_dir(args.output_dir, date_token)
 
-    output_path = write_markdown(repo_root, args.output_dir, date_token, slug, final_markdown)
+    output_path = write_markdown(repo_root, str(output_dir), date_token, slug, final_markdown)
     print(f"Wrote review note: {output_path}")
 
     if args.sync:
