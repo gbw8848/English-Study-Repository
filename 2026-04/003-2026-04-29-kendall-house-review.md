@@ -4,6 +4,7 @@
 - Video: [Watch on YouTube](https://www.youtube.com/watch?v=mmMG_56bEFQ&list=PLtJW7esCGZKT9pBcNZcGetXF6gid5kF7T&index=6)
 - Source: pasted transcript
 
+<!-- created-at: 2026-04-29T13:11:13+08:00 -->
 ## Sentence Breakdown
 
 - Hey ad, it's me again.

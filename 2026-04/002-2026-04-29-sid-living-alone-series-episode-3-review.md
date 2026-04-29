@@ -4,6 +4,7 @@
 - Video: [Watch on YouTube](https://www.youtube.com/watch?v=RpYYl8YY_CU&list=PLtJW7esCGZKT9pBcNZcGetXF6gid5kF7T&index=2)
 - Source: pasted transcript
 
+<!-- created-at: 2026-04-29T14:50:42+08:00 -->
 ## Sentence Breakdown
 
 - [Music]

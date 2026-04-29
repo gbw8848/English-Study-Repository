@@ -14,6 +14,7 @@ Non-negotiable rules:
 - Put `Sentence Breakdown` at the top of the Markdown file as the only transcript section.
 - Reformat hard-wrapped transcript lines into shadowing-friendly chunks while preserving all words.
 - Make `Sentence Breakdown` shadowing-friendly: prefer spoken pauses and thought groups over full grammar analysis.
+- Keep month-folder filenames sorted newest-first for GitHub browsing. The newest note in a month should be renamed to `001-YYYY-MM-DD-slug.md`, the next to `002-...`, and so on.
 - If the user provides a video URL, include a clickable video link near the top of the file.
 - Put review notes after the transcript, not before it.
 
@@ -102,6 +103,7 @@ Pipe the prepared Markdown through stdin:
 ```
 
 The script writes into a month folder such as `2026-04/` by default and then optionally calls `scripts/sync_to_github.ps1`.
+Within each month folder, the script also reorders filenames so the newest note appears first in GitHub's alphabetical file list.
 
 ## Important Rule
 

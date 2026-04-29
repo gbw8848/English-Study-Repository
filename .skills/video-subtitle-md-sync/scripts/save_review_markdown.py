@@ -9,6 +9,9 @@ import unicodedata
 from datetime import datetime
 from pathlib import Path
 
+CREATED_AT_RE = re.compile(r"(?m)^<!--\s*created-at:\s*([^\n]+?)\s*-->\s*$")
+NOTE_FILENAME_RE = re.compile(r"^(?:(\d{3})-)?(\d{4}-\d{2}-\d{2})-(.+)\.md$")
+
 
 def configure_stdio() -> None:
     for stream_name in ("stdin", "stdout", "stderr"):
@@ -197,6 +200,43 @@ def extract_section_body(markdown: str, heading: str) -> str | None:
     return markdown[content_start:section_end].strip()
 
 
+def extract_created_at(markdown: str) -> str | None:
+    match = CREATED_AT_RE.search(markdown)
+    if not match:
+        return None
+    return match.group(1).strip()
+
+
+def ensure_created_at_marker(markdown: str, created_at: str) -> str:
+    existing = CREATED_AT_RE.search(markdown)
+    marker = f"<!-- created-at: {created_at} -->"
+    if existing:
+        return CREATED_AT_RE.sub(marker, markdown, count=1)
+
+    lines = markdown.splitlines()
+    if not lines:
+        return marker + "\n"
+
+    insert_at = 0
+    while insert_at < len(lines) and not lines[insert_at].strip():
+        insert_at += 1
+    if insert_at < len(lines) and lines[insert_at].startswith("# "):
+        insert_at += 1
+        while insert_at < len(lines) and not lines[insert_at].strip():
+            insert_at += 1
+        while insert_at < len(lines) and lines[insert_at].startswith("- "):
+            insert_at += 1
+
+    rebuilt: list[str] = []
+    rebuilt.extend(lines[:insert_at])
+    if rebuilt and rebuilt[-1].strip():
+        rebuilt.append("")
+    rebuilt.append(marker)
+    rebuilt.append("")
+    rebuilt.extend(lines[insert_at:])
+    return "\n".join(rebuilt).rstrip() + "\n"
+
+
 def replace_section_body(markdown: str, heading: str, body: str) -> str:
     bounds = find_section_bounds(markdown, heading)
     if not bounds:
@@ -226,6 +266,32 @@ def remove_section(markdown: str, heading: str) -> str:
     if prefix:
         return prefix + "\n"
     return suffix
+
+
+def infer_created_at_from_git(repo_root: Path, file_path: Path) -> str | None:
+    try:
+        relative_path = file_path.resolve().relative_to(repo_root.resolve())
+    except ValueError:
+        return None
+
+    result = subprocess.run(
+        ["git", "log", "--follow", "--diff-filter=A", "--format=%cI", "--", str(relative_path)],
+        cwd=repo_root,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.returncode != 0:
+        return None
+
+    lines = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    if not lines:
+        return None
+    return lines[-1]
+
+
+def current_created_at() -> str:
+    return datetime.now().astimezone().isoformat(timespec="seconds")
 
 
 def strip_code_fence(text: str) -> str:
@@ -541,11 +607,89 @@ def ensure_sentence_breakdown(markdown: str) -> str:
     return remove_section(rebuilt, "Full Transcript")
 
 
-def write_markdown(repo_root: Path, output_dir: str, date_token: str, slug: str, markdown: str) -> Path:
-    output_path = repo_root / output_dir / f"{date_token}-{slug}.md"
+def parse_note_filename(path: Path) -> tuple[str, str] | None:
+    match = NOTE_FILENAME_RE.match(path.name)
+    if not match:
+        return None
+    _, date_token, slug = match.groups()
+    return date_token, slug
+
+
+def resolve_note_path(repo_root: Path, output_dir: str, date_token: str, slug: str, source_path: Path | None) -> Path:
+    month_dir = repo_root / output_dir
+    if source_path and source_path.exists():
+        parsed = parse_note_filename(source_path)
+        if parsed == (date_token, slug):
+            return source_path
+
+    ranked_candidates = sorted(month_dir.glob(f"*-{date_token}-{slug}.md"))
+    for candidate in ranked_candidates:
+        parsed = parse_note_filename(candidate)
+        if parsed == (date_token, slug):
+            return candidate
+
+    plain_candidate = month_dir / f"{date_token}-{slug}.md"
+    if plain_candidate.exists():
+        return plain_candidate
+
+    return plain_candidate
+
+
+def write_markdown(output_path: Path, markdown: str) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(markdown, encoding="utf-8", newline="\n")
     return output_path
+
+
+def reorder_month_notes(repo_root: Path, month_dir: Path) -> dict[Path, Path]:
+    note_files = [
+        path
+        for path in sorted(month_dir.glob("*.md"))
+        if path.name.lower() != "readme.md" and parse_note_filename(path) is not None
+    ]
+    if not note_files:
+        return {}
+
+    notes: list[dict[str, object]] = []
+    for path in note_files:
+        text = path.read_text(encoding="utf-8-sig")
+        created_at = extract_created_at(text) or infer_created_at_from_git(repo_root, path) or current_created_at()
+        normalized_text = ensure_created_at_marker(text, created_at)
+        if normalized_text != text:
+            path.write_text(normalized_text, encoding="utf-8", newline="\n")
+
+        parsed = parse_note_filename(path)
+        if not parsed:
+            continue
+        date_token, slug = parsed
+        notes.append(
+            {
+                "path": path,
+                "date_token": date_token,
+                "slug": slug,
+                "created_at": datetime.fromisoformat(created_at),
+            }
+        )
+
+    notes.sort(key=lambda item: (item["created_at"], item["date_token"], item["slug"]), reverse=True)
+
+    temp_moves: list[tuple[Path, Path, Path]] = []
+    mapping: dict[Path, Path] = {}
+    for index, item in enumerate(notes, start=1):
+        old_path = item["path"]
+        new_name = f"{index:03d}-{item['date_token']}-{item['slug']}.md"
+        new_path = month_dir / new_name
+        mapping[old_path] = new_path
+        if old_path == new_path:
+            continue
+        temp_path = month_dir / f".__reorder__{index:03d}__{old_path.name}"
+        old_path.rename(temp_path)
+        temp_moves.append((old_path, temp_path, new_path))
+
+    for _, temp_path, new_path in temp_moves:
+        temp_path.rename(new_path)
+
+    return mapping
 
 
 def build_commit_message(title: str, date_token: str, override: str | None) -> str:
@@ -583,13 +727,22 @@ def main() -> int:
     markdown = read_markdown(source_path, args.stdin)
     title = extract_title(markdown, args.title)
     date_token = resolve_date_token(args.date)
+    created_at = (
+        extract_created_at(markdown)
+        or (infer_created_at_from_git(repo_root, source_path) if source_path else None)
+        or current_created_at()
+    )
     final_markdown = ensure_title_header(markdown, title)
     final_markdown = ensure_metadata_block(final_markdown, date_token, args.source_label, args.video_url)
+    final_markdown = ensure_created_at_marker(final_markdown, created_at)
     final_markdown = ensure_sentence_breakdown(final_markdown)
     slug = args.slug or slugify(title)
     output_dir = resolve_output_dir(args.output_dir, date_token)
 
-    output_path = write_markdown(repo_root, str(output_dir), date_token, slug, final_markdown)
+    output_path = resolve_note_path(repo_root, str(output_dir), date_token, slug, source_path)
+    output_path = write_markdown(output_path, final_markdown)
+    reordered_paths = reorder_month_notes(repo_root, (repo_root / output_dir).resolve())
+    output_path = reordered_paths.get(output_path, output_path)
     print(f"Wrote review note: {output_path}")
 
     if args.sync:
