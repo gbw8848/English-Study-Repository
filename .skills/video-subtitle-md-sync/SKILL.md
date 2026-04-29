@@ -10,6 +10,7 @@ The job is to turn the user's transcript text into a Markdown note that is usefu
 Non-negotiable rules:
 
 - Keep the full transcript content. Do not delete paragraphs just because they feel repetitive.
+- Use model judgment first when rewriting the transcript for study. Do not rely on the Python script as the primary source of pause placement.
 - Put the full transcript at the top of the Markdown file.
 - Reformat hard-wrapped transcript lines into readable paragraphs while preserving all words.
 - Render the top `Full Transcript` in a GitHub-visible shadowing format, not as a single long wrapped paragraph.
@@ -73,6 +74,7 @@ Short Chinese summary of what the content is about.
 
 ### 2. Turn it into a review note
 
+- Use AI-style semantic judgment to decide natural pause points, thought groups, and read-aloud rhythm before saving.
 - Write a short Chinese summary.
 - Extract useful words, phrases, and sentence patterns worth reviewing.
 - Add concise learning notes after the transcript.
@@ -83,6 +85,7 @@ Short Chinese summary of what the content is about.
 - Prefer chunks that someone can actually read aloud in one breath. Usually that means short spoken units, not long written-style sentences.
 - Do not split in places that make shadowing awkward, such as `I like it`, `if you...`, or other tightly connected mini-phrases.
 - Remember that GitHub preview collapses ordinary line wraps. Use Markdown-visible line breaks for the top transcript so the user can actually see the chunking.
+- Treat the script as a fallback saver and section normalizer. If the note already contains a natural AI-written `Full Transcript` and `Sentence Breakdown`, keep them instead of regenerating them mechanically.
 
 ### 3. Save and sync
 

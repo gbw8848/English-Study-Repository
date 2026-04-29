@@ -224,6 +224,31 @@ def strip_code_fence(text: str) -> str:
     return stripped
 
 
+def looks_like_shadowing_transcript(text: str) -> bool:
+    stripped = strip_code_fence(text)
+    lines = [line.rstrip() for line in stripped.splitlines() if line.strip()]
+    if len(lines) < 2:
+        return False
+
+    spoken_lines = [line for line in lines if not line.startswith("[") and not line.startswith(">> [")]
+    if not spoken_lines:
+        return False
+
+    visible_break_lines = sum(1 for line in spoken_lines if line.endswith("  "))
+    short_lines = sum(1 for line in spoken_lines if len(line.split()) <= 12)
+    return visible_break_lines >= max(2, len(spoken_lines) // 3) or short_lines >= max(2, len(spoken_lines) // 2)
+
+
+def looks_like_sentence_breakdown(text: str) -> bool:
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    bullets = [line for line in lines if line.startswith("- ")]
+    if len(bullets) < 2:
+        return False
+
+    short_bullets = sum(1 for line in bullets if len(line[2:].split()) <= 14 or line[2:].startswith("["))
+    return short_bullets >= max(2, len(bullets) // 2)
+
+
 def split_transcript_segments(transcript: str) -> list[str]:
     segments: list[str] = []
     current: list[str] = []
@@ -510,6 +535,9 @@ def ensure_shadowing_full_transcript(markdown: str) -> str:
     if not transcript_body:
         return markdown
 
+    if looks_like_shadowing_transcript(transcript_body):
+        return markdown
+
     transcript_text = strip_code_fence(transcript_body)
     lines = build_sentence_breakdown(transcript_text)
     if not lines:
@@ -520,6 +548,10 @@ def ensure_shadowing_full_transcript(markdown: str) -> str:
 
 
 def ensure_sentence_breakdown(markdown: str) -> str:
+    existing_breakdown = extract_section_body(markdown, "Sentence Breakdown")
+    if existing_breakdown and looks_like_sentence_breakdown(existing_breakdown):
+        return markdown
+
     transcript_body = extract_section_body(markdown, "Full Transcript")
     if not transcript_body:
         return markdown
@@ -530,9 +562,9 @@ def ensure_sentence_breakdown(markdown: str) -> str:
         return markdown
 
     breakdown_section = "## Sentence Breakdown\n\n" + "\n\n".join(f"- {line}" for line in lines) + "\n\n"
-    existing_breakdown = find_section_bounds(markdown, "Sentence Breakdown")
-    if existing_breakdown:
-        start, end = existing_breakdown
+    existing_bounds = find_section_bounds(markdown, "Sentence Breakdown")
+    if existing_bounds:
+        start, end = existing_bounds
         return markdown[:start].rstrip() + "\n\n" + breakdown_section + markdown[end:].lstrip("\n")
 
     bounds = find_section_bounds(markdown, "Full Transcript")
