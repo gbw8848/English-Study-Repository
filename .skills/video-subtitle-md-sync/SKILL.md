@@ -12,6 +12,7 @@ Non-negotiable rules:
 - Keep the full transcript content. Do not delete paragraphs just because they feel repetitive.
 - Put the full transcript at the top of the Markdown file.
 - Reformat hard-wrapped transcript lines into readable paragraphs while preserving all words.
+- Add a `Sentence Breakdown` section after `Full Transcript` so the user can study shorter chunks more easily.
 - If the user provides a video URL, include a clickable video link near the top of the file.
 - Put review notes after the transcript, not before it.
 
@@ -31,6 +32,11 @@ Unless the user asks for a different structure, write the note with these sectio
 ```text
 Full original transcript here.
 ```
+
+## Sentence Breakdown
+
+- Short chunk
+- Short chunk
 
 ## Summary
 
@@ -61,6 +67,7 @@ Short Chinese summary of what the content is about.
 - Read the pasted transcript or subtitle text.
 - Clean broken line wraps.
 - Keep simple markers such as `[music]` only if they help context.
+- Break the transcript into study-friendly chunks after the full transcript.
 
 ### 2. Turn it into a review note
 
@@ -68,6 +75,8 @@ Short Chinese summary of what the content is about.
 - Extract useful words, phrases, and sentence patterns worth reviewing.
 - Add concise learning notes after the transcript.
 - Preserve the full transcript exactly when the user clearly wants the full wording kept.
+- If the user wants help with pausing and reading, make the `Sentence Breakdown` section more fine-grained rather than more compressed.
+- Rebuild `Sentence Breakdown` from the latest `Full Transcript` when the note is regenerated.
 
 ### 3. Save and sync
 
@@ -96,4 +105,4 @@ The script writes into a month folder such as `2026-04/` by default and then opt
 
 ## Important Rule
 
-Do not omit parts of the transcript. The final file should start with the full transcript, include the video link when available, and then continue into review notes someone can study from.
+Do not omit parts of the transcript. The final file should start with the full transcript, include the video link when available, add a `Sentence Breakdown` section for learning, and then continue into review notes someone can study from.

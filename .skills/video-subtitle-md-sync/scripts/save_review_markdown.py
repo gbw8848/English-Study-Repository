@@ -175,6 +175,204 @@ def ensure_metadata_block(markdown: str, date_token: str, source_label: str, vid
     return "\n".join(rebuilt).rstrip() + "\n"
 
 
+def find_section_bounds(markdown: str, heading: str) -> tuple[int, int] | None:
+    pattern = re.compile(rf"(?ms)^## {re.escape(heading)}\s*\n")
+    match = pattern.search(markdown)
+    if not match:
+        return None
+
+    section_start = match.start()
+    content_start = match.end()
+    next_heading = re.search(r"(?m)^## ", markdown[content_start:])
+    section_end = content_start + next_heading.start() if next_heading else len(markdown)
+    return section_start, section_end
+
+
+def extract_section_body(markdown: str, heading: str) -> str | None:
+    bounds = find_section_bounds(markdown, heading)
+    if not bounds:
+        return None
+    _, section_end = bounds
+    content_start = re.search(rf"(?ms)^## {re.escape(heading)}\s*\n", markdown).end()
+    return markdown[content_start:section_end].strip()
+
+
+def strip_code_fence(text: str) -> str:
+    stripped = text.strip()
+    if not stripped.startswith("```"):
+        return stripped
+
+    lines = stripped.splitlines()
+    if len(lines) >= 2 and lines[0].startswith("```") and lines[-1].strip() == "```":
+        return "\n".join(lines[1:-1]).strip()
+    return stripped
+
+
+def split_transcript_segments(transcript: str) -> list[str]:
+    segments: list[str] = []
+    current: list[str] = []
+
+    for raw_line in transcript.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
+        line = raw_line.strip()
+        if not line:
+            if current:
+                segments.append(" ".join(current))
+                current = []
+            continue
+
+        if line.startswith(">>"):
+            if current:
+                segments.append(" ".join(current))
+                current = []
+            stripped = line[2:].strip()
+            if stripped.startswith("[") and stripped.endswith("]"):
+                segments.append(f">> {stripped}")
+            else:
+                current.append(f">> {stripped}")
+            continue
+
+        if line.startswith("[") and line.endswith("]"):
+            if current:
+                segments.append(" ".join(current))
+                current = []
+            segments.append(line)
+            continue
+
+        current.append(line)
+
+    if current:
+        segments.append(" ".join(current))
+
+    return [re.sub(r"\s+", " ", segment).strip() for segment in segments if segment.strip()]
+
+
+def normalize_word(word: str) -> str:
+    return word.lower().strip(",.!?;:\"'()[]")
+
+
+def should_split_before_word(words: list[str], index: int, current_length: int, target_words: int, min_words: int) -> bool:
+    if current_length < min_words or index >= len(words):
+        return False
+
+    first = normalize_word(words[index])
+    second = normalize_word(words[index + 1]) if index + 1 < len(words) else ""
+    pair = (first, second)
+
+    strong_pairs = {
+        ("and", "i"),
+        ("and", "then"),
+        ("but", "i"),
+        ("so", "i"),
+        ("then", "i"),
+        ("because", "i"),
+        ("when", "i"),
+        ("if", "i"),
+    }
+    starters = {
+        "i",
+        "i'm",
+        "i've",
+        "i'll",
+        "i'd",
+        "we",
+        "we're",
+        "it's",
+        "it",
+        "that",
+        "this",
+        "then",
+        "because",
+        "when",
+        "if",
+        "but",
+        "so",
+        "actually",
+        "honestly",
+        "anyway",
+        "anyways",
+    }
+
+    if pair in strong_pairs and current_length >= min_words:
+        return True
+    if first in starters and current_length >= target_words:
+        return True
+    return False
+
+
+def chunk_sentence_piece(piece: str, target_words: int = 9, max_words: int = 14, min_words: int = 5) -> list[str]:
+    words = piece.split()
+    if not words:
+        return []
+
+    chunks: list[str] = []
+    current: list[str] = []
+
+    for index, word in enumerate(words):
+        if should_split_before_word(words, index, len(current), target_words, min_words):
+            chunks.append(" ".join(current))
+            current = []
+
+        current.append(word)
+        normalized = normalize_word(word)
+
+        if re.search(r"[.!?][\"')\]]*$", word) and len(current) >= min_words:
+            chunks.append(" ".join(current))
+            current = []
+            continue
+
+        if len(current) >= max_words:
+            chunks.append(" ".join(current))
+            current = []
+            continue
+
+        if normalized in {"please", "thanks", "thank", "honest"} and len(current) >= target_words:
+            chunks.append(" ".join(current))
+            current = []
+
+    if current:
+        chunks.append(" ".join(current))
+    return chunks
+
+
+def build_sentence_breakdown(transcript: str) -> list[str]:
+    breakdown: list[str] = []
+    for segment in split_transcript_segments(transcript):
+        if segment.startswith("[") or segment.startswith(">> ["):
+            breakdown.append(segment)
+            continue
+
+        pieces = re.split(r"(?<=[.!?])\s+(?=(?:[\"'(\[]?[A-Z0-9>]))", segment)
+        for piece in pieces:
+            piece = piece.strip()
+            if not piece:
+                continue
+            breakdown.extend(chunk_sentence_piece(piece))
+    return [item for item in breakdown if item]
+
+
+def ensure_sentence_breakdown(markdown: str) -> str:
+    transcript_body = extract_section_body(markdown, "Full Transcript")
+    if not transcript_body:
+        return markdown
+
+    transcript_text = strip_code_fence(transcript_body)
+    lines = build_sentence_breakdown(transcript_text)
+    if not lines:
+        return markdown
+
+    breakdown_section = "## Sentence Breakdown\n\n" + "\n\n".join(f"- {line}" for line in lines) + "\n\n"
+    existing_breakdown = find_section_bounds(markdown, "Sentence Breakdown")
+    if existing_breakdown:
+        start, end = existing_breakdown
+        return markdown[:start].rstrip() + "\n\n" + breakdown_section + markdown[end:].lstrip("\n")
+
+    bounds = find_section_bounds(markdown, "Full Transcript")
+    if not bounds:
+        return markdown
+    _, section_end = bounds
+    return markdown[:section_end].rstrip() + "\n\n" + breakdown_section + markdown[section_end:].lstrip("\n")
+
+
 def write_markdown(repo_root: Path, output_dir: str, date_token: str, slug: str, markdown: str) -> Path:
     output_path = repo_root / output_dir / f"{date_token}-{slug}.md"
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -219,6 +417,7 @@ def main() -> int:
     date_token = resolve_date_token(args.date)
     final_markdown = ensure_title_header(markdown, title)
     final_markdown = ensure_metadata_block(final_markdown, date_token, args.source_label, args.video_url)
+    final_markdown = ensure_sentence_breakdown(final_markdown)
     slug = args.slug or slugify(title)
     output_dir = resolve_output_dir(args.output_dir, date_token)
 
