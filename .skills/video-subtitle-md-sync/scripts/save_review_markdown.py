@@ -250,7 +250,21 @@ def normalize_word(word: str) -> str:
     return word.lower().strip(",.!?;:\"'()[]")
 
 
-def should_split_before_word(words: list[str], index: int, current_length: int, target_words: int, min_words: int) -> bool:
+def tail_matches(words: list[str], tail: tuple[str, ...]) -> bool:
+    if len(words) < len(tail):
+        return False
+    normalized = [normalize_word(word) for word in words[-len(tail) :]]
+    return normalized == list(tail)
+
+
+def should_split_before_word(
+    words: list[str],
+    index: int,
+    current: list[str],
+    target_words: int,
+    min_words: int,
+) -> bool:
+    current_length = len(current)
     if current_length < min_words or index >= len(words):
         return False
 
@@ -261,14 +275,20 @@ def should_split_before_word(words: list[str], index: int, current_length: int, 
     strong_pairs = {
         ("and", "i"),
         ("and", "then"),
+        ("and", "we"),
+        ("and", "it"),
+        ("and", "you"),
         ("but", "i"),
+        ("but", "you"),
         ("so", "i"),
+        ("so", "that's"),
         ("then", "i"),
         ("because", "i"),
+        ("because", "something"),
         ("when", "i"),
         ("if", "i"),
     }
-    starters = {
+    subject_starters = {
         "i",
         "i'm",
         "i've",
@@ -277,29 +297,134 @@ def should_split_before_word(words: list[str], index: int, current_length: int, 
         "we",
         "we're",
         "it's",
-        "it",
+        "he",
+        "she",
+        "they",
+        "there",
+        "there's",
+        "that's",
         "that",
         "this",
-        "then",
-        "because",
-        "when",
-        "if",
+    }
+    connector_starters = {
+        "and",
         "but",
         "so",
-        "actually",
+        "because",
+        "if",
+        "then",
+        "when",
+        "while",
+        "although",
+        "though",
+        "or",
+        "as",
+    }
+    discourse_starters = {
         "honestly",
+        "wait",
+        "well",
+        "okay",
+        "ok",
+        "oh",
         "anyway",
         "anyways",
     }
 
     if pair in strong_pairs and current_length >= min_words:
         return True
-    if first in starters and current_length >= target_words:
+    if first == "or" and current and normalize_word(current[0]) == "if":
+        return False
+    if first in connector_starters and current_length >= min_words + 1:
+        return True
+    if first in discourse_starters and current_length >= min_words + 1:
+        return True
+    if first in subject_starters and current and normalize_word(current[-1]) in {"if", "when", "because", "that", "what", "like", "of", "to", "as"}:
+        return False
+    if first in subject_starters and current and normalize_word(current[0]) in connector_starters and current_length >= min_words:
+        return True
+    if first in subject_starters and current_length >= target_words:
+        return True
+    if first in {"is", "are", "was", "were"} and (
+        tail_matches(current, ("as", "you", "guys", "know"))
+        or tail_matches(current, ("you", "guys", "know"))
+        or tail_matches(current, ("you", "know"))
+    ):
         return True
     return False
 
 
-def chunk_sentence_piece(piece: str, target_words: int = 9, max_words: int = 14, min_words: int = 5) -> list[str]:
+def should_split_after_word(current: list[str], next_word: str | None, max_words: int) -> bool:
+    if not current:
+        return False
+
+    next_norm = normalize_word(next_word) if next_word else ""
+    last_norm = normalize_word(current[-1])
+    weak_end_words = {
+        "a",
+        "an",
+        "and",
+        "as",
+        "at",
+        "because",
+        "for",
+        "from",
+        "in",
+        "into",
+        "my",
+        "of",
+        "on",
+        "or",
+        "the",
+        "their",
+        "this",
+        "to",
+        "with",
+        "your",
+    }
+    standalone_markers = {"honestly", "wait", "well", "okay", "ok"}
+    next_clause_starters = {
+        "i",
+        "i'm",
+        "i've",
+        "i'll",
+        "it",
+        "it's",
+        "that's",
+        "we",
+        "you",
+        "because",
+        "if",
+        "when",
+        "but",
+        "so",
+        "then",
+        "probably",
+        "maybe",
+    }
+
+    if tail_matches(current, ("as", "you", "guys", "know")):
+        return True
+    if tail_matches(current, ("you", "guys", "know")) and next_norm:
+        return True
+    if tail_matches(current, ("you", "know")) and next_norm in next_clause_starters:
+        return True
+    if tail_matches(current, ("oh", "sh")) and next_norm in next_clause_starters:
+        return True
+    if tail_matches(current, ("oh", "my")) and next_norm in next_clause_starters:
+        return True
+    if last_norm in {"it", "me", "you", "him", "her", "us", "them", "back", "today"} and next_norm in next_clause_starters:
+        return True
+    if last_norm in standalone_markers and next_norm:
+        return True
+    if len(current) >= max_words and last_norm not in weak_end_words:
+        return True
+    if len(current) >= max_words + 2:
+        return True
+    return False
+
+
+def chunk_sentence_piece(piece: str, target_words: int = 4, max_words: int = 11, min_words: int = 3) -> list[str]:
     words = piece.split()
     if not words:
         return []
@@ -308,24 +433,19 @@ def chunk_sentence_piece(piece: str, target_words: int = 9, max_words: int = 14,
     current: list[str] = []
 
     for index, word in enumerate(words):
-        if should_split_before_word(words, index, len(current), target_words, min_words):
+        if should_split_before_word(words, index, current, target_words, min_words):
             chunks.append(" ".join(current))
             current = []
 
         current.append(word)
-        normalized = normalize_word(word)
+        next_word = words[index + 1] if index + 1 < len(words) else None
 
         if re.search(r"[.!?][\"')\]]*$", word) and len(current) >= min_words:
             chunks.append(" ".join(current))
             current = []
             continue
 
-        if len(current) >= max_words:
-            chunks.append(" ".join(current))
-            current = []
-            continue
-
-        if normalized in {"please", "thanks", "thank", "honest"} and len(current) >= target_words:
+        if should_split_after_word(current, next_word, max_words):
             chunks.append(" ".join(current))
             current = []
 

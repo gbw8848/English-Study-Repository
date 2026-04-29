@@ -77,6 +77,7 @@ Short Chinese summary of what the content is about.
 - Preserve the full transcript exactly when the user clearly wants the full wording kept.
 - If the user wants help with pausing and reading, make the `Sentence Breakdown` section more fine-grained rather than more compressed.
 - Rebuild `Sentence Breakdown` from the latest `Full Transcript` when the note is regenerated.
+- Prefer English thought groups rather than fixed-length cuts: split at connectors, new clauses, restarts like `I...`, and short parenthetical phrases such as `as you guys know`.
 
 ### 3. Save and sync
 

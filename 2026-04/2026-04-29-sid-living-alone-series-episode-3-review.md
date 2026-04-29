@@ -74,89 +74,135 @@ glue okay guys my nails are finally done and this is what they look like I like 
 
 - [Music]
 
-- good morning guys it's Sid and welcome back I've really missed doing my living
+- good morning guys it's Sid
 
-- alone series I haven't filmed one of those in like 2 weeks
+- and welcome back
+
+- I've really missed doing my living alone series
+
+- I haven't filmed one of those in like 2 weeks
 
 - I got caught up in other videos
 
-- and I was like wait I need to bring back episode 3 today
+- and I was like
 
-- so that's what we're going to be doing I am going to be vlogging
+- wait
 
-- today if you guys haven't seen my first two episodes of the series
+- I need to bring back episode 3 today
 
-- I basically just take you guys along my day or a couple days of
+- so that's what we're going to be doing
 
-- me doing everything pretty much alone because something I've been pretty intentional about as
+- I am going to be vlogging today
 
-- you guys know is learning to have a good time by myself
+- if you guys haven't seen my first two episodes of the series
 
-- I think that's so important honestly probably one of the most important things in
+- I basically just take you guys along my day
 
-- life today is actually going to be a really fun day
+- or a couple days of me doing everything pretty much alone
+
+- because something I've been pretty intentional about
+
+- as you guys know
+
+- is learning to have a good time by myself
+
+- I think that's so important
+
+- honestly
+
+- probably one of the most important things in life today is
+
+- actually going to be a really fun day
 
 - I'm not going to like do too much work
 
-- I've been doing so much work the past like 5 days oh sh
+- I've been doing so much work the past like 5 days
 
-- I also got highlights in my hair I don't know
+- oh sh
 
-- if you guys can tell I got really warm highlights
+- I also got highlights in my hair
+
+- I don't know if you guys can tell
+
+- I got really warm highlights
 
 - and I don't know how to feel about it
 
-- I think I like it but can you guys tell me
+- I think I like it
+
+- but can you guys tell me
 
 - if you like it or not like be
 
 - [Music]
 
-- honest I told myself that I wouldn't get my brows done for a month
+- honest I told myself
+
+- that I wouldn't get my brows done for a month
 
 - I'm trying to grow them out again
 
 - because I kind of over plucked them
 
-- and I got worried I got worried that I would lose my eyebrows and
+- and I got worried
 
-- my mom was like Sydney just take a break let them grow out and
+- I got worried that I would lose my eyebrows
 
-- kind of regain like their fullness and I'm so perfectionist like with my eyebrows
+- and my mom was like Sydney just take a break let
 
-- specifically for some reason like I hate when there's just one little hair coming
+- them grow out and kind of regain like their fullness
 
-- in in the wrong
+- and I'm so perfectionist like with my eyebrows specifically for some
+
+- reason like I hate
+
+- when there's just one little hair coming in in the wrong
 
 - [Music]
 
 - place I tend to go through phases with Foods
 
-- I will eat it every day until it runs its course until
+- I will eat it every day until it runs its course
 
-- I absolutely hate it so right now I've been liking to just have yogurt
+- until I absolutely hate it
 
-- with fruit this certain granola it's like specifically this granola
+- so right now
 
-- this made good Cocoa Crunch it has chocolate chips in
+- I've been liking to just have yogurt with fruit
 
-- it some yogurt this is just Greek yogurt and strawberries
+- this certain granola it's like specifically
 
-- so I'm going to make a little yogurt prait today
+- this granola this made good Cocoa Crunch it has chocolate chips
 
-- I was on like a avocado toast kick for a while
+- in it some yogurt
 
-- then all of a sudden one morning I woke up
+- this is just Greek yogurt
+
+- and strawberries so
+
+- I'm going to make a little yogurt prait today
+
+- I was on like a avocado toast kick for a
+
+- while then all of a sudden one morning
+
+- I woke up
 
 - and I was eating it
 
 - and I just got icked out
 
-- and I don't know why that happened and I'm
+- and I don't know why
 
-- honestly upset about it because now I like won't eat
+- that happened and I'm
 
-- it I'm really dramatic I actually like kind of hate
+- honestly
+
+- upset about it
+
+- because now I like won't eat it
+
+- I'm really dramatic I actually like kind of hate
 
 - that I'm like that
 
@@ -166,25 +212,41 @@ glue okay guys my nails are finally done and this is what they look like I like 
 
 - and then I would say about 2 months ago
 
-- I decided that within the first 30 minutes of me waking up in the
+- I decided that within the first 30 minutes of me waking
 
-- morning I'm not going to go on my phone at all like
+- up in the morning
 
-- I just keep it on airplane mode and that's really helped me and instead
+- I'm not going to go on my phone at all like
 
-- what I like to do is write out my to-do list for the day
+- I just keep it on airplane mode
 
-- I actually just got this new to-do list that the company not koi sent
+- and that's really helped me
 
-- to me it's so perfect like look at the layout of
+- and instead what I like to do is write out my to-do
 
-- this I'll show you guys it's so aesthetically pleasing and
+- list for the day
 
-- it kind of separates things of priority of things
+- I actually just got
 
-- that you need to do and kind of need to do
+- this new to-do list
 
-- I'm going to do that right now write everything
+- that the company not koi sent to me
+
+- it's so perfect like look at the layout of this
+
+- I'll show you guys
+
+- it's so aesthetically pleasing
+
+- and it kind of separates things of priority of things
+
+- that you need to do
+
+- and kind of need to do
+
+- I'm going to do
+
+- that right now write everything
 
 - I need to
 
@@ -192,39 +254,59 @@ glue okay guys my nails are finally done and this is what they look like I like 
 
 - do so today is a special day
 
-- because I actually woke up in the mood with a motivation to try to
+- because I actually woke up in the mood with a motivation
 
-- put together a cute outfit I'm excited mostly cuz
+- to try to put together a cute outfit
 
-- I got this new top from aritzia that I really want to wear let
+- I'm excited mostly cuz
 
-- me show you guys I like it because it's just simple and
+- I got this new top from aritzia
 
-- it's this gray halter neck and it has like a little cinch right here
+- that I really want to wear let me show you guys
 
-- I don't know if my sweats are clean or
+- I like it
 
-- if they're dirty they're clean one sec I actually really love
+- because it's just simple
 
-- this outfit it's so just comfortable and casual
+- and it's this gray halter neck
 
-- and I can dress it up with some shades some cute
+- and it has like a little cinch right here
+
+- I don't know if my sweats are clean
+
+- or if they're dirty they're clean one sec
+
+- I actually really love
+
+- this outfit it's so just comfortable
+
+- and casual and
+
+- I can dress it up with some shades some cute
 
 - [Music]
 
-- jewelry and a fun purse do we like this one should
+- jewelry and a fun purse do
 
-- I do this one ooh I definitely like this one that's been my favorite
+- we like this one should
 
-- thing recently is wearing a more basic casual outfit
+- I do this one ooh
 
-- but then dressing it up with the accessories and especially jewelry you guys know
+- I definitely like this one
+
+- that's been my favorite thing recently is wearing a more basic
+
+- casual outfit but then dressing it up with the accessories
+
+- and especially jewelry you guys know
 
 - jewelry is kind of like my favorite part of getting ready
 
-- it might even be more fun to me than just like picking out an
+- it might even be more fun to me than just like
 
-- outfit I'm going to go do a return
+- picking out an outfit
+
+- I'm going to go do a return
 
 - because I bought these pants from Motel rocks they're
 
@@ -236,179 +318,297 @@ glue okay guys my nails are finally done and this is what they look like I like 
 
 - because there's actually kind of a funny story behind
 
-- this plant on my boyfriend and I's first date technically after the date he
+- this plant on my boyfriend
 
-- had asked me if I had any plants in my apartment
+- and I's first date technically after the date
 
-- and I told him that I didn't he said
+- he had asked me
 
-- we need to change that like you need to have a plant
+- if I had any plants in my apartment
 
-- so he took me to the plant shop and
+- and I told him
 
-- we picked out a plant together and it was
+- that I didn't he said
 
-- this one and I specifically told him I'm bad at keeping plants alive
+- we need to change
 
-- I need to get a succulent cuz that'll be the easiest and yet somehow
+- that like you need to have a plant
 
-- I still killed a succulent so and that was
+- so he took me to the plant shop
 
-- so long ago so anyways I'm going to go to the plant store also
+- and we picked out a plant together
 
-- and try to get a new plant for this
+- and it was
 
-- I think I can just bring this pot and they should just be able
+- this one and I specifically told him
 
-- to fill this for me I love the plant store
+- I'm bad at keeping plants alive
 
-- it's just so cute in there so let's go
+- I need to get a succulent cuz that'll be the easiest
+
+- and yet somehow
+
+- I still killed a succulent
+
+- so and that was
+
+- so long ago so
+
+- anyways I'm going to go to the plant store also
+
+- and try to get a new plant for
+
+- this I think I can just bring
+
+- this pot and they should just be able to fill
+
+- this for me
+
+- I love the plant store
+
+- it's just so cute in
+
+- there so let's go
 
 - [Music]
 
-- okay guys I'm home with the plant this one's
+- okay
 
-- so pretty and It just fits so perfectly in the pot
+- guys I'm home with the plant
 
-- that I had I asked the guy working there which one
+- this one's so pretty
 
-- I should get and he recommended a succulent the sad part is is
+- and It just fits
 
-- that the guy who worked there asked me like what happened
+- so perfectly in the pot
+
+- that I had I asked the guy working
+
+- there which one I should get
+
+- and he recommended a succulent the sad part is is
+
+- that the guy who worked
+
+- there asked me like what happened
 
 - because he obviously saw my very dead plant
 
-- and I told him the truth I told him
+- and I told him the truth
 
-- I left it on my furnace and he looked at me and he was
+- I told him
 
-- so disappointed he was like I have to figure out now where
+- I left it on my furnace
 
-- I want to put it he said it doesn't have to be direct sunlight
+- and he looked at me
 
-- like as long as it's getting some access son maybe
+- and he was so disappointed
 
-- I'll put it in my bathroom I have this little ledge that's really
+- he was like I have to figure out now where
+
+- I want to put it
+
+- he said it doesn't have to be direct sunlight like
+
+- as long as it's getting some access son maybe
+
+- I'll put it in my bathroom
+
+- I have this little ledge
+
+- that's really
 
 - [Music]
 
-- cute I am desperately in need of coffee right now and
+- cute I am desperately in need of coffee right now
 
-- I'm actually really disappointed in myself for even saying
+- and I'm actually really disappointed in myself for even saying
 
-- that I never thought I drink coffee let's just start there
+- that I never thought
 
-- if you guys have watched me for a while you know
+- I drink coffee let's just start
 
-- that I used to like hate coffee then all of a sudden
+- there if you guys have watched me for a
 
-- I moved to New York and everything changed I suddenly started drinking coffee every
+- while you know
 
-- morning here and I didn't think it was a problem
+- that I used to like hate coffee
 
-- I just thought it was a hobby but there was one morning
+- then all of a sudden
 
-- I couldn't get coffee for some reason I was just super busy
+- I moved to New York
 
-- and I felt horrible like I felt so exhausted
+- and everything changed
 
-- I had a headache I was having withdrawals which is
+- I suddenly started drinking coffee every morning here
 
-- actually scary so I do think I need to go on a coffee cleans
+- and I didn't think it was a problem
 
-- soon but I don't know why I just went into
+- I just thought it was a hobby
+
+- but there was one morning
+
+- I couldn't get coffee for some reason
+
+- I was just super busy
+
+- and I felt horrible like I felt
+
+- so exhausted I had a headache
+
+- I was having withdrawals which is actually scary
+
+- so I do think
+
+- I need to go on a coffee cleans soon
+
+- but I don't know why
+
+- I just went into
 
 - that story I'm going to get coffee in like an hour
 
-- but before I leave I just got a package at my door and
+- but before I leave
 
-- I'm pretty sure it's from White Fox I'm going to open
+- I just got a package at my door
 
-- this I'm pretty sure it's from them never mind
+- and I'm pretty sure
 
-- this is a PR box from philosophy I'm so excited
+- it's from White Fox
 
-- it's like Christmas every day I still remember
+- I'm going to open
 
-- when I was first starting YouTube I was just
+- this I'm pretty sure
 
-- so badly wanting anything from PR I thought it was
+- it's from them never mind
 
-- so cool and now the fact that I just get PR like
+- this is a PR box from philosophy
 
-- this it doesn't get old like I actually still am
+- I'm so excited it's like Christmas every day
 
-- so grateful and excited every time so their radiant grace perfume ooh
+- I still remember
 
-- it came with like a mirror that lights up M smells
+- when I was first starting YouTube
 
-- so clean okay that was so fun thank you philosophy all right let's go
+- I was just so badly wanting anything from PR
 
-- to the coffee shop I'm going to get some work done bring my laptop
+- I thought it was
 
-- let's go
+- so cool and now the fact
+
+- that I just get PR like this it doesn't get old
+
+- like I actually still am
+
+- so grateful and excited every time
+
+- so their radiant grace perfume ooh it came with like a mirror
+
+- that lights up M smells
+
+- so clean okay
+
+- that was so fun thank you philosophy all right let's go
+
+- to the coffee shop
+
+- I'm going to get some work done bring my laptop let's
+
+- go
 
 - [Music]
 
 - I'm back now I worked on my channel Banner which was
 
-- actually super fun so let me know if you guys like
+- actually super fun so let me know
 
-- it I have some more work to do later and
+- if you guys like it
 
-- this girl that I work with is going to come over and help me
+- I have some more work to do later
 
-- in like 45 minutes I don't it might seem kind of confusing like what
+- and this girl
 
-- do you even work on there's some Social Media stuff involved
+- that I work with is going to come over
+
+- and help me in like 45 minutes
+
+- I don't it might seem kind of confusing like what do
+
+- you even work on
+
+- there's some Social Media stuff involved
 
 - and then I'm also working on a secret little project
 
 - that I've been working on for 8 months now
 
-- so when I I'm working I'm kind of doing both
+- so when I
 
-- so just to kind of clarify if you're wondering what is she doing
+- I'm working I'm kind of doing both
 
-- but I'm going to run down and I'm going to try to do some
+- so just to kind of clarify
 
-- laundry I don't want to get behind on it
+- if you're wondering what is
+
+- she doing but I'm going to run down
+
+- and I'm going to try to do some laundry
+
+- I don't want to get behind on it
 
 - because when I get behind
 
-- then I have to do like four loads in one day and there's not
+- then I have to do like four loads in one day
 
-- too much stuff in here hopefully no one has clothes in right now
+- and there's not too much stuff in here hopefully no one
 
-- because our whole building shares one washer and dryer
+- has clothes in right now
 
-- I'm going to take my chances and bring this down
+- because our whole building shares one washer
+
+- and dryer I'm going to take my chances
+
+- and bring this down
 
 - [Music]
 
 - [Music]
 
-- okay clothes are in the wash while they're in there
+- okay
 
-- I'm going to try to really quickly kind of clean up
+- clothes are in the wash
 
-- this area cuz it's such a wreck and she's coming in at 10 minutes
+- while they're in
+
+- there I'm going to try to really quickly kind of clean
+
+- up this area cuz
+
+- it's such a wreck
+
+- and she's coming in at 10 minutes
 
 - so um I need to hurry
 
 - [Music]
 
-- since I'm alone a lot and sometimes I just need to like hear someone
+- since I'm alone a lot
 
-- talk I'll either listen to a podcast or YouTube
+- and sometimes I just need to like hear someone talk
 
-- I like listening to YouTube even more though like
+- I'll either listen to a podcast
 
-- I'll put on Vlogs in the background like my friend my fam
+- or YouTube I like listening to YouTube even more
 
-- I love her I've been watching hers a lot recently
+- though like I'll put on Vlogs in the background like my friend
 
-- I also like this podcast called the mindset mentors really good ooh wait
+- my fam I love her
+
+- I've been watching hers a lot recently
+
+- I also like this podcast called the mindset mentors really good
+
+- ooh wait
 
 - I think she's here inting
 
@@ -418,85 +618,129 @@ glue okay guys my nails are finally done and this is what they look like I like 
 
 - [Music]
 
-- God so Ivana left about 20 minutes ago we were really productive
+- God so Ivana left about 20 minutes ago
 
-- actually and I wish I could just tell you guys what
+- we were really productive actually
 
-- we're working on but it's so annoying I can't
+- and I wish
 
-- I mean I guess I could but Secrets I don't know why
+- I could just tell you guys what we're working on
+
+- but it's so annoying
+
+- I can't I mean
+
+- I guess I could
+
+- but Secrets I don't know why
 
 - I'm in a weird mood help
 
-- when I reached the point where I'm really hungry the last thing
+- when I reached the point where
+
+- I'm really hungry the last thing
 
 - I want to do is cook
 
-- because I just like want food immediately so I'm going to go
+- because I just like want food immediately
 
-- I'm going to go get food maybe I'll grab tacos or sweet green or
+- so I'm going to go
 
-- tacos I was just craving Thai food
+- I'm going to go get food maybe
 
-- and then I was going to come home with a little taste test
+- I'll grab tacos or sweet green
 
-- and then I was so hungry that I forgot
+- or tacos I was just craving Thai food
 
-- this is the point where I like start to
+- and then I was going to come home with a little
 
-- actually settle down I was like so hungry I was getting hangry oh
+- taste test and
 
-- it's already 8:45 I thought it was like 700 p.m.
+- then I was so hungry
 
-- think whoa okay sorry dramatic I think what I'm going to do is
+- that I forgot this is the point where
 
-- I'm going to watch the NBA Finals that are on and
+- I like start to actually settle down
 
-- I'm also going to do my nails because these nails have been on too
+- I was like so hungry
 
-- long now and they're really starting to grow out and
+- I was getting hangry
 
-- I've been doing my own Nails recently which is
+- oh it's already 8:45
 
-- actually kind of a new thing for me so
+- I thought it was like 700 p.m.
 
-- I'm going to show you guys how I do them
+- think whoa okay
+
+- sorry dramatic I think what I'm going to do is
+
+- I'm going to watch the NBA Finals
+
+- that are on and
+
+- I'm also going to do my nails
+
+- because these nails have been on too long now
+
+- and they're really starting to grow out
+
+- and I've been doing my own Nails recently which is actually
+
+- kind of a new thing for me
+
+- so I'm going to show you guys how
+
+- I do them
 
 - because I found the best press on nails
 
-- and I feel like I have a little technique you need to get these
+- and I feel like I have a little technique you need
 
-- they're so inexpensive and so good I am about to get to work on
+- to get these they're
 
-- these nails let me just tell you guys they have stayed on for guys
+- so inexpensive and so good
 
-- I think I've had these on for over 2 weeks now and not one
+- I am about to get to work on these nails let
 
-- of them has come off which never happens usually they come off within the
+- me just tell you guys
 
-- first day this is how they look right now they're obviously grown out which
+- they have stayed on for guys
 
-- is why I need to do new ones I'll try to put a link
+- I think I've had these on for over 2 weeks now
 
-- in the description box for you guys
+- and not one of them has come off which never happens
 
-- but I wanted to do a different shade for my next set
+- usually they come off within the first day
 
-- so I obviously bought the same Nails just different shade
+- this is how they look right now they're obviously grown out
 
-- this one looked really pretty it's kind of like a champagne they're
+- which is why I need to do new ones
+
+- I'll try to put a link in the description box for you
+
+- guys but I wanted to do a different shade for my next
+
+- set so I obviously bought the same Nails just different shade
+
+- this one looked really pretty
+
+- it's kind of like a champagne they're
 
 - so good I think they're like 10 15 bucks
 
-- I started getting into these because going into the salon
+- I started getting into these
 
-- I just kind of hate doing it and also
+- because going into the salon
 
-- it gets really expensive especially in New York it's like $100 each time just
+- I just kind of hate doing it
 
-- to get your nails done before I do that
+- and also it gets really expensive especially in New York
 
-- I need to take off my current Nails you know let's hope
+- it's like $100 each time just to get your nails done
+
+- before I do that I need to take off my current
+
+- Nails you know let's hope
 
 - I don't really know actually what I'm doing with
 
@@ -506,35 +750,57 @@ glue okay guys my nails are finally done and this is what they look like I like 
 
 - [Music]
 
-- goes okay so I got my nails off they are looking really short as
+- goes okay
 
-- much as I want to I don't think I'll ever get behind the short
+- so I got my nails off
 
-- nail Trend I I don't like it I just don't
+- they are looking really short
 
-- so I have the nails what is this
+- as much as I want to I don't think
 
-- and I just buff my natural nails so that way the glue has something
+- I'll ever get behind the short nail Trend
 
-- to stick to wow this feels kind of like ratchet
+- I I don't like it
 
-- I'm really sorry guys and now is the easy part just go with the
+- I just don't
+
+- so I have the nails what is
+
+- this and I just buff my natural nails
+
+- so that way the glue has something to stick to wow
+
+- this feels kind of like ratchet
+
+- I'm really sorry guys
+
+- and now is the easy part just go with the
 
 - [Music]
 
-- glue okay guys my nails are finally done and
+- glue okay
 
-- this is what they look like I like them a lot different than the
+- guys my nails are finally done
 
-- nails that I usually do because they're kind of like what's
+- and this is what they look like I like them a lot
 
-- that called when they're shiny like holographic I'm going to get ready for bed
+- different than the nails
 
-- now it's already 11:00 p.m.
+- that I usually do
 
-- but I love you guys thanks so much for watching and
+- because they're kind of like what's
 
-- I'll see you in my next Vlog bye guys
+- that called when they're shiny like holographic
+
+- I'm going to get ready for bed now
+
+- it's already 11:00 p.m.
+
+- but I love you guys thanks
+
+- so much for watching
+
+- and I'll see you in my next Vlog bye guys
 
 - [Music]
 

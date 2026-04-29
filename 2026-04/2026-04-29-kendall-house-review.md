@@ -126,59 +126,87 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - We are in the living room now.
 
-- I worked with Heidi Kier on this house
+- I worked with Heidi Kier on
 
-- and I feel like one of the first things
+- this house and I feel like one of the first things
 
-- I said to her was I really wanted like grandma chic.
+- I said to her was
 
-- I wanted the kind of explosion of patterns and fabrics and textures.
+- I really wanted like grandma chic.
 
-- We made this couch to be extremely big and extremely comfy cozy.
+- I wanted the kind of explosion of patterns
 
-- I sit tested it and made sure it was perfect.
+- and fabrics and textures.
+
+- We made this couch to be extremely big
+
+- and extremely comfy cozy.
+
+- I sit tested it
+
+- and made sure it was perfect.
 
 - We picked this like chintz fabric.
 
-- I thought it was really bold and beautiful.
+- I thought it was really bold
 
-- I have always kind of had this dream and vision of like a very
+- and beautiful.
 
-- just exotic kind of crazy couch that becomes the statement in the room and
+- I have always kind of had
 
-- this one turned out perfectly.
+- this dream and vision of like a very just exotic kind
 
-- A lot of the books in the house I've like personally gone out to
+- of crazy couch that becomes the statement in the room
 
-- buy.
+- and this one turned out perfectly.
 
-- I love finding antique shops around town and finding cute little random things
+- A lot of the books in the house
+
+- I've like personally gone out to buy.
+
+- I love finding antique shops around town
+
+- and finding cute little random things
 
 - that I grab and everything kind of has a story.
 
-- So, most of the books on this table have been found locally.
+- So, most of the books on
+
+- this table have been found locally.
 
 - I worked very closely with Heidi.
 
-- Heidi probably thinks I'm so annoying
+- Heidi probably thinks I'm
 
-- because I [laughter] feel like I micromanage everything, especially my homes.
+- so annoying because I [laughter] feel like I micromanage everything, especially
+
+- my homes.
 
 - But we had so much fun.
 
-- And this house was really, I'd say, like semi-experimental for me.
+- And this house was really,
+
+- I'd say, like semi-experimental for me.
 
 - I wanted to kind of send it.
 
 - But we're up in the mountains.
 
-- I felt like there were no rules when designing.
+- I felt like there were no rules
 
-- And I really wanted to kind of test my limits and see how far
+- when designing.
 
-- we could take it while still feeling like me.
+- And I really wanted to kind of test my limits
 
-- It felt really fun, really refreshing, and just a little bit different for me.
+- and see how far
+
+- we could take it
+
+- while still feeling like me.
+
+- It felt really fun, really refreshing,
+
+- and just a little bit different for me.
 
 - And I I had the best time doing it.
 
@@ -188,41 +216,55 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - There's the piano here.
 
-- A lot of friends have ended up on this piano.
+- A lot of friends have ended up on
+
+- this piano.
 
 - And we watch movies out here.
 
-- Actually, the other night I filled the couch for the first time from one
+- Actually, the other night
 
-- end to the other.
+- I filled the couch for the first time from one end
+
+- to the other.
 
 - It was filled with people.
 
-- There were some people on the floor and that made me really happy.
+- There were some people on the floor
 
-- I think one of the most special things about groundup builds is you're working
+- and that made me really happy.
 
-- on the house for so long and you you're envisioning like moments with friends
+- I think one of the most special things about groundup builds
 
-- and you're envisioning what kind of nights and laughs and talks are you going
+- is you're working on the house for
 
-- to get into.
+- so long and you you're envisioning like moments with friends
 
-- And so, it's been really cool for me to have people over and fill
+- and you're envisioning what kind of nights
 
-- the space in the ways that I had dreamt and imagined for
+- and laughs and talks are you going to get into.
 
-- so long.
+- And so, it's been really cool for me to have people
+
+- over and fill the space in the ways
+
+- that I had dreamt
+
+- and imagined for so long.
 
 - So, yeah, it's been awesome.
 
 - >> [music]
 
-- >> A friend of mine called me one day and was like,
+- >> A friend of mine called me one day
 
-- "I found something really, really cool that I think you might like."
+- and was like, "I found something really, really cool
 
-- And he had found this Gibson piano online.
+- that I think you might like."
+
+- And he had found
+
+- this Gibson piano online.
 
 - I immediately had to pick it up.
 
@@ -236,29 +278,43 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - You know who you are.
 
-- And I just felt like it fit so perfectly in
+- And I just felt like it fit
+
+- so perfectly in
 
 - this house.
 
 - Red is one of my favorite colors.
 
-- Regrettably, I don't play, but um I would love to learn,
+- Regrettably, I don't play,
 
-- and I think this would be the perfect place to start.
+- but um I would love to learn,
 
-- Um but my friends, you know, have been in here many a times and
+- and I think
 
-- gotten active on this thing, so it gets some good use.
+- this would be the perfect place to start.
+
+- Um but my friends, you know, have been in here many
+
+- a times and gotten active on
+
+- this thing, so it gets some good use.
 
 - I found this harmonica in town.
 
-- There's two of them, the big one and the little one.
+- There's two of them, the big one
 
-- The same friend who found me this piano, he was with me in town
+- and the little one.
 
-- at an antique shop, and we just thought they were
+- The same friend who found me
 
-- so cute, so they came home with me.
+- this piano, he was with me in town at an antique
+
+- shop, and we just thought
+
+- they were so cute,
+
+- so they came home with me.
 
 - [music]
 
@@ -266,23 +322,31 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - >> This is the kitchen.
 
-- We wanted a really open space, hence it's kind of connected to the family
+- We wanted a really open space, hence
 
-- room.
+- it's kind of connected to the family room.
 
-- When building the house and kind of figuring out how
+- When building the house
 
-- we were going to get the most light, this skylight came up
+- and kind of figuring out how
 
-- and I thought, how perfect in a place that snows, the trees come through
+- we were going to get the most light,
 
-- really beautifully.
+- this skylight came up
+
+- and I thought, how perfect in a place
+
+- that snows, the trees come through really beautifully.
 
 - And I think it creates such nice light in here.
 
-- So, that was a really genius idea on the architect and designer's part.
+- So, that was a really genius idea on the architect
 
-- For a while, we were playing with so many ideas.
+- and designer's part.
+
+- For a while, we were playing with
+
+- so many ideas.
 
 - Is it a color?
 
@@ -290,67 +354,91 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - In the end, I kind of sat with it
 
-- and I was like, there's so much going on in the house
+- and I was like, there's
+
+- so much going on in the house
 
 - that I want it to feel a little bit more neutral.
 
-- So, we used the floors and the range and the details like the little
+- So, we used the floors
 
-- curtains at the bottom of the sink and all those things as the pops
+- and the range and the details like the little curtains at the bottom
 
-- of color.
+- of the sink and all those things
+
+- as the pops of color.
 
 - And I'm really happy with how it turned out.
 
-- I think I definitely built this house more for my friends than
+- I think I definitely built
+
+- this house more for my friends than
 
 - I did for myself.
 
-- Every time I come here, there's a million invites out for any one of
+- Every time I come here,
 
-- my friends and all of them are pretty much down to come.
+- there's a million invites out for any one of my friends
+
+- and all of them are pretty much down to come.
 
 - and um it's just really good vibes.
 
-- So, I wanted to create a really fun, peaceful place and
+- So, I wanted to create a really fun, peaceful place
 
-- this has become that.
+- and this has become
 
-- My mom was looking at a house and begged me to come see
+- that.
 
-- it with her.
+- My mom was looking at a house
 
-- And when we walked in, we saw a fireplace in a kitchen and
+- and begged me to come see it with her.
 
-- we just thought it was so cute.
+- And when we walked in,
 
-- And to go along with the cozy vibes being up in the mountains and
+- we saw a fireplace in a kitchen
 
-- it getting pretty cold here half the year, I thought the more fireplaces the
+- and we just thought it was
 
-- better.
+- so cute.
 
-- When I got this little asparagus guy in town,
+- And to go along with the cozy vibes being up in the mountains
 
-- I kind of like shopping locally here just cuz
+- and it getting pretty cold here half the year,
 
-- it feels fun to tell a story.
+- I thought the more fireplaces the better.
 
-- It's also just something fun to do in a sleepy little mountain town.
+- When I got
 
-- My Campbell mugs were a gift from [snorts] I call her like my second
+- this little asparagus guy in town,
 
-- mom so long ago and they sat in my house in LA for forever.
+- I kind of like shopping locally here just cuz it feels
 
-- I hope she doesn't watch this
+- fun to tell a story.
 
-- and I didn't really use them,
+- It's also just something fun to do in a sleepy little
+
+- mountain town.
+
+- My Campbell mugs were a gift from [snorts]
+
+- I call her like my second mom
+
+- so long ago and
+
+- they sat in my house in LA for forever.
+
+- I hope she doesn't watch
+
+- this and I didn't really use them,
 
 - but I like them.
 
-- So anyways, when I was thinking what could I bring over here to the
+- So anyways, when I was thinking what could
 
-- mountains, they they made it.
+- I bring over here to the mountains,
+
+- they they made it.
 
 - Now they get all the use.
 
@@ -358,11 +446,15 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - [music] This is the dining room.
 
-- I knew I wanted a big table because it is really pretty much the
+- I knew I wanted a big table
 
-- only communal place for everyone to sit and eat.
+- because it is really pretty much the only communal place for everyone
 
-- We came up with this kind of big bette idea
+- to sit and eat.
+
+- We came up with
+
+- this kind of big bette idea
 
 - and I love the oversizeness of it.
 
@@ -372,7 +464,9 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - Um I'm ashamed to admit like three trips ago.
 
-- It is the hardest puzzle [laughter] I've ever done in my life.
+- It is the hardest puzzle [laughter]
+
+- I've ever done in my life.
 
 - It is laughing at me.
 
@@ -382,65 +476,95 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - Like, it's so hard.
 
-- I've had maybe eight different minds on this puzzle and
+- I've had maybe eight different minds on
 
-- this is as far as we've come in three different trips, just
+- this puzzle and this is
+
+- as far as we've come in three different trips, just
 
 - so everybody's aware.
 
 - But I'm finishing it.
 
-- I'm committed to finishing this puzzle.
+- I'm committed to finishing
 
-- So, but we've done dinners here and you know,
+- this puzzle.
+
+- So, but we've done dinners here
+
+- and you know,
 
 - I do therapy here.
 
-- I think one of the biggest things in this room was
+- I think one of the biggest things in
 
-- I wanted it to feel a bit like a sun room and that's what
+- this room was I wanted it to feel a bit like
 
-- it turned into.
+- a sun room and
 
-- The light trickles in so nicely and we have some aspen trees outside
+- that's what it turned into.
 
-- that kind of flicker the light in and it's a really pretty room.
+- The light trickles in
 
-- I think you guys know what this is.
+- so nicely and
+
+- we have some aspen trees outside
+
+- that kind of flicker the light in
+
+- and it's a really pretty room.
+
+- I think you guys know
+
+- what this is.
 
 - The most important room in the house, the bar.
 
-- When thinking about this house and how casual it is up here in the
+- When thinking about
 
-- mountains, I thought, what kind of art am I going to put in
+- this house and how casual it is up here in the mountains,
 
-- this house? and I came across one of the biggest western auctions.
+- I thought, what kind of art am
 
-- I had the best time bidding online and finding a couple pieces for the
+- I going to put in
 
-- house.
+- this house? and I came across one of the biggest western
 
-- It was so addicting, so much fun.
+- auctions.
 
-- It was just a joy to find and feel like
+- I had the best time bidding online
 
-- I was putting intention into the house.
+- and finding a couple pieces for the house.
+
+- It was so addicting,
+
+- so much fun.
+
+- It was just a joy to find
+
+- and feel like I was putting intention into the house.
 
 - [music]
 
 - The powder room was really important to me.
 
-- It's the only one in the house, and
+- It's the only one in the house,
 
-- so I wanted to feel really charming and cute.
+- and so I wanted to feel really charming
 
-- I had seen inspiration um from Green River Project and they had the cutest
+- and cute.
 
-- little bathroom.
+- I had seen inspiration um from Green River Project
 
-- It was just all wood with a colored toilet and a sink.
+- and they had the cutest little bathroom.
 
-- I kind of wanted to recreate that here.
+- It was just all wood with a colored toilet
+
+- and a sink.
+
+- I kind of wanted to recreate
+
+- that here.
 
 - I just think it feels really fun.
 
@@ -454,7 +578,9 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - I love waking up here.
 
-- Although I feel it's a very mature room, it also feels like a little
+- Although I feel
+
+- it's a very mature room, it also feels like a little
 
 - girl's room in a way.
 
@@ -466,49 +592,71 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - I remember being a little intimidated by the wallpaper before
 
-- we put it onto the walls and thinking, "Oh no, did
+- we put it onto the walls
+
+- and thinking, "Oh no, did
 
 - we make a crazy mistake.
 
-- It came together so well and I'm so happy
+- It came together so
+
+- well
+
+- and I'm so happy
 
 - we went for it.
 
-- I wanted it to feel like you want to read a million books in
+- I wanted it to feel like you want to read a million
 
-- here." And I think we achieved that.
+- books in here."
+
+- And I think
+
+- we achieved that.
 
 - I love my ceilings in here.
 
 - We did reclaimed beams with reclaimed paneling.
 
-- I think it just turned out so well.
+- I think it just turned out
+
+- so well.
 
 - It really warms up the room really nicely.
 
-- Obviously, we have the fireplace which also feels really cozy and again read all
+- Obviously, we have the fireplace which also feels really cozy
 
-- the books in here.
+- and again read all the books in here.
 
-- Just imagine book room. [music] I love this bathroom.
+- Just imagine book room.
+
+- [music] I love this bathroom.
 
 - This burgundy color is like one of my favorite colors in the world.
 
 - But this bathroom has been super fun.
 
-- Between the vated ceilings and just all the windows and how big
+- Between the vated ceilings
 
-- it is, it's such a nice room to hang out in.
+- and just all the windows
+
+- and how big it is,
+
+- it's such a nice room to hang out in.
 
 - And my shower might be my favorite thing in
 
-- this entire house. [music] It's perfect.
+- this entire house.
+
+- [music] It's perfect.
 
 - It's literally perfect.
 
-- So, we took inspiration off of the floors in the kitchen and kind of
+- So, we took inspiration off of the floors in the kitchen
 
-- pulled it into this bathroom.
+- and kind of pulled it into
+
+- this bathroom.
 
 - Just like the peace, the quiet, the serenity.
 
@@ -518,21 +666,25 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - And I recommend highly to do a checkered shower in your house.
 
-- [music] This is a adult bunk bedroom, I like to call
+- [music] This is a adult bunk bedroom,
 
-- it.
+- I like to call it.
 
-- We had kind of this idea of doing each bunk in a different fabric
+- We had kind of this idea of doing each bunk in a different
 
-- and making it its own little world.
+- fabric and making it its own little world.
 
-- I imagine my nieces and nephews being in here, probably my future kids being
+- I imagine my nieces
 
-- in here.
+- and nephews being in here, probably my future kids being in here.
 
-- But I've had friends stay in this room and the beds are the perfect
+- But I've had friends stay in
 
-- size for an adult as well as a kid.
+- this room and the beds are the perfect size for an adult
+
+- as well
+
+- as a kid.
 
 - It makes me happy.
 
@@ -542,19 +694,25 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - I wanted a pop in here
 
-- and I think I was begging for red at some point in the house
+- and I think
 
-- and kept getting shut down and finally I got
+- I was begging for red at some point in the house
 
-- it.
+- and kept getting shut down
 
-- So, I was really happy with this red ladder.
+- and finally I got it.
 
-- But, you know, pray for anyone that stays on the second story and has
+- So, I was really happy with
 
-- to pee in the middle of the night because
+- this red ladder.
 
-- it's [laughter] kind of sketchy.
+- But, you know, pray for anyone
+
+- that stays on the second story
+
+- and has to pee in the middle of the night
+
+- because it's [laughter] kind of sketchy.
 
 - [music] I adore this bathroom.
 
@@ -566,33 +724,49 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - This tile again was super fun to source
 
-- and I loved working with this color.
+- and I loved working with
 
-- I remember mentioning to Heidi that I wanted fun little random moments in the
+- this color.
 
-- house, things that were offcentered, maybe not super perfect.
+- I remember mentioning to Heidi
 
-- So that's where this came about.
+- that I wanted fun little random moments in the house, things
 
-- I remember watching it get put in and forgetting we'd made
+- that were offcentered, maybe not super perfect.
+
+- So that's where
+
+- this came about.
+
+- I remember watching it get put in
+
+- and forgetting we'd made
 
 - this decision.
 
-- And when the house was like wood, I was like, "What is happening in
+- And when the house was like wood,
 
-- this shower?" and then remembered that we chose to do
+- I was like, "What is happening in
+
+- this shower?" and then remembered
+
+- that we chose to do
 
 - this.
 
-- Coming up with the pallets was also so fun in
+- Coming up with the pallets was also
+
+- so fun in
 
 - this house.
 
 - Like looking at the tile next to the wood next to the sconce.
 
-- Like it was all so fun to to see
+- Like it was all
 
-- it all together and then again have it kind of come to life was
+- so fun to to see it all together
+
+- and then again have it kind of come to life was
 
 - a fingers crossed moment.
 
@@ -610,11 +784,15 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - that felt really intimidating for me on paper.
 
-- And once they went in, I think they work perfectly.
+- And once they went in,
 
-- I might sleep in here one night cuz I just love
+- I think they work perfectly.
 
-- it so much.
+- I might sleep in here one night cuz
+
+- I just love it
+
+- so much.
 
 - [music]
 
@@ -622,35 +800,59 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - >> [music]
 
-- >> A few years ago, I got this Bambi Airstream as a gift for
+- >> A few years ago,
 
-- my birthday.
+- I got this Bambi Airstream
 
-- It's one of my favorite gifts I've ever gotten.
+- as a gift for my birthday.
 
-- When I got this house years later, I thought, how perfect would
+- It's one of my favorite gifts
 
-- it be to bring this to the house and gut
+- I've ever gotten.
 
-- it and renovate it and have a little fun doing
+- When I got
+
+- this house years later,
+
+- I thought, how perfect would it be to bring
+
+- this to the house
+
+- and gut it and renovate it
+
+- and have a little fun doing
 
 - that.
 
-- So, come on in and see.
+- So, come on in
 
-- So, I wanted this to act a bit as a third guest room.
+- and see.
 
-- We took the kitchen out and took all the things
+- So, I wanted
 
-- that we felt were unnecessary just for this project.
+- this to act a bit
+
+- as a third guest room.
+
+- We took the kitchen out
+
+- and took all the things
+
+- that we felt were unnecessary just for
+
+- this project.
 
 - Fixed it into the ground.
 
 - Did real plumbing, real electricity, real AC, heating,
 
-- and then added this cute little shower bath moment.
+- and then added
 
-- So, I think it's really fun.
+- this cute little shower bath moment.
+
+- So, I think
+
+- it's really fun.
 
 - Again, another room I might sleep in one of these days.
 
@@ -658,15 +860,17 @@ And the lace little drapes and the bod pillowcases. It's very, very fun.
 
 - All the colors in here are just actually perfect.
 
-- And the lace little drapes and the bod pillowcases.
+- And the lace little drapes
+
+- and the bod pillowcases.
 
 - It's very, very fun.
 
 - >> [music]
 
-- >> Thanks for coming and visiting me all the way up in [music] the
+- >> Thanks for coming
 
-- mountains.
+- and visiting me all the way up in [music] the mountains.
 
 - I'm sure I'll see you guys soon.
 
