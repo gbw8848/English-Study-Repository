@@ -9,12 +9,10 @@ The job is to turn the user's transcript text into a Markdown note that is usefu
 
 Non-negotiable rules:
 
-- Keep the full transcript content. Do not delete paragraphs just because they feel repetitive.
+- Keep the full transcript content inside `Sentence Breakdown`. Do not delete paragraphs just because they feel repetitive.
 - Use model judgment first when rewriting the transcript for study. Do not rely on the Python script as the primary source of pause placement.
-- Put the full transcript at the top of the Markdown file.
-- Reformat hard-wrapped transcript lines into readable paragraphs while preserving all words.
-- Render the top `Full Transcript` in a GitHub-visible shadowing format, not as a single long wrapped paragraph.
-- Add a `Sentence Breakdown` section after `Full Transcript` so the user can study shorter chunks more easily.
+- Put `Sentence Breakdown` at the top of the Markdown file as the only transcript section.
+- Reformat hard-wrapped transcript lines into shadowing-friendly chunks while preserving all words.
 - Make `Sentence Breakdown` shadowing-friendly: prefer spoken pauses and thought groups over full grammar analysis.
 - If the user provides a video URL, include a clickable video link near the top of the file.
 - Put review notes after the transcript, not before it.
@@ -29,12 +27,6 @@ Unless the user asks for a different structure, write the note with these sectio
 - Date: YYYY-MM-DD
 - Video: [Watch on YouTube](https://...)
 - Source: pasted transcript
-
-## Full Transcript
-
-```text
-Full original transcript here.
-```
 
 ## Sentence Breakdown
 
@@ -70,7 +62,7 @@ Short Chinese summary of what the content is about.
 - Read the pasted transcript or subtitle text.
 - Clean broken line wraps.
 - Keep simple markers such as `[music]` only if they help context.
-- Break the transcript into study-friendly chunks after the full transcript.
+- Break the transcript into study-friendly chunks and keep only one transcript section.
 
 ### 2. Turn it into a review note
 
@@ -78,14 +70,13 @@ Short Chinese summary of what the content is about.
 - Write a short Chinese summary.
 - Extract useful words, phrases, and sentence patterns worth reviewing.
 - Add concise learning notes after the transcript.
-- Preserve the full transcript exactly when the user clearly wants the full wording kept.
+- Preserve the full transcript exactly, but present it only through `Sentence Breakdown`.
 - If the user wants help with pausing and reading, make the `Sentence Breakdown` section more fine-grained rather than more compressed.
-- Rebuild `Sentence Breakdown` from the latest `Full Transcript` when the note is regenerated.
+- Rebuild `Sentence Breakdown` from the transcript source when the note is regenerated.
 - Prefer English thought groups rather than fixed-length cuts: split at connectors, new clauses, restarts like `I...`, and short parenthetical phrases such as `as you guys know`.
 - Prefer chunks that someone can actually read aloud in one breath. Usually that means short spoken units, not long written-style sentences.
 - Do not split in places that make shadowing awkward, such as `I like it`, `if you...`, or other tightly connected mini-phrases.
-- Remember that GitHub preview collapses ordinary line wraps. Use Markdown-visible line breaks for the top transcript so the user can actually see the chunking.
-- Treat the script as a fallback saver and section normalizer. If the note already contains a natural AI-written `Full Transcript` and `Sentence Breakdown`, keep them instead of regenerating them mechanically.
+- Treat the script as a fallback saver and section normalizer. If the note already contains a natural AI-written `Sentence Breakdown`, keep it instead of regenerating it mechanically.
 
 ### 3. Save and sync
 
@@ -114,6 +105,6 @@ The script writes into a month folder such as `2026-04/` by default and then opt
 
 ## Important Rule
 
-Do not omit parts of the transcript. The final file should start with the full transcript, include the video link when available, add a `Sentence Breakdown` section for learning, and then continue into review notes someone can study from.
+Do not omit parts of the transcript. The final file should start with `Sentence Breakdown`, include the video link when available, and then continue into review notes someone can study from.
 
 Treat `Sentence Breakdown` as a speaking aid, not just a formatting step. The result should look like natural pause points for imitation and shadowing.

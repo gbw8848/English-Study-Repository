@@ -213,6 +213,21 @@ def replace_section_body(markdown: str, heading: str, body: str) -> str:
     return markdown[:section_start] + replacement + markdown[section_end:].lstrip("\n")
 
 
+def remove_section(markdown: str, heading: str) -> str:
+    bounds = find_section_bounds(markdown, heading)
+    if not bounds:
+        return markdown
+
+    section_start, section_end = bounds
+    prefix = markdown[:section_start].rstrip()
+    suffix = markdown[section_end:].lstrip("\n")
+    if prefix and suffix:
+        return prefix + "\n\n" + suffix
+    if prefix:
+        return prefix + "\n"
+    return suffix
+
+
 def strip_code_fence(text: str) -> str:
     stripped = text.strip()
     if not stripped.startswith("```"):
@@ -222,21 +237,6 @@ def strip_code_fence(text: str) -> str:
     if len(lines) >= 2 and lines[0].startswith("```") and lines[-1].strip() == "```":
         return "\n".join(lines[1:-1]).strip()
     return stripped
-
-
-def looks_like_shadowing_transcript(text: str) -> bool:
-    stripped = strip_code_fence(text)
-    lines = [line.rstrip() for line in stripped.splitlines() if line.strip()]
-    if len(lines) < 2:
-        return False
-
-    spoken_lines = [line for line in lines if not line.startswith("[") and not line.startswith(">> [")]
-    if not spoken_lines:
-        return False
-
-    visible_break_lines = sum(1 for line in spoken_lines if line.endswith("  "))
-    short_lines = sum(1 for line in spoken_lines if len(line.split()) <= 12)
-    return visible_break_lines >= max(2, len(spoken_lines) // 3) or short_lines >= max(2, len(spoken_lines) // 2)
 
 
 def looks_like_sentence_breakdown(text: str) -> bool:
@@ -511,67 +511,34 @@ def build_sentence_breakdown(transcript: str) -> list[str]:
     return [item for item in breakdown if item]
 
 
-def render_shadowing_transcript(lines: list[str]) -> str:
-    rendered: list[str] = []
-
-    for line in lines:
-        if line.startswith("[") or line.startswith(">> ["):
-            if rendered and rendered[-1] != "":
-                rendered.append("")
-            rendered.append(line)
-            rendered.append("")
-            continue
-
-        rendered.append(f"{line}  ")
-
-    while rendered and rendered[-1] == "":
-        rendered.pop()
-
-    return "\n".join(rendered).rstrip() + "\n"
-
-
-def ensure_shadowing_full_transcript(markdown: str) -> str:
-    transcript_body = extract_section_body(markdown, "Full Transcript")
-    if not transcript_body:
-        return markdown
-
-    if looks_like_shadowing_transcript(transcript_body):
-        return markdown
-
-    transcript_text = strip_code_fence(transcript_body)
-    lines = build_sentence_breakdown(transcript_text)
-    if not lines:
-        return markdown
-
-    rendered = render_shadowing_transcript(lines)
-    return replace_section_body(markdown, "Full Transcript", rendered)
-
-
 def ensure_sentence_breakdown(markdown: str) -> str:
     existing_breakdown = extract_section_body(markdown, "Sentence Breakdown")
     if existing_breakdown and looks_like_sentence_breakdown(existing_breakdown):
-        return markdown
+        return remove_section(markdown, "Full Transcript")
 
     transcript_body = extract_section_body(markdown, "Full Transcript")
-    if not transcript_body:
+    transcript_source = transcript_body or existing_breakdown
+    if not transcript_source:
         return markdown
 
-    transcript_text = strip_code_fence(transcript_body)
+    transcript_text = strip_code_fence(transcript_source)
     lines = build_sentence_breakdown(transcript_text)
     if not lines:
-        return markdown
+        return remove_section(markdown, "Full Transcript")
 
     breakdown_section = "## Sentence Breakdown\n\n" + "\n\n".join(f"- {line}" for line in lines) + "\n\n"
     existing_bounds = find_section_bounds(markdown, "Sentence Breakdown")
     if existing_bounds:
         start, end = existing_bounds
-        return markdown[:start].rstrip() + "\n\n" + breakdown_section + markdown[end:].lstrip("\n")
+        rebuilt = markdown[:start].rstrip() + "\n\n" + breakdown_section + markdown[end:].lstrip("\n")
+        return remove_section(rebuilt, "Full Transcript")
 
     bounds = find_section_bounds(markdown, "Full Transcript")
     if not bounds:
         return markdown
     _, section_end = bounds
-    return markdown[:section_end].rstrip() + "\n\n" + breakdown_section + markdown[section_end:].lstrip("\n")
+    rebuilt = markdown[:section_end].rstrip() + "\n\n" + breakdown_section + markdown[section_end:].lstrip("\n")
+    return remove_section(rebuilt, "Full Transcript")
 
 
 def write_markdown(repo_root: Path, output_dir: str, date_token: str, slug: str, markdown: str) -> Path:
@@ -618,7 +585,6 @@ def main() -> int:
     date_token = resolve_date_token(args.date)
     final_markdown = ensure_title_header(markdown, title)
     final_markdown = ensure_metadata_block(final_markdown, date_token, args.source_label, args.video_url)
-    final_markdown = ensure_shadowing_full_transcript(final_markdown)
     final_markdown = ensure_sentence_breakdown(final_markdown)
     slug = args.slug or slugify(title)
     output_dir = resolve_output_dir(args.output_dir, date_token)
