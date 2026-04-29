@@ -40,6 +40,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--title", help="Document title. Used for filename and header fallback.")
     parser.add_argument("--date", help="Override filename date in YYYY-MM-DD format.")
     parser.add_argument("--slug", help="Override the filename slug.")
+    parser.add_argument("--video-url", help="Optional video URL to include near the top of the note.")
+    parser.add_argument(
+        "--source-label",
+        default="pasted transcript",
+        help="Source label to include near the top of the note when metadata is missing.",
+    )
     parser.add_argument(
         "--sync",
         action="store_true",
@@ -122,6 +128,53 @@ def ensure_title_header(markdown: str, title: str) -> str:
     return f"# {title}\n\n{markdown.lstrip()}"
 
 
+def ensure_metadata_block(markdown: str, date_token: str, source_label: str, video_url: str | None) -> str:
+    lines = markdown.splitlines()
+    if not lines:
+        return markdown
+
+    title_idx = next((idx for idx, line in enumerate(lines) if line.strip()), None)
+    if title_idx is None or not lines[title_idx].startswith("# "):
+        return markdown
+
+    insert_at = title_idx + 1
+    while insert_at < len(lines) and not lines[insert_at].strip():
+        insert_at += 1
+
+    metadata_lines: list[str] = []
+    while insert_at < len(lines) and lines[insert_at].startswith("- "):
+        metadata_lines.append(lines[insert_at])
+        insert_at += 1
+
+    has_date = any(line.startswith("- Date:") for line in metadata_lines)
+    has_video = any(line.startswith("- Video:") for line in metadata_lines)
+    has_source = any(line.startswith("- Source:") for line in metadata_lines)
+
+    missing: list[str] = []
+    if not has_date:
+        missing.append(f"- Date: {date_token}")
+    if video_url and not has_video:
+        missing.append(f"- Video: [Watch on YouTube]({video_url})")
+    if not has_source:
+        missing.append(f"- Source: {source_label}")
+
+    if not missing:
+        return markdown
+
+    rebuilt: list[str] = []
+    rebuilt.extend(lines[: title_idx + 1])
+    rebuilt.append("")
+    rebuilt.extend(metadata_lines)
+    rebuilt.extend(missing)
+
+    if insert_at < len(lines):
+        if lines[insert_at].strip():
+            rebuilt.append("")
+        rebuilt.extend(lines[insert_at:])
+
+    return "\n".join(rebuilt).rstrip() + "\n"
+
+
 def write_markdown(repo_root: Path, output_dir: str, date_token: str, slug: str, markdown: str) -> Path:
     output_path = repo_root / output_dir / f"{date_token}-{slug}.md"
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -163,8 +216,9 @@ def main() -> int:
     source_path = Path(args.source).resolve() if args.source else None
     markdown = read_markdown(source_path, args.stdin)
     title = extract_title(markdown, args.title)
-    final_markdown = ensure_title_header(markdown, title)
     date_token = resolve_date_token(args.date)
+    final_markdown = ensure_title_header(markdown, title)
+    final_markdown = ensure_metadata_block(final_markdown, date_token, args.source_label, args.video_url)
     slug = args.slug or slugify(title)
     output_dir = resolve_output_dir(args.output_dir, date_token)
 

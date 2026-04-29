@@ -5,7 +5,14 @@ description: Turn pasted English transcript text into a study-ready Markdown rev
 
 # Transcript Review Sync
 
-The job is not to preserve a raw transcript dump. The job is to turn the user's transcript text into a Markdown note that is useful for English review, then save it in the current repository and sync it to GitHub.
+The job is to turn the user's transcript text into a Markdown note that is useful for English review, then save it in the current repository and sync it to GitHub.
+
+Non-negotiable rules:
+
+- Keep the full transcript content. Do not delete paragraphs just because they feel repetitive.
+- Put the full transcript at the top of the Markdown file.
+- If the user provides a video URL, include a clickable video link near the top of the file.
+- Put review notes after the transcript, not before it.
 
 ## Default Output Shape
 
@@ -15,7 +22,14 @@ Unless the user asks for a different structure, write the note with these sectio
 # Title
 
 - Date: YYYY-MM-DD
+- Video: [Watch on YouTube](https://...)
 - Source: pasted transcript
+
+## Full Transcript
+
+```text
+Full original transcript here.
+```
 
 ## Summary
 
@@ -37,9 +51,6 @@ Short Chinese summary of what the content is about.
 - Grammar or collocation notes
 - Things worth imitating
 
-## Clean Transcript
-
-Cleaned transcript paragraphs.
 ```
 
 ## Workflow
@@ -54,8 +65,8 @@ Cleaned transcript paragraphs.
 
 - Write a short Chinese summary.
 - Extract useful words, phrases, and sentence patterns worth reviewing.
-- Add concise learning notes instead of dumping everything mechanically.
-- Keep the full cleaned transcript at the bottom for reference.
+- Add concise learning notes after the transcript.
+- Preserve the full transcript exactly when the user clearly wants the full wording kept.
 
 ### 3. Save and sync
 
@@ -84,4 +95,4 @@ The script writes into a month folder such as `2026-04/` by default and then opt
 
 ## Important Rule
 
-Do not stop after producing a raw transcript-looking file. The final file should read like a review note someone can study from.
+Do not omit parts of the transcript. The final file should start with the full transcript, include the video link when available, and then continue into review notes someone can study from.
