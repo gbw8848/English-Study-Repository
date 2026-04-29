@@ -1,112 +1,82 @@
 ---
 name: video-subtitle-md-sync
-description: Export English subtitles from local `.srt`, `.vtt`, or `.txt` files, or from video URLs that already expose captions, into Markdown inside the current repository and optionally commit and push the result to GitHub. Use when Codex needs to turn study-video subtitles into reusable notes, transcript documents, or synced GitHub study records.
+description: Format pasted transcript text or local `.txt`, `.srt`, or `.vtt` content into a clean Markdown study document inside the current repository and sync it to GitHub. Use when the user gives Codex a transcript, subtitle text, or rough English study notes and wants them cleaned up, saved, and pushed.
 ---
 
-# Video Subtitle Md Sync
+# Transcript Markdown Sync
 
-Extract subtitle text, format it into a clean Markdown transcript, and save it into the active Git repository. Use the bundled scripts to keep the workflow deterministic and to avoid rewriting subtitle parsing or Git commands each time.
+Take raw transcript text, normalize the formatting, save the original text when needed, generate a readable Markdown document, and sync the result to GitHub.
 
 ## Quick Start
 
-Decide the source type first:
+Use `scripts/format_transcript_markdown.py`.
 
-- Local subtitle file: use `.srt`, `.vtt`, or `.txt` directly.
-- Video URL with published captions: use the URL mode and let the script fetch captions through `yt-dlp`.
-- Local video file without subtitles: do not fake it. Ask the user for an exported subtitle file or pause and propose adding a speech-to-text extension later.
-
-Run the exporter from any repository that should receive the Markdown output:
+For pasted transcript text, pipe the content through stdin:
 
 ```powershell
-py "$env:USERPROFILE\.codex\skills\video-subtitle-md-sync\scripts\export_subtitle_markdown.py" `
-  "D:\Videos\lesson-01.en.srt" `
-  --repo-root "D:\2_Code\04_英语学习" `
-  --title "Lesson 01" `
-  --sync
-```
-
-URL example:
-
-```powershell
-py "$env:USERPROFILE\.codex\skills\video-subtitle-md-sync\scripts\export_subtitle_markdown.py" `
-  "https://www.youtube.com/watch?v=VIDEO_ID" `
-  --repo-root "D:\2_Code\04_英语学习" `
-  --language en `
-  --install-missing `
-  --sync
-```
-
-Blocked YouTube example:
-
-```powershell
-py ".\.skills\video-subtitle-md-sync\scripts\export_subtitle_markdown.py" `
-  "https://www.youtube.com/watch?v=VIDEO_ID" `
+@'
+Your transcript text here.
+'@ | py ".\.skills\video-subtitle-md-sync\scripts\format_transcript_markdown.py" `
+  --stdin `
   --repo-root "." `
-  --language en `
-  --cookies-from-browser chrome
+  --title "Lesson Title" `
+  --sync
+```
+
+For an existing local text file:
+
+```powershell
+py ".\.skills\video-subtitle-md-sync\scripts\format_transcript_markdown.py" `
+  ".\notes\lesson-01.txt" `
+  --repo-root "." `
+  --title "Lesson Title" `
+  --sync
 ```
 
 ## Workflow
 
-### 1. Choose safe inputs
+### 1. Choose the input
 
-- Prefer local subtitle files when the user already exported them.
-- For URLs, use existing captions first. Do not claim full transcription support when captions are absent.
-- If the user needs local-video speech-to-text, explain that this skill currently stops at subtitle extraction and Git sync.
+- If the user pasted text directly into chat, use `--stdin`.
+- If the user already has a local transcript file, pass the file path.
+- Accept `.txt`, `.srt`, and `.vtt`.
 
 ### 2. Generate the Markdown file
 
-Use `scripts/export_subtitle_markdown.py`.
+The formatter writes Markdown into `transcripts/` by default.
 
 Important flags:
 
-- `--repo-root`: target Git repository. Defaults to the current working directory.
-- `--output-dir`: defaults to `transcripts`.
-- `--title`: override the generated title when the source name is messy.
+- `--stdin`: read transcript text from standard input.
+- `--repo-root`: target Git repository. Defaults to the current directory.
+- `--output-dir`: Markdown output directory. Defaults to `transcripts`.
+- `--source-dir`: raw text archive directory for stdin input. Defaults to `sources`.
+- `--title`: override the generated document title.
 - `--date`: override the filename date. Format: `YYYY-MM-DD`.
-- `--language`: subtitle language for URL mode. Default: `en`.
-- `--slug`: force a filename slug when needed.
-- `--sync`: run Git add, commit, and push after writing the Markdown file.
-- `--install-missing`: allow the exporter to install `yt-dlp` with `pip --user` if URL mode needs it.
-- `--cookies-from-browser`: reuse local browser cookies for YouTube videos that block anonymous subtitle requests.
-
-The exporter writes files like:
-
-- `transcripts/2026-04-29-lesson-01.md`
+- `--slug`: override the filename slug.
+- `--sync`: run Git add, commit, and push after writing files.
 
 Markdown output includes:
 
 - Title
 - Export metadata
-- Timestamped transcript lines
-- Plain text transcript block for copying into study notes or LLM prompts
+- Cleaned transcript paragraphs
+- Plain text block for reuse
 
 ### 3. Sync to GitHub
 
-If `--sync` is set, the exporter calls `scripts/sync_to_github.ps1`.
+If `--sync` is set, the formatter calls `scripts/sync_to_github.ps1`.
 
 That script:
 
-- stages all changes in the target repo
-- skips commit/push when there are no staged changes
+- stages all repository changes
+- skips commit and push if nothing changed
 - commits with a transcript-specific message unless overridden
 - pushes to `origin` on the current branch by default
 
-Run the sync script directly only when you already generated the Markdown file and just need Git sync.
+## Formatting Rules
 
-## Dependency Notes
-
-- Local subtitle-file mode uses only the Python standard library.
-- URL mode requires `yt-dlp`.
-- If `yt-dlp` is missing, either:
-  - rerun with `--install-missing`, or
-  - install manually with `py -m pip install --target .tools/pydeps yt-dlp`
-
-YouTube-specific note:
-
-- Some public videos block anonymous subtitle fetches even when captions exist.
-- In that case, rerun with `--cookies-from-browser chrome` or another local browser profile that can open the video normally.
-
-## References
-
-- Read [references/source-modes.md](references/source-modes.md) when deciding which inputs this skill can handle cleanly.
+- Join hard-wrapped transcript lines into readable paragraphs.
+- Preserve simple stage markers such as `[music]`.
+- Keep the raw input text when stdin is used so the repository retains the original source.
+- Prefer readable paragraphs over one-line-per-wrap transcript output.
