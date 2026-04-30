@@ -7,6 +7,16 @@ description: Turn pasted English transcript text into a study-ready Markdown rev
 
 The job is to turn the user's transcript text into a Markdown note that is useful for English review, then save it in the current repository and sync it to GitHub.
 
+## Required Filename Order
+
+This rule is mandatory and easy to miss, so treat it as a first-check item before finishing the task:
+
+- Within each month folder, filenames must stay newest-first for GitHub browsing.
+- The newest note in that month must be `001-YYYY-MM-DD-slug.md`.
+- The second newest note must be `002-...`, the third `003-...`, and so on.
+- If you add a newer note, rename the older notes in that same month so the newest file becomes `001`.
+- Do not leave a newly added latest note as `004`, `005`, or any other later number just because it was created last.
+
 Non-negotiable rules:
 
 - Keep the full transcript content inside `Sentence Breakdown`. Do not delete paragraphs just because they feel repetitive.
@@ -82,6 +92,12 @@ Short Chinese summary of what the content is about.
 ### 3. Save and sync
 
 Use `scripts/save_review_markdown.py` to write the final Markdown into the repo.
+
+Before you finish, explicitly verify the month folder order again:
+
+- If the new note is the latest one by date, it must end up as `001-...`.
+- Renumber the older files in that same month as needed.
+- Do not assume the write step already made the ordering obvious enough; check the actual filenames.
 
 Pipe the prepared Markdown through stdin:
 
