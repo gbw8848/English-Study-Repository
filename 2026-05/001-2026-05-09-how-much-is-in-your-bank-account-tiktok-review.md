@@ -85,11 +85,11 @@
 - Would you be down to share how much is in your bank account?
 - What do you do to have that much money in your bank account?
 - I just honestly just save for 30 years.
-- There’s way more clients.
+- There's way more clients.
 - You just have to be able to tap into it.
-- Money doesn’t impress me.
+- Money doesn't impress me.
 - Your health is everything.
-- I’m trying to go for the half a million.
+- I'm trying to go for the half a million.
 - Work hard, sell a lot of cars.
 - Put in the work and let your money grow.
 
