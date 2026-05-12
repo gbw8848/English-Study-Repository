@@ -1,5 +1,6 @@
 # Street Interview: Work, Positivity, and Hygiene Tips TikTok Review
 
+- Video: <https://www.tiktok.com/@hikhann_/video/7638063609913838861?_r=1&_t=ZP-96Iq0IU9Tgc>
 - Date: 2026-05-12
 - Source: pasted transcript
 
