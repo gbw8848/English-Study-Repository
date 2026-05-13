@@ -1,0 +1,153 @@
+# How Rich People Eat in New York City TikTok Review
+
+- Date: 2026-05-13
+- Video: <https://www.tiktok.com/@newyorkturk/video/7626886543982021919?_r=1&_t=ZP-96KNjJKm4ze>
+- Source: pasted transcript + linked TikTok
+
+<!-- created-at: 2026-05-13T21:37:00+08:00 -->
+## Sentence Breakdown
+
+- Let's see how the rich people eat in New York City.
+- How are you guys? Good.
+- How you doing? I'm so happy to meet you.
+- Oh, likewise.
+- Thank you so much. Hi,
+- how are you?
+- Thank you.
+- So let's see how expensive it is.
+- How's it going?
+- I'm good, thank you.
+- First time. First time here.
+- Thank you.
+- Wash the hands.
+- This is an eight thousand dollar model right here.
+- I'm an alcoholic. Thank you so much.
+- Is this what they do?
+- Like shake it up like that?
+- They do.
+- Okay.
+- A million percent.
+- I don't care if you can.
+- Honestly.
+- In these glasses.
+- And I met you.
+- Oh, it's really good.
+- Ooh, A preview of the rich ingredients.
+- Can I hold that bowl for two seconds?
+- Like this one?
+- Yeah.
+- Yes, of course.
+- Thank you.
+- You're welcome.
+- We're gonna be eating this bad boy over here.
+- Here you go.
+- Hey,
+- how's it going? Thank you.
+- A snack.
+- Just don't get down.
+- Baby blue mussel creamed with seaweed.
+- Presentations are 10 10.
+- Looks like a tiara.
+- It's smaller.
+- Eight out of 10.
+- Vendays roll with rye pancake.
+- Another 10 10.
+- Presentation 4.
+- Donut with jam on top.
+- 10 out of 10.
+- That was so good.
+- Thank you.
+- First serving of caviar with the cookie.
+- This looks badass.
+- Fancy cupcake with caviar from Madagascar.
+- Kingfish from Denmark.
+- Also filled with smoked eel.
+- I'm gonna go with a 10 out of 10 with that.
+- Langoustine steamed claw sandwich.
+- The plating is so beautiful.
+- Here.
+- That was also a 10 out of ten.
+- Scalops with black currant leaf broth.
+- The broth is really good.
+- 8 out of 10.
+- This is the bad boy I showed you before.
+- Brown crab and custard.
+- The crab is really good.
+- Who would have nine out of ten?
+- Good evening. Good evening.
+- Is it one of the signature servings of the restaurant?
+- Langoustine with sauce made with the shells.
+- This is like 100 out of ten.
+- This bread looks so nice.
+- Look at that.
+- Pork,
+- egg, fish or caviar from Madagascar.
+- I'll go with a 8 out of ten.
+- Thank you so much.
+- You're welcome.
+- So we have two expressions.
+- The other one is a sausage that we fill them inside morel mushrooms.
+- Wait, so the sausage is inside the.
+- Oh, wow.
+- Okay.
+- Thank you so much.
+- It's stuffed inside quail with stuffed morels.
+- One of the best things and most remarkable things I've ever had.
+- Easy, like hundred out of ten.
+- Painted by the chef's daughter.
+- This is our serving of Nobert Farms venison loin.
+- Venison.
+- Beautiful plating.
+- 10 10 for sure.
+- 8 10.
+- Palette cleanser.
+- Beautiful presentation of dessert.
+- 9 10.
+- I'm so full.
+- 435 dollar Bill left.
+- 120 dollar tip.
+- 555 dollar total.
+- Okay, please take care.
+- Thank you so much.
+- My favorite guy, bro.
+- Thank you, man.
+- Appreciate it.
+
+## Summary
+
+这段视频记录了一次在纽约高端餐厅的试吃/探店，主角一边听服务员介绍菜品，一边对每道菜打分，最后算出 555 美元的总价。内容重点是高级餐厅的摆盘、食材名目、夸张的价格感和非常随性的口语评价，适合练习点餐、品尝反馈和 10/10 打分表达。
+
+## Useful Vocabulary
+
+| Word / Phrase | Meaning | Note |
+| --- | --- | --- | --- |
+| expensive | 昂贵的 | 这段里是餐厅价格氛围的核心词 |
+| model | 型号；款式 | 这里指某种“豪华款”或特别版本 |
+| shake it up | 抖一抖；摇匀 | 常见于饮料/调酒动作描述 |
+| ingredients | 食材；配料 | fine dining 里很高频 |
+| presentation | 呈现；摆盘效果 | 评价菜品时常用 |
+| plating | 摆盘 | 比 `presentation` 更偏餐饮专业语境 |
+| caviar | 鱼子酱 | 高端餐厅的标志性食材 |
+| signature serving | 招牌菜；招牌出品 | 口语里也可以说 `signature dish` |
+| palate cleanser | 口腔清味菜；清口菜 | 这里的 `Palette cleanser` 大概率是这个意思 |
+| venison loin | 鹿里脊 | 高级菜单里常见肉类词 |
+
+## Useful Expressions
+
+- Let's see how expensive it is.
+- This is an eight thousand dollar model right here.
+- A million percent.
+- Presentations are 10 out of 10.
+- The plating is so beautiful.
+- This is like 100 out of 10.
+- I'm so full.
+- 120 dollar tip.
+- 555 dollar total.
+
+## Review Notes
+
+- 这段最值得学的是餐厅评价用语，比如 `presentation`, `plating`, `signature serving`, `palate cleanser`，都很适合高端餐饮语境。
+- `A million percent` 是非常自然的加强语气，意思接近“当然，百分之百同意”。
+- `10 out of 10`、`100 out of 10` 这种说法很口语，也很适合短视频里做强烈评价。
+- `This looks badass` 属于很随意的口语/俚语表达，听得懂就行，不适合正式场合。
+- 这份字幕里有几处明显的转写噪音，比如 `I'm an alcoholic`、`Vendays roll with rye pancake` 和 `Palette cleanser`；做 shadowing 时可以优先抓节奏和菜品名，不必把每个可疑词都当成标准文本。
