@@ -2,6 +2,7 @@
 
 - Date: 2026-05-15
 - Source: pasted transcript
+- Video: <https://www.tiktok.com/@johnyonthestreet/video/7622359958058732830?_r=1&_t=ZP-96NIG5GX5JO>
 
 <!-- created-at: 2026-05-15T22:27:24+08:00 -->
 ## Sentence Breakdown
