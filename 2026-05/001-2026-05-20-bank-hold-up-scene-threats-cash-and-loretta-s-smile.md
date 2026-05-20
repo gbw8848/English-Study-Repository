@@ -1,7 +1,7 @@
 # Bank Hold-Up Scene: Threats, Cash, and Loretta's Smile
 
 - Date: 2026-05-20
-- Video: <https://www.tiktok.com/@merewana/video/7625838922022620447?_r=1&_t=ZP-96WJDxGUkrX>
+- Video:[ <https://www.tiktok.com/@merewana/video/7625838922022620447?_r=1&_t=ZP-96WJDxGUkrX>](https://www.tiktok.com/@primemovies/video/7627950550016904461?_r=1&_t=ZP-96WIvOit9Zv)
 - Source: pasted transcript
 
 <!-- created-at: 2026-05-20T22:12:07+08:00 -->
