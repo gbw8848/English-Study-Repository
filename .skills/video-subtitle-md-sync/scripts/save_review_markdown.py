@@ -12,6 +12,16 @@ from pathlib import Path
 CREATED_AT_RE = re.compile(r"(?m)^<!--\s*created-at:\s*([^\n]+?)\s*-->\s*$")
 NOTE_FILENAME_RE = re.compile(r"^(?:(\d{3})-)?(\d{4}-\d{2}-\d{2})-(.+)\.md$")
 
+try:
+    from check_review_encoding import validate_file as validate_review_file
+    from check_review_encoding import validate_review_markdown
+except ImportError:  # pragma: no cover - direct script execution
+    _SCRIPT_DIR = Path(__file__).resolve().parent
+    if str(_SCRIPT_DIR) not in sys.path:
+        sys.path.insert(0, str(_SCRIPT_DIR))
+    from check_review_encoding import validate_file as validate_review_file
+    from check_review_encoding import validate_review_markdown
+
 
 def configure_stdio() -> None:
     for stream_name in ("stdin", "stdout", "stderr"):
@@ -53,6 +63,11 @@ def parse_args() -> argparse.Namespace:
         "--sync",
         action="store_true",
         help="Commit and push the generated files after writing them.",
+    )
+    parser.add_argument(
+        "--skip-encoding-check",
+        action="store_true",
+        help="Skip UTF-8 and Chinese-section mojibake validation (not recommended).",
     )
     parser.add_argument("--branch", help="Git branch to push. Defaults to the current branch.")
     parser.add_argument("--commit-message", help="Override the Git commit message.")
@@ -712,7 +727,23 @@ def build_commit_message(title: str, date_token: str, override: str | None) -> s
     return f"Add review note: {title} ({date_token})"
 
 
-def run_sync(repo_root: Path, branch: str | None, message: str) -> None:
+def ensure_encoding_ok(markdown: str, skip_check: bool) -> None:
+    if skip_check:
+        return
+
+    issues = validate_review_markdown(markdown)
+    if not issues:
+        return
+
+    joined = "\n  - ".join(issues)
+    raise RuntimeError(
+        "Encoding check failed before writing the review note:\n"
+        f"  - {joined}\n"
+        "Write the Markdown with the editor as UTF-8 and pass --source instead of PowerShell stdin."
+    )
+
+
+def run_sync(repo_root: Path, branch: str | None, message: str, skip_encoding_check: bool) -> None:
     script_path = Path(__file__).with_name("sync_to_github.ps1")
     command = [
         "powershell",
@@ -728,6 +759,8 @@ def run_sync(repo_root: Path, branch: str | None, message: str) -> None:
     ]
     if branch:
         command.extend(["-Branch", branch])
+    if skip_encoding_check:
+        command.extend(["-SkipEncodingCheck"])
     subprocess.run(command, check=True)
 
 
@@ -754,13 +787,24 @@ def main() -> int:
     output_dir = resolve_output_dir(args.output_dir, date_token)
 
     output_path = resolve_note_path(repo_root, str(output_dir), date_token, slug, source_path)
+    ensure_encoding_ok(final_markdown, args.skip_encoding_check)
     output_path = write_markdown(output_path, final_markdown)
     reordered_paths = reorder_month_notes(repo_root, (repo_root / output_dir).resolve())
     output_path = reordered_paths.get(output_path, output_path)
+    if not args.skip_encoding_check:
+        file_issues = validate_review_file(output_path)
+        if file_issues:
+            joined = "\n  - ".join(file_issues)
+            raise RuntimeError(f"Encoding check failed for {output_path}:\n  - {joined}")
     print(f"Wrote review note: {output_path}")
 
     if args.sync:
-        run_sync(repo_root, args.branch, build_commit_message(title, date_token, args.commit_message))
+        run_sync(
+            repo_root,
+            args.branch,
+            build_commit_message(title, date_token, args.commit_message),
+            args.skip_encoding_check,
+        )
 
     return 0
 

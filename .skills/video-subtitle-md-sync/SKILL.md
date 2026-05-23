@@ -27,6 +27,33 @@ Non-negotiable rules:
 - Keep month-folder filenames sorted newest-first for GitHub browsing. The newest note in a month should be renamed to `001-YYYY-MM-DD-slug.md`, the next to `002-...`, and so on.
 - If the user provides a video URL, include a clickable video link near the top of the file.
 - Put review notes after the transcript, not before it.
+- Chinese sections (`Summary`, `Useful Vocabulary`, `Review Notes`) must stay valid UTF-8. Never push garbled `?` text to GitHub.
+
+## Encoding Rules
+
+PowerShell stdin piping often corrupts Chinese text on Windows. Treat that as a known failure mode.
+
+- Prefer writing the prepared Markdown with the editor as UTF-8, then pass it with `--source`.
+- Do not use `@' ... '@ | py ... --stdin` when the note contains Chinese.
+- Before `--sync`, the save script must pass the encoding check. If it fails, rewrite the Chinese sections and save again.
+- After saving, quickly read back `Summary` and `Review Notes` to confirm Chinese renders correctly.
+
+Preferred save command:
+
+```powershell
+py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
+  --source ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
+  --repo-root "." `
+  --title "Example Title" `
+  --sync
+```
+
+Manual encoding check:
+
+```powershell
+py ".\.skills\video-subtitle-md-sync\scripts\check_review_encoding.py" `
+  --file ".\2026-05\001-2026-05-23-example.md"
+```
 
 ## Default Output Shape
 
@@ -99,27 +126,34 @@ Before you finish, explicitly verify the month folder order again:
 - Renumber the older files in that same month as needed.
 - Do not assume the write step already made the ordering obvious enough; check the actual filenames.
 
-Pipe the prepared Markdown through stdin:
+Save workflow:
+
+1. Write the full note to a UTF-8 file with the editor, for example `.skills/video-subtitle-md-sync/.tmp/draft.md`.
+2. Run `save_review_markdown.py` with `--source`, not `--stdin`.
+3. Let the script validate encoding before write and again before GitHub sync.
+4. If validation fails, fix the Chinese sections directly in the file and rerun.
 
 ```powershell
-@'
-# Example Title
-
-- Date: 2026-04-29
-- Source: pasted transcript
-
-## Summary
-
-...
-'@ | py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
-  --stdin `
+py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
+  --source ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
   --repo-root "." `
   --title "Example Title" `
+  --video-url "https://..." `
   --sync
 ```
 
 The script writes into a month folder such as `2026-04/` by default and then optionally calls `scripts/sync_to_github.ps1`.
 Within each month folder, the script also reorders filenames so the newest note appears first in GitHub's alphabetical file list.
+`sync_to_github.ps1` runs `check_review_encoding.py` on changed Markdown files before commit; sync aborts if mojibake is detected.
+
+Avoid this pattern on Windows because it often turns Chinese into `?`:
+
+```powershell
+@'
+## Summary
+中文摘要
+'@ | py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" --stdin --sync
+```
 
 ## Important Rule
 

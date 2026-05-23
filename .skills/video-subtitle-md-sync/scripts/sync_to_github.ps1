@@ -7,7 +7,10 @@ param(
   [string]$Message,
 
   [Parameter(Mandatory = $false)]
-  [string]$Branch
+  [string]$Branch,
+
+  [Parameter(Mandatory = $false)]
+  [switch]$SkipEncodingCheck
 )
 
 Set-StrictMode -Version Latest
@@ -26,7 +29,12 @@ function Resolve-Branch([string]$RequestedBranch) {
   return "HEAD"
 }
 
-function Ensure-GitRepository([string]$RootPath) {
+function Ensure-GitRepository {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$RootPath
+  )
+
   Push-Location $RootPath
   try {
     git rev-parse --is-inside-work-tree 1>$null
@@ -35,6 +43,30 @@ function Ensure-GitRepository([string]$RootPath) {
     }
   } finally {
     Pop-Location
+  }
+}
+
+function Ensure-EncodingOk {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$RootPath,
+
+    [Parameter(Mandatory = $false)]
+    [switch]$SkipEncodingCheck
+  )
+
+  if ($SkipEncodingCheck) {
+    return
+  }
+
+  $checkScript = Join-Path $PSScriptRoot "check_review_encoding.py"
+  if (-not (Test-Path -LiteralPath $checkScript)) {
+    throw "Missing encoding check script: $checkScript"
+  }
+
+  py $checkScript --repo-root $RootPath
+  if ($LASTEXITCODE -ne 0) {
+    throw "Encoding check failed. Fix garbled Chinese before syncing to GitHub."
   }
 }
 
@@ -50,6 +82,8 @@ try {
     Write-Host "No changes to sync."
     exit 0
   }
+
+  Ensure-EncodingOk -RootPath $root -SkipEncodingCheck:$SkipEncodingCheck
 
   $branchToPush = Resolve-Branch $Branch
   $commitMessage = $Message
