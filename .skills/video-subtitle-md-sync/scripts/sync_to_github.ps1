@@ -64,7 +64,7 @@ function Ensure-EncodingOk {
     throw "Missing encoding check script: $checkScript"
   }
 
-  py $checkScript --repo-root $RootPath
+  py $checkScript --repo-root $RootPath --staged-only --content-changes-only
   if ($LASTEXITCODE -ne 0) {
     throw "Encoding check failed. Fix garbled Chinese before syncing to GitHub."
   }

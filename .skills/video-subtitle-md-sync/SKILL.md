@@ -33,7 +33,7 @@ Non-negotiable rules:
 
 PowerShell stdin piping often corrupts Chinese text on Windows. Treat that as a known failure mode.
 
-- Prefer writing the prepared Markdown with the editor as UTF-8, then pass it with `--source`.
+- Prefer writing the prepared Markdown with the editor as UTF-8, then pass the draft file path as the positional `source` argument.
 - Do not use `@' ... '@ | py ... --stdin` when the note contains Chinese.
 - Before `--sync`, the save script must pass the encoding check. If it fails, rewrite the Chinese sections and save again.
 - After saving, quickly read back `Summary` and `Review Notes` to confirm Chinese renders correctly.
@@ -42,7 +42,7 @@ Preferred save command:
 
 ```powershell
 py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
-  --source ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
+  ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
   --repo-root "." `
   --title "Example Title" `
   --sync
@@ -129,13 +129,13 @@ Before you finish, explicitly verify the month folder order again:
 Save workflow:
 
 1. Write the full note to a UTF-8 file with the editor, for example `.skills/video-subtitle-md-sync/.tmp/draft.md`.
-2. Run `save_review_markdown.py` with `--source`, not `--stdin`.
+2. Run `save_review_markdown.py` with the draft path as the positional `source` argument, not `--stdin`.
 3. Let the script validate encoding before write and again before GitHub sync.
 4. If validation fails, fix the Chinese sections directly in the file and rerun.
 
 ```powershell
 py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
-  --source ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
+  ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
   --repo-root "." `
   --title "Example Title" `
   --video-url "https://..." `

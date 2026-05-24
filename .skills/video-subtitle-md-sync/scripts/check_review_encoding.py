@@ -11,6 +11,7 @@ CJK_RE = re.compile(r"[\u4e00-\u9fff\u3400-\u4dbf]")
 MOJIBAKE_RUN_RE = re.compile(r"\?{4,}")
 CHINESE_SECTIONS = ("Summary", "Useful Vocabulary", "Review Notes")
 SECTION_RE_TEMPLATE = r"(?ms)^## {heading}\s*\n(.*?)(?=^## |\Z)"
+REVIEW_NOTE_DIR_RE = re.compile(r"[\\/]\d{4}-\d{2}[\\/]")
 
 
 def configure_stdio() -> None:
@@ -48,8 +49,17 @@ def validate_utf8_bytes(raw: bytes) -> list[str]:
     return issues
 
 
-def validate_review_markdown(markdown: str) -> list[str]:
+def looks_like_review_note(path: Path) -> bool:
+    return bool(REVIEW_NOTE_DIR_RE.search(str(path)))
+
+
+def validate_review_markdown(markdown: str, path: Path | None = None) -> list[str]:
     issues = validate_utf8_bytes(markdown.encode("utf-8"))
+
+    if path is not None and not looks_like_review_note(path):
+        return issues
+    if path is None and "## Sentence Breakdown" not in markdown:
+        return issues
 
     for heading in CHINESE_SECTIONS:
         body = extract_section_body(markdown, heading)
@@ -96,15 +106,19 @@ def validate_file(path: Path) -> list[str]:
     issues = validate_utf8_bytes(raw)
     if any("not valid UTF-8" in issue for issue in issues):
         return issues
-    return validate_review_markdown(raw.decode("utf-8-sig"))
+    return validate_review_markdown(raw.decode("utf-8-sig"), path)
 
 
-def changed_text_files(repo_root: Path) -> list[Path]:
-    commands = [
-        ["git", "diff", "--name-only"],
-        ["git", "diff", "--cached", "--name-only"],
-        ["git", "ls-files", "--others", "--exclude-standard"],
-    ]
+def changed_text_files(repo_root: Path, staged_only: bool = False, content_changes_only: bool = False) -> list[Path]:
+    if staged_only:
+        diff_filter = ["--diff-filter=AM"] if content_changes_only else []
+        commands = [["git", "diff", "--cached", "--name-only", *diff_filter]]
+    else:
+        commands = [
+            ["git", "diff", "--name-only"],
+            ["git", "diff", "--cached", "--name-only"],
+            ["git", "ls-files", "--others", "--exclude-standard"],
+        ]
     seen: set[str] = set()
     paths: list[Path] = []
     for command in commands:
@@ -117,7 +131,7 @@ def changed_text_files(repo_root: Path) -> list[Path]:
                 continue
             seen.add(relative)
             path = repo_root / relative
-            if path.suffix.lower() == ".md" and path.is_file():
+            if path.suffix.lower() == ".md" and path.is_file() and looks_like_review_note(path):
                 paths.append(path)
     return sorted(paths)
 
@@ -132,6 +146,16 @@ def parse_args() -> argparse.Namespace:
         default=".",
         help="When no --file is given, validate changed .md files in this git repo.",
     )
+    parser.add_argument(
+        "--staged-only",
+        action="store_true",
+        help="Only validate staged Markdown files (used before git commit).",
+    )
+    parser.add_argument(
+        "--content-changes-only",
+        action="store_true",
+        help="With --staged-only, ignore pure renames and validate added/modified files only.",
+    )
     return parser.parse_args()
 
 
@@ -142,7 +166,11 @@ def main() -> int:
     targets: list[Path] = [Path(item).resolve() for item in args.file]
     if not targets:
         repo_root = Path(args.repo_root).resolve()
-        targets = changed_text_files(repo_root)
+        targets = changed_text_files(
+            repo_root,
+            staged_only=args.staged_only,
+            content_changes_only=args.content_changes_only,
+        )
 
     if not targets:
         print("[encoding-check] No Markdown files to validate.")
