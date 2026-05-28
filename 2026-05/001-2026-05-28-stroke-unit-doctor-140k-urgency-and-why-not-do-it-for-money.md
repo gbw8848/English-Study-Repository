@@ -64,6 +64,23 @@
 
 这是一段街头采访：一位在 stroke unit（卒中单元）工作的医生，入行第三年，年薪约 14 万美元；本科 4 年 + 医科 4 年，比想象中更难、投入更大。他认为关键能力是 urgency、会 prioritise，工作时高度专注、回家能抽身。放松方式包括陪未婚妻和继女、健身、做 facial。从初中就想当医生；建议别只为钱学医，有更快赚钱的路，要真有热情再选。采访方顺带介绍自家求职 App（像 Tinder 滑岗位、无简历）。
 
+## Practice Lines
+
+| Full Line | Cloze | Answer | 中文 |
+| --- | --- | --- | --- |
+| I'm a medical doctor at the stroke unit. | I'm a medical doctor at the _____ unit. | stroke | 我是 stroke unit 的医生。 |
+| I make about 140 grand. | I make about 140 _____. | grand | 我年薪大概 14 万。 |
+| This is my third year out of medical school. | This is my third year out of _____ school. | medical | 这是我医学院毕业后的第三年。 |
+| Probably harder than I thought. | Probably _____ than I thought. | harder | 比我想的更难。 |
+| Ability to have a sense of urgency and prioritize tasks. | Ability to have a sense of urgency and _____ tasks. | prioritize | 要有紧迫感，会给任务排优先级。 |
+| Be really focused when you're at work and then take a step back when you go home. | Be really focused when you're at work and then take a _____ when you go home. | step back | 上班高度专注，回家要学会抽身。 |
+| Relax, disconnect, wind down when you're not at work. | Relax, disconnect, _____ when you're not at work. | wind down | 下班要学会放松、抽离、缓下来。 |
+| As early as year 7, year 8, I wanted to do medicine. | As early as year 7, year 8, I wanted to do _____. | medicine | 大概七年级、八年级就想学医了。 |
+| Don't only do it in the pursuit of money. | Don't only do it in the pursuit of _____. | money | 别只为了赚钱去学医。 |
+| There are easier ways to make money faster. | There are easier ways to make money _____. | faster | 有更快赚钱的路。 |
+| Do it if you're really passionate about it. | Do it if you're really _____ about it. | passionate | 要真有热情再去做。 |
+| We operate like Tinder but for jobs. | We operate like Tinder but for _____. | jobs | 我们像 Tinder，但是用来找工作的。 |
+
 ## Useful Vocabulary
 
 | Word / Phrase | Meaning | Note |
@@ -88,38 +105,16 @@
 | by any chance | 会不会碰巧 | 礼貌询问是否听说过 |
 | swipe to apply | 滑动申请 | App 核心交互 |
 
-## Useful Expressions
-
-- I'm a medical doctor at the stroke unit.
-- I make about 140 grand.
-- This is my third year out of medical school.
-- Four years of undergrad and four years of medical school.
-- Probably harder than I thought.
-- The length of time and the investment to go through that many years of study.
-- A sense of urgency and prioritize tasks.
-- Be really focused when you're at work and then take a step back when you go home.
-- Relax, disconnect, wind down when you're not at work.
-- Spend time with my fiance and my stepdaughter.
-- Get a facial, which is what I'm also doing.
-- As early as year 7, year 8, I wanted to do medicine.
-- Don't only do it in the pursuit of money.
-- There are easier ways to make money faster.
-- Do it if you're really passionate about it.
-- We operate like Tinder but for jobs.
-- No resumes or cover letters involved.
-- Swipe to apply for jobs.
-
 ## Review Notes
 
-- `What are you doing?` 开场可指「你在干嘛」，他正去 gym / 做 facial，形成反差。
-- `140 grand` = $140,000；不说 `one hundred forty thousand dollars` 更街头。
+- `What are you doing?` 开场时他正去 gym / 做 facial，和「医生」身份形成反差，属于采访语境，不是逐句翻译重点。
+- `grand` 口语指千美元；同类说法还有 `140k`，比 `one hundred forty thousand dollars` 更街头。
 - `third year out of medical school` = 毕业第三年，不是在读第三年。
 - `switch it up` 这里指工作高强度 ↔ 回家切换节奏，不是「换花样玩」。
-- `take a step back` 在医疗语境 = 下班后 mental distance，别把工作带回家。
-- `relax, disconnect, wind down` 三词递进，适合练「下班恢复」话题。
-- `which is what I'm doing` / `which is what I'm also doing` 幽默接话：健身和 facial 都是当下在做的事。
-- `year 7, year 8` 英/澳/部分亚洲国际学校用法；美式常说 `7th grade`。
-- `On you` 可能是采访者感叹「真适合你」或口误片段，保留原句。
-- `What's your Advice` 字幕大写 A；自然说 `What's your advice`。
-- 结尾 `we're jobs at` 应为 App 名 **Getahead** 的听写误差，语义是产品 pitch。
-- `Tinder but for jobs` 是经典 elevator pitch 结构：`X but for Y`。
+- `relax, disconnect, wind down` 三词递进，Practice Lines 已练 `wind down`；其余两词可一并记忆。
+- `which is what I'm doing` / `which is what I'm also doing` 幽默接话，指当下正在做的事。
+- `year 7, year 8` 英/澳/部分国际学校用法；美式常说 `7th grade` / `8th grade`。
+- `On you` 可能是采访者感叹或口误片段，字幕不确定。
+- `What's your Advice` 字幕大写 A；自然写作 `What's your advice`。
+- 结尾 `we're jobs at` 应为 App 名 **Getahead** 的听写误差。
+- `Tinder but for jobs` 是经典 pitch 结构：`X but for Y`。
