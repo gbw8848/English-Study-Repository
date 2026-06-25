@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok DownSub Batch Sync"
+  short_description: "Batch TikTok captions into study notes"
+  default_prompt: "Use $tiktok-downsub-batch-sync to process these TikTok links one by one into synced English study notes."
