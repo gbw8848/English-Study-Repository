@@ -37,7 +37,7 @@ Keep a running ledger in the user-visible updates or scratch notes:
 Use `scripts/resolve_tiktok_links.py` when convenient:
 
 ```powershell
-py "$env:USERPROFILE\.codex\skills\tiktok-downsub-batch-sync\scripts\resolve_tiktok_links.py" `
+py ".\.skills\02_tiktok-downsub-batch-sync\scripts\resolve_tiktok_links.py" `
   "https://www.tiktok.com/t/ZP8example/" --json
 ```
 
@@ -88,7 +88,7 @@ C:\Users\<user>\AppData\Local\Temp\playwright-artifacts-*\uuid
 Do not leave the user with only these UUID download records. After receiving the download, call `download.suggestedFilename()` and `download.saveAs(...)` into a readable scratch folder such as:
 
 ```text
-.skills/video-subtitle-md-sync/.tmp/downsub/
+.skills/01_video-subtitle-md-sync/.tmp/downsub/
 ```
 
 Use filenames that include the sequence number or video slug, for example:
@@ -112,20 +112,20 @@ Use the existing `video-subtitle-md-sync` workflow for every successful transcri
 In this repository, read:
 
 ```text
-.skills/video-subtitle-md-sync/SKILL.md
+.skills/01_video-subtitle-md-sync/SKILL.md
 ```
 
 Then create a UTF-8 draft file at:
 
 ```text
-.skills/video-subtitle-md-sync/.tmp/draft.md
+.skills/01_video-subtitle-md-sync/.tmp/draft.md
 ```
 
 Run the save/sync command:
 
 ```powershell
-py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
-  ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
+py ".\.skills\01_video-subtitle-md-sync\scripts\save_review_markdown.py" `
+  ".\.skills\01_video-subtitle-md-sync\.tmp\draft.md" `
   --repo-root "." `
   --title "Title Here" `
   --video-url "https://www.tiktok.com/@user/video/id" `

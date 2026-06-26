@@ -42,8 +42,8 @@ PowerShell stdin piping often corrupts Chinese text on Windows. Treat that as a 
 Preferred save command:
 
 ```powershell
-py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
-  ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
+py ".\.skills\01_video-subtitle-md-sync\scripts\save_review_markdown.py" `
+  ".\.skills\01_video-subtitle-md-sync\.tmp\draft.md" `
   --repo-root "." `
   --title "Example Title" `
   --sync
@@ -52,7 +52,7 @@ py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
 Manual encoding check:
 
 ```powershell
-py ".\.skills\video-subtitle-md-sync\scripts\check_review_encoding.py" `
+py ".\.skills\01_video-subtitle-md-sync\scripts\check_review_encoding.py" `
   --file ".\2026-05\001-2026-05-23-example.md"
 ```
 
@@ -164,14 +164,14 @@ Before you finish, explicitly verify the month folder order again:
 
 Save workflow:
 
-1. Write the full note to a UTF-8 file with the editor, for example `.skills/video-subtitle-md-sync/.tmp/draft.md`.
+1. Write the full note to a UTF-8 file with the editor, for example `.skills/01_video-subtitle-md-sync/.tmp/draft.md`.
 2. Run `save_review_markdown.py` with the draft path as the positional `source` argument, not `--stdin`.
 3. Let the script validate encoding before write and again before GitHub sync.
 4. If validation fails, fix the Chinese sections directly in the file and rerun.
 
 ```powershell
-py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" `
-  ".\.skills\video-subtitle-md-sync\.tmp\draft.md" `
+py ".\.skills\01_video-subtitle-md-sync\scripts\save_review_markdown.py" `
+  ".\.skills\01_video-subtitle-md-sync\.tmp\draft.md" `
   --repo-root "." `
   --title "Example Title" `
   --video-url "https://..." `
@@ -188,7 +188,7 @@ Avoid this pattern on Windows because it often turns Chinese into `?`:
 @'
 ## Summary
 中文摘要
-'@ | py ".\.skills\video-subtitle-md-sync\scripts\save_review_markdown.py" --stdin --sync
+'@ | py ".\.skills\01_video-subtitle-md-sync\scripts\save_review_markdown.py" --stdin --sync
 ```
 
 ## Important Rule
