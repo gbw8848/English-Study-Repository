@@ -95,7 +95,6 @@
 | You can't even hit a golf ball. | You can't even _____ a golf ball. | hit | 你连高尔夫球都打不到。 |
 | You're trying to make me jealous. | You're trying to _____ jealous. | make me | 你是在故意让我嫉妒。 |
 | I'm just telling you what my plans are for tomorrow. | I'm just telling you what _____ for tomorrow. | my plans are | 我只是告诉你我明天有什么安排。 |
-| I already have plans with my friends. | I already _____ with my friends. | have plans | 我已经和朋友约好了。 |
 | Can I come? Absolutely not. | Can I come? _____. | Absolutely not | 我能一起去吗？绝对不行。 |
 
 ## Useful Vocabulary
