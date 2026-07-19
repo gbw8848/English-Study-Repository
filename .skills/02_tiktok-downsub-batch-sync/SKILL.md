@@ -63,21 +63,58 @@ Use the full long URL first when it works. If DownSub shows an error page, retry
 
 ## Browser And DownSub
 
-When the user references BitBrowser, an existing browser window, or provides a screenshot of the BitBrowser workspace, use the `bitbrowser-seo-browser` skill to attach to the correct profile and find the real DevTools port. Do not trust the `port=` value in the BitBrowser console URL.
+### Default BitBrowser workspace
+
+Use the `bitbrowser-seo-browser` skill for this workflow. Unless the user explicitly chooses another browser, bind to this BitBrowser workspace:
+
+- Workspace: `6-anyidphoto`
+- Profile ID: `a5145d814904441fbc3f60debc17cbfc`
+- Profile user-data directory: `D:\1_Program\27bitbrowser\a5145d814904441fbc3f60debc17cbfc`
+
+Never fall back to ordinary Chrome, the Chrome extension browser, or the in-app browser for TikTok/DownSub work. If this BitBrowser profile is not running, ask the user to open `6-anyidphoto`; do not silently switch browsers.
+
+### Discover the real DevTools port
+
+Run the discovery script bundled with `bitbrowser-seo-browser` at the start of every batch. First try the workspace title:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File `
+  "C:\Users\17137\.codex\skills\bitbrowser-seo-browser\scripts\find-bitbrowser-devtools.ps1" `
+  -TitlePattern '6-anyidphoto' -IncludeTabs
+```
+
+The visible window title may become the active page title, such as DownSub, so `-TitlePattern` can return no match even when the correct workspace is open. In that case, rerun discovery without a title filter:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File `
+  "C:\Users\17137\.codex\skills\bitbrowser-seo-browser\scripts\find-bitbrowser-devtools.ps1" `
+  -IncludeTabs
+```
+
+Select only the result whose evidence matches the configured profile:
+
+- `CommandLine` contains the profile user-data directory or profile ID.
+- A tab URL contains `console.bitbrowser.net` and `id=a5145d814904441fbc3f60debc17cbfc`.
+- A tab title is `6-anyidphoto-工作台`.
+
+Use the returned `DevTools.Port` for the current run. A value such as `8841` is temporary and may change after the browser restarts. Never use the `port=54345` value from the BitBrowser console URL as the Chromium DevTools port.
+
+If multiple BitBrowser results remain and none uniquely matches this profile, stop and ask the user instead of choosing the first available browser.
 
 Preferred browser flow:
 
-1. Reuse the existing DownSub tab if present.
-2. Navigate to:
+1. Attach Playwright to `http://127.0.0.1:<DevTools.Port>`.
+2. Reuse the existing DownSub tab in that BitBrowser profile if present.
+3. Navigate to:
 
    ```text
    https://downsub.com/?url=<encoded TikTok long URL>
    ```
 
-3. Wait for the video title, duration, and subtitle buttons.
-4. Click `TXT`, not `SRT`, unless the user asks otherwise.
-5. Save the downloaded TXT with a readable filename before creating the note.
-6. Read the downloaded TXT file before creating the note.
+4. Wait for the video title, duration, and subtitle buttons.
+5. Click `TXT`, not `SRT`, unless the user asks otherwise.
+6. Save the downloaded TXT with a readable filename before creating the note.
+7. Read the downloaded TXT file before creating the note.
 
 When using Playwright, `download.path()` usually points to a hidden temporary file such as:
 
@@ -95,6 +132,15 @@ Use filenames that include the sequence number or video slug, for example:
 
 ```text
 01-are-you-single-dating-in-nyc.txt
+```
+
+When attaching through Python Playwright on this Windows repository, build the save path from the current working directory. Do not place the repository's Chinese absolute path inside a Python script piped through PowerShell stdin:
+
+```python
+from pathlib import Path
+
+output = Path.cwd() / ".skills" / "01_video-subtitle-md-sync" / ".tmp" / "downsub" / "01-video-slug.txt"
+download.save_as(str(output))
 ```
 
 The synced Markdown note is the durable output. The raw TXT files are scratch artifacts and may be deleted after successful sync if the user does not need them.
