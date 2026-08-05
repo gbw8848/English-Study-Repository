@@ -73,7 +73,7 @@
 | Right as I walked in, I saw the biggest line up for a Mexican spot called Los Tacos. | Right as I walked in, I saw the biggest _____ for a Mexican spot called Los Tacos. | line up | 我一走进去，就看到 Los Tacos 墨西哥餐厅前排着最长的队。 |
 | That was the most flavorful taco I've had in a while. | That was the most _____ taco I've had in a while. | flavorful | 那是我最近吃过最有味道的塔可。 |
 | So obviously we gotta try it. | So obviously we _____. | gotta try it | 所以我们当然得试试。 |
-| It was sweet, just a comforting meal. | It was sweet, just _____. | a comforting meal | 它很甜，是一道很治愈的美食。 |
+| It was sweet. You see, just a comforting meal. | It was sweet. You see, just _____. | a comforting meal | 它很甜，怎么说呢，是一道很治愈的美食。 |
 | Whenever I see a sign that says best pastry in the world, I have to test this out. | Whenever I see a sign that says best pastry in the world, I have to _____. | test this out | 每当我看到写着“世界最佳点心”的招牌，我都必须亲自试试。 |
 | I can never turn down onigiri. | I can never _____ onigiri. | turn down | 我永远无法拒绝饭团。 |
 | I could have had a whole pie. | I could have had _____. | a whole pie | 我本来可以吃下一整个披萨。 |

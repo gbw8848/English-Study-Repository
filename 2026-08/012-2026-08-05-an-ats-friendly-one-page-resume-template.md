@@ -31,7 +31,7 @@
 | Full Line | Cloze | Answer | 中文 |
 | --- | --- | --- | --- |
 | This is a 10 out of 10 one page resume template. | This is a 10 out of 10 _____ resume template. | one page | 这是一份满分的单页简历模板。 |
-| It has gotten hundreds of people jobs. | It has gotten hundreds of people _____. | jobs | 它已经帮助数百人找到工作。 |
+| One page resume template that has gotten hundreds of people jobs. | One page resume template that has gotten hundreds of people _____. | jobs | 一份已经帮助数百人找到工作的单页简历模板。 |
 | It's specifically tailored so any AI system could easily scan through it. | It's specifically tailored so any AI system could easily _____. | scan through it | 它经过专门设计，让任何 AI 系统都能轻松扫描。 |
 | Also have all the relevant sections from your header, your education, your work experience. | Also have all the _____ from your header, your education, your work experience. | relevant sections | 还要包含页眉、教育和工作经历等所有相关部分。 |
 | Projects if that's applicable. | Projects if that's _____. | applicable | 如果适用，还要包含项目经历。 |

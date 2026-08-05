@@ -43,8 +43,8 @@
 | --- | --- | --- | --- |
 | Tell them how you react when things don't go your way. | Tell them how you react when things don't _____. | go your way | 告诉他们，事情不如意时你会如何反应。 |
 | It's all part of the plan. | It's all _____. | part of the plan | 这都是计划的一部分。 |
-| Life isn't vertical. It's not linear. | Life isn't vertical. It's not _____. | linear | 人生不是垂直向上的，也不是线性的。 |
-| Whenever something doesn't go my way, that's on purpose. | Whenever something doesn't go my way, that's _____. | on purpose | 每当某件事不如我意，那都有它的用意。 |
+| Life isn't vertical. Like, it's not linear. | Life isn't vertical. Like, it's not _____. | linear | 人生不是垂直向上的，也不是线性的。 |
+| Whenever something doesn't go my way, or if I don't get something, like, that's on purpose. | Whenever something doesn't go my way, or if I don't get something, like, that's _____. | on purpose | 每当某件事不如我意，或我没有得到某个东西，那都有它的用意。 |
 | That was divine intervention. | That was _____. | divine intervention | 那是神圣的干预。 |
 | That was God's way of pivoting me towards what is supposed to work out for me. | That was God's way of _____ me towards what is supposed to work out for me. | pivoting | 那是上帝把我转向真正适合我的事情的方式。 |
 | It's always something bigger and it's always something better. | It's always something bigger and it's always _____. | something better | 它总会带来更大、更好的事情。 |

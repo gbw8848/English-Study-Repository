@@ -40,11 +40,11 @@
 | It is so much easier to go in the morning than it is in the evening. | It is so much easier to go in the morning _____ in the evening. | than it is | 早晨去比晚上去容易得多。 |
 | I've had a work day. I've had so many other responsibilities. | I've had a work day. I've had so many other _____. | responsibilities | 我经历了一天的工作，还有许多其他责任。 |
 | So much more time to think about the fact that I have to go to the gym. | So much more time to think about the fact that I _____ go to the gym. | have to | 有更多时间去想自己必须去健身房这件事。 |
-| Am I well rested enough? | Am I _____ enough? | well rested | 我休息得够好吗？ |
+| Am I you know well rested enough? | Am I you know _____ enough? | well rested | 我怎么说呢，休息得够好吗？ |
 | Am I gonna have a good workout? | Am I gonna have _____? | a good workout | 我会有一次好的训练吗？ |
 | Instead of just waking up, rolling out of bed at 5:00am. | Instead of just waking up, _____ at 5:00am. | rolling out of bed | 而不是只要醒来，五点从床上爬起来。 |
-| I don't have enough mental capacity to be thinking about the fact that you're going to the gym. | I don't have enough _____ to be thinking about the fact that you're going to the gym. | mental capacity | 我没有足够的心理空间去想自己要去健身房。 |
-| I'm going to the gym without even registering that I'm going to the gym. | I'm going to the gym without even _____ that I'm going to the gym. | registering | 我甚至还没意识到自己在去健身房，就已经出发了。 |
+| Rolling out of bed at 5:00am and not having enough you know like mental capacity to be thinking about the fact that you're going to the gym. | Rolling out of bed at 5:00am and not having enough you know like _____ to be thinking about the fact that you're going to the gym. | mental capacity | 五点从床上爬起来，没有足够的心理空间去想自己要去健身房。 |
+| I almost feel like I I'm like going to the gym without even registering that I'm going to the gym. | I almost feel like I I'm like going to the gym without even _____ that I'm going to the gym. | registering | 我几乎感觉自己甚至还没意识到在去健身房，就已经出发了。 |
 | This is your sign to actually get up and try to do morning workouts. | This is your sign to actually get up and try to do _____. | morning workouts | 这就是提醒你真正起床尝试早晨训练的信号。 |
 
 ## Useful Vocabulary

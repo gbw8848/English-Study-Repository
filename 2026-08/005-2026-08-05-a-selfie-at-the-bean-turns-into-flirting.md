@@ -58,7 +58,7 @@
 | It turned out really nice. | It _____ really nice. | turned out | 拍出来的效果非常好。 |
 | Tell me more about yourself. | Tell me more _____. | about yourself | 多告诉我一些关于你的事。 |
 | I'm intrigued. | I'm _____. | intrigued | 我被吸引了，很想了解更多。 |
-| I love to just come and chill and people watch. | I love to just come and chill and _____. | people watch | 我喜欢来这里放松、观察行人。 |
+| I love to just come and chill and, like, people watch and just see what people are up to. | I love to just come and chill and, like, _____ and just see what people are up to. | people watch | 我喜欢来这里放松、观察行人，看看大家在做什么。 |
 | Just shut up and kiss me. | Just shut up and _____. | kiss me | 别说了，亲我吧。 |
 | You're really beautiful. | You're _____. | really beautiful | 你真的很漂亮。 |
 | Bring it in. | _____. | Bring it in | 靠近一点；来抱一下。 |

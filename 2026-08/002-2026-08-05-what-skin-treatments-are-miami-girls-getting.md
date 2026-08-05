@@ -29,7 +29,7 @@
 | What are they doing to their skin? | What are they doing to _____? | their skin | 她们对自己的皮肤做了什么？ |
 | What laser treatments are they getting? | What _____ are they getting? | laser treatments | 她们在做哪些激光项目？ |
 | I need to figure this out. | I need to _____. | figure this out | 我得把这件事弄清楚。 |
-| I need to report back. | I need to _____. | report back | 我需要回来汇报结果。 |
+| Like, what laser treatments are they getting? | Like, what _____ are they getting? | laser treatments | 那么，她们在做哪些激光项目？ |
 | I need to figure this out and report back. | I need to figure this out and _____. | report back | 我得调查清楚再回来报告。 |
 
 ## Useful Vocabulary
