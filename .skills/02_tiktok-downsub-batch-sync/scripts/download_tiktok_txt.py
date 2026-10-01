@@ -56,7 +56,7 @@ def main() -> int:
             downsub_page.locator("input[type=text]").fill(long_url)
             downsub_page.get_by_role("button", name="DOWNLOAD").click()
             try:
-                downsub_page.get_by_text("TXT", exact=True).wait_for(timeout=25_000)
+                downsub_page.get_by_text("TXT", exact=True).first.wait_for(timeout=25_000)
             except PlaywrightTimeoutError as exc:
                 print(f"DOWNSUB_STATE {downsub_page.title()} {ascii(downsub_page.locator('body').inner_text()[:1200])}")
                 raise RuntimeError("DownSub did not provide a TXT subtitle; reject this video") from exc
@@ -64,7 +64,7 @@ def main() -> int:
                 raise RuntimeError("DownSub result does not match the resolved TikTok video ID")
             print(f"DOWNSUB_TITLE {ascii(downsub_page.title())}")
             with downsub_page.expect_download(timeout=30_000) as download_info:
-                downsub_page.get_by_text("TXT", exact=True).click()
+                downsub_page.get_by_text("TXT", exact=True).first.click()
             download = download_info.value
             target_dir = Path.cwd() / ".skills" / "01_video-subtitle-md-sync" / ".tmp" / "downsub"
             target_dir.mkdir(parents=True, exist_ok=True)
