@@ -15,7 +15,7 @@ The prime directive is correspondence. Never let a transcript, TikTok URL, DownS
 
 Process videos strictly one at a time:
 
-1. Open one TikTok short link in the configured BitBrowser profile and copy the long URL after the browser redirects.
+1. Open one TikTok short link in the configured BitBrowser profile and copy the long URL after the browser redirects. Close the TikTok tab after capturing the long URL.
 2. Open DownSub in that same browser profile, paste the long URL, and download that video's TXT subtitle.
 3. Only after reading the downloaded TXT, create and sync that video's study note with `video-subtitle-md-sync`.
 4. Record the saved file path/status.
@@ -34,7 +34,7 @@ Keep a running ledger in the user-visible updates or scratch notes:
 
 ## Link Resolution
 
-Resolve the short link inside the configured BitBrowser profile. Navigate to the short URL, wait for TikTok's redirect, and read the resulting full long URL from that browser tab. Keep that exact URL, including any `_r` and `_t` query parameters, for the DownSub input. Do not substitute a command-line resolver or a third-party metadata service for this browser step.
+Resolve the short link inside the configured BitBrowser profile. Navigate to the short URL, wait for TikTok's redirect, and read the resulting full long URL from that browser tab. Keep that exact URL, including any `_r` and `_t` query parameters, for the DownSub input, then close the TikTok tab. Do not substitute a command-line resolver or a third-party metadata service for this browser step.
 
 ## Browser And DownSub
 
@@ -79,7 +79,7 @@ If multiple BitBrowser results remain and none uniquely matches this profile, st
 Preferred browser flow:
 
 1. Attach Playwright to `http://127.0.0.1:<DevTools.Port>`.
-2. Open the TikTok short link in this browser, wait for the redirect, and copy the full long URL from the tab.
+2. Open the TikTok short link in this browser, wait for the redirect, copy the full long URL from the tab, and close the TikTok tab.
 3. Open `https://downsub.com/` in the same browser profile. Paste the full long URL into the site's input and click `DOWNLOAD`.
 4. Wait for the video title, duration, and subtitle buttons. Confirm they correspond to the current video.
 5. Click `TXT`, not `SRT`, unless the user asks otherwise.
