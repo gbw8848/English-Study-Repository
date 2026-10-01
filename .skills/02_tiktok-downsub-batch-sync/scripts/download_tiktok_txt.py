@@ -62,7 +62,7 @@ def main() -> int:
                 raise RuntimeError("DownSub did not provide a TXT subtitle; reject this video") from exc
             if downsub_page.locator(f'a[href*="/video/{video_id}"]').count() == 0:
                 raise RuntimeError("DownSub result does not match the resolved TikTok video ID")
-            print(f"DOWNSUB_TITLE {downsub_page.title()}")
+            print(f"DOWNSUB_TITLE {ascii(downsub_page.title())}")
             with downsub_page.expect_download(timeout=30_000) as download_info:
                 downsub_page.get_by_text("TXT", exact=True).click()
             download = download_info.value
