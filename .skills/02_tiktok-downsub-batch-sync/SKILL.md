@@ -15,11 +15,11 @@ The prime directive is correspondence. Never let a transcript, TikTok URL, DownS
 
 Process videos strictly one at a time:
 
-1. Resolve one short link to one TikTok long link.
-2. Download that video's TXT subtitle from DownSub.
-3. Create and sync that video's study note with `video-subtitle-md-sync`.
+1. Open one TikTok short link in the configured BitBrowser profile and copy the long URL after the browser redirects.
+2. Open DownSub in that same browser profile, paste the long URL, and download that video's TXT subtitle.
+3. Only after reading the downloaded TXT, create and sync that video's study note with `video-subtitle-md-sync`.
 4. Record the saved file path/status.
-5. Move to the next link only after the previous sync succeeds or is explicitly marked failed.
+5. Move to the next link only after the previous sync succeeds or the video is explicitly rejected.
 
 Do not batch-generate notes from multiple transcripts in one prompt. Do not download several TXT files and sort them out later.
 
@@ -28,38 +28,13 @@ Keep a running ledger in the user-visible updates or scratch notes:
 ```text
 1. Short: https://www.tiktok.com/t/...
    Long: https://www.tiktok.com/@user/video/...
-   DownSub: TXT downloaded / retry used / failed
-   Sync: 2026-06/001-...
+   DownSub: TXT downloaded / rejected with reason
+   Sync: 2026-06/001-... / not synced
 ```
 
 ## Link Resolution
 
-Use `scripts/resolve_tiktok_links.py` when convenient:
-
-```powershell
-py ".\.skills\02_tiktok-downsub-batch-sync\scripts\resolve_tiktok_links.py" `
-  "https://www.tiktok.com/t/ZP8example/" --json
-```
-
-The script follows redirects and also returns a clean TikTok URL with query parameters removed.
-
-If not using the script, resolve one link with PowerShell:
-
-```powershell
-try {
-  $r = Invoke-WebRequest -Uri 'https://www.tiktok.com/t/SHORT/' -MaximumRedirection 5 -TimeoutSec 15 -UseBasicParsing
-  $r.BaseResponse.ResponseUri.AbsoluteUri
-} catch {
-  if ($_.Exception.Response) { $_.Exception.Response.Headers.Location } else { $_.Exception.Message }
-}
-```
-
-Keep both forms:
-
-- Full long URL: includes TikTok tracking query such as `_r` and `_t`.
-- Clean long URL: `https://www.tiktok.com/@user/video/id` with query removed.
-
-Use the full long URL first when it works. If DownSub shows an error page, retry with the clean URL before marking the item failed.
+Resolve the short link inside the configured BitBrowser profile. Navigate to the short URL, wait for TikTok's redirect, and read the resulting full long URL from that browser tab. Keep that exact URL, including any `_r` and `_t` query parameters, for the DownSub input. Do not substitute a command-line resolver or a third-party metadata service for this browser step.
 
 ## Browser And DownSub
 
@@ -104,17 +79,11 @@ If multiple BitBrowser results remain and none uniquely matches this profile, st
 Preferred browser flow:
 
 1. Attach Playwright to `http://127.0.0.1:<DevTools.Port>`.
-2. Reuse the existing DownSub tab in that BitBrowser profile if present.
-3. Navigate to:
-
-   ```text
-   https://downsub.com/?url=<encoded TikTok long URL>
-   ```
-
-4. Wait for the video title, duration, and subtitle buttons.
+2. Open the TikTok short link in this browser, wait for the redirect, and copy the full long URL from the tab.
+3. Open `https://downsub.com/` in the same browser profile. Paste the full long URL into the site's input and click `DOWNLOAD`.
+4. Wait for the video title, duration, and subtitle buttons. Confirm they correspond to the current video.
 5. Click `TXT`, not `SRT`, unless the user asks otherwise.
-6. Save the downloaded TXT with a readable filename before creating the note.
-7. Read the downloaded TXT file before creating the note.
+6. Save the downloaded TXT with a readable filename and read it before creating the note.
 
 When using Playwright, `download.path()` usually points to a hidden temporary file such as:
 
@@ -145,15 +114,11 @@ download.save_as(str(output))
 
 The synced Markdown note is the durable output. The raw TXT files are scratch artifacts and may be deleted after successful sync if the user does not need them.
 
-DownSub retry rules:
-
-- If page title is `Error - DownSub.com` or body includes `Oops an error has occurred`, retry once with the clean TikTok URL.
-- If `TXT` is missing after retry, mark that item failed with the reason and continue only after clearly recording the failure.
-- If the transcript is empty or clearly belongs to another video, stop and re-check the current item before syncing.
+If DownSub does not provide a TXT file, reject that video. Do not create or sync a note from audio transcription, another subtitle site, pasted text, or guessed dialogue as a fallback for this workflow. If the TXT is empty or belongs to another video, reject the item. Record the reason and continue to the next link only when processing a batch.
 
 ## Note Generation And Sync
 
-Use the existing `video-subtitle-md-sync` workflow for every successful transcript.
+Use the existing `video-subtitle-md-sync` workflow for every downloaded, matching TXT transcript.
 
 In this repository, read:
 
@@ -192,7 +157,7 @@ After all links are handled:
 1. Run `git status --short` and expect a clean tree.
 2. Run the repository encoding guard if available.
 3. List the newest files in the month folder to verify newest-first numbering.
-4. Summarize each input as completed, failed, or retried successfully.
+4. Summarize each input as completed or rejected, with the reason for rejection.
 
 Useful final check:
 
@@ -206,8 +171,7 @@ Get-ChildItem -LiteralPath '2026-06' -Filter '*.md' |
 
 Be explicit but keep going when safe:
 
-- Short link cannot resolve: mark failed and continue to next link.
-- DownSub fails with full URL: retry clean URL.
-- DownSub fails with clean URL: mark failed and continue.
+- Short link cannot resolve in the configured browser: reject the item.
+- DownSub does not provide a matching TXT for the browser-resolved long URL: reject the item without writing or syncing a note.
 - GitHub sync fails: stop the batch, report the failing item, and do not process further links until the sync problem is resolved.
 - Existing repo changes appear: do not revert them; work with them or stop if they block safe sync.
