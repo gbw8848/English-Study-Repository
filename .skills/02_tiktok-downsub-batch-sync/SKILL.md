@@ -78,6 +78,18 @@ If multiple BitBrowser results remain and none uniquely matches this profile, st
 
 Preferred browser flow:
 
+Use `scripts/download_tiktok_txt.py` with the discovered DevTools port. It opens the short link, captures the redirected long URL, **closes the TikTok tab**, then opens a separate DownSub tab and downloads TXT. This makes the close-before-DownSub order explicit and checkable:
+
+```powershell
+python ".\.skills\02_tiktok-downsub-batch-sync\scripts\download_tiktok_txt.py" `
+  "https://www.tiktok.com/t/ZP8example/" `
+  --cdp-url "http://127.0.0.1:<DevTools.Port>"
+```
+
+The script prints `TIKTOK_TAB_CLOSED True`, the browser-resolved `LONG_URL`, and the saved `TXT_PATH`. Confirm these before creating a note. If the script reports no matching TXT, reject the video.
+
+Manual equivalent:
+
 1. Attach Playwright to `http://127.0.0.1:<DevTools.Port>`.
 2. Open the TikTok short link in this browser, wait for the redirect, copy the full long URL from the tab, and close the TikTok tab.
 3. Open `https://downsub.com/` in the same browser profile. Paste the full long URL into the site's input and click `DOWNLOAD`.
